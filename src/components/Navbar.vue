@@ -7,4 +7,8 @@
 <script setup>
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+div {
+  height: 200vh;
+}
+</style>
