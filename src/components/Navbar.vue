@@ -8,16 +8,20 @@
       </div>
       <nav class="navigation">
         <ul>
-          <li><RouterLink to="/" class="nav-link">Home</RouterLink></li>
-          <li><RouterLink to="/" class="nav-link">About Us</RouterLink></li>
-          <li><RouterLink to="/" class="nav-link">Product</RouterLink></li>
+          <li>
+            <RouterLink to="/" class="nav-link">Home</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/" class="nav-link">About Us</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/" class="nav-link">Product</RouterLink>
+          </li>
           <li>
             <RouterLink to="/" class="nav-link">Operation Strength</RouterLink>
           </li>
           <li>
-            <RouterLink to="/" class="nav-link"
-              >Investor Information</RouterLink
-            >
+            <RouterLink to="/" class="nav-link">Investor Information</RouterLink>
           </li>
           <li>
             <RouterLink to="/" class="nav-link">Production Facility</RouterLink>
