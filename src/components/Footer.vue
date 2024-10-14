@@ -26,16 +26,32 @@
           <h3>Information</h3>
           <div class="right-item_link">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Operation Strength</a></li>
+              <li>
+                <RouterLink to="/" class="nav-link">Home</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/about" class="nav-link">About Us</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/product" class="nav-link">Product</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/operation-strength" class="nav-link">Operation Strength
+                </RouterLink>
+              </li>
 
             </ul>
             <ul>
-              <li><a href="#">Production Facility</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li>
+                <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/production-facility" class="nav-link">Production Facility
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
+              </li>
             </ul>
           </div>
 
@@ -61,8 +77,8 @@
   </div>
 </template>
 
-<script>
-
+<script setup>
+import { RouterLink } from 'vue-router';
 </script>
 
 <style lang="scss" scoped>
