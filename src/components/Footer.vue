@@ -67,12 +67,12 @@
 
 <style lang="scss" scoped>
 .footer {
-  position: fixed;
+  // position: fixed;
   bottom: 0;
   width: 100%;
 
   .footer-top {
-    background: #4c8fec;
+    background: #10597a;
 
     &_item {
       width: 90%;
@@ -86,7 +86,7 @@
         color: var(--vt-c-white);
 
         h3 {
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 700;
           padding: 5px 0;
           position: relative;
@@ -104,7 +104,7 @@
         }
 
         p {
-          font-size: 16px;
+          font-size: 14px;
           line-height: 20px;
         }
       }
@@ -123,7 +123,7 @@
             li {
               a {
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 14px;
                 color: #fff;
                 position: relative;
                 display: inline-block;
@@ -155,7 +155,7 @@
   }
 
   .footer-bottom {
-    background: #367fe6;
+    background: #0e4158;
     width: 100%;
     padding: 12px 0;
 
@@ -164,6 +164,8 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
+      width: 90%;
+      margin: 0 auto;
 
       .copy-right {
         display: flex;
@@ -173,7 +175,7 @@
 
         h3 {
           color: #fff;
-          font-size: 16px;
+          font-size: 15px;
         }
 
         img {
@@ -194,6 +196,79 @@
 
         &:hover {
           transform: scale(1.07);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .footer {
+
+    .footer-top {
+
+      &_item {
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
+
+        .left-item {
+
+          h3 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 13px;
+          }
+        }
+
+        .middle-item {}
+
+        .right-item {
+
+          &_link {
+
+            ul {
+
+              li {
+                a {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+
+      .social-links {
+        gap: 5px;
+
+
+        .copy-right {
+          align-items: flex-start;
+          gap: 5px;
+          flex-direction: column;
+
+          h3 {
+            font-size: 11px;
+          }
+
+          img {
+            width: 20px;
+            border-radius: 10%;
+            display: none;
+          }
+        }
+
+        a {
+
+          img {
+            width: 20px;
+          }
         }
       }
     }
