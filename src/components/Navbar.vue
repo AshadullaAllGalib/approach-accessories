@@ -10,25 +10,39 @@
         <ul class="nav-menu" :class="{ 'active': isMenuOpen }"
           @click.prevent="isMenuOpen = !isMenuOpen">
           <li>
-            <RouterLink to="/" class="nav-link">Home</RouterLink>
+            <RouterLink to="/" :class="[isActiveLink('/') ? 'active' : 'nav-link']">Home
+            </RouterLink>
           </li>
           <li>
-            <RouterLink to="/about" class="nav-link">About Us</RouterLink>
+            <RouterLink to="/about" :class="[isActiveLink('/about') ? 'active' : 'nav-link']">About
+              Us
+            </RouterLink>
           </li>
           <li>
-            <RouterLink to="/product" class="nav-link">Product</RouterLink>
+            <RouterLink to="/product" :class="[isActiveLink('/product') ? 'active' : 'nav-link']">
+              Product</RouterLink>
           </li>
           <li>
-            <RouterLink to="/operation-strength" class="nav-link">Operation Strength</RouterLink>
+            <RouterLink to="/operation-strength"
+              :class="[isActiveLink('/operation-strength') ? 'active' : 'nav-link']">Operation
+              Strength
+            </RouterLink>
           </li>
           <li>
-            <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
+            <RouterLink to="/gallery" :class="[isActiveLink('/gallery') ? 'active' : 'nav-link']">
+              Gallery
+            </RouterLink>
           </li>
           <li>
-            <RouterLink to="/production-facility" class="nav-link">Production Facility</RouterLink>
+            <RouterLink to="/production-facility"
+              :class="[isActiveLink('/production-facility') ? 'active' : 'nav-link']">Production
+              Facility
+            </RouterLink>
           </li>
           <li>
-            <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
+            <RouterLink to="/contact-us"
+              :class="[isActiveLink('/contact-us') ? 'active' : 'nav-link']">Contact Us
+            </RouterLink>
           </li>
         </ul>
       </nav>
@@ -43,9 +57,13 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRoute } from 'vue-router';
 import { ref } from 'vue';
 const isMenuOpen = ref(false);
+const isActiveLink = (routePath) => {
+  const route = useRoute();
+  return route.path === routePath;
+}
 </script>
 
 <style lang="scss" scoped>
@@ -85,7 +103,8 @@ header {
             padding-right: 10px;
           }
 
-          .nav-link {
+          .nav-link,
+          .active {
             position: relative;
             display: inline-block;
             text-decoration: none;
@@ -104,6 +123,12 @@ header {
               border-radius: 100px;
               background-color: var(--vt-c-white);
               transition: all 0.4s;
+            }
+
+            &.active {
+              &::after {
+                width: 100%;
+              }
             }
 
             &:hover {
