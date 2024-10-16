@@ -1,4 +1,5 @@
 <script setup>
+import Tab from '../components/Tab.vue'
 import HomeSlider from '@/components/HomeSlider.vue';
 </script>
 
