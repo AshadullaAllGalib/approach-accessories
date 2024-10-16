@@ -5,6 +5,7 @@ import HomeSlider from '@/components/HomeSlider.vue';
 
 <template>
   <HomeSlider />
+  <Tab />
 </template>
 
 <style lang="scss" scoped></style>

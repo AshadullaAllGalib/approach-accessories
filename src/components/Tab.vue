@@ -6,12 +6,8 @@
     </p>
 
     <div class="tab">
-      <button
-        class="tablinks"
-        v-for="tabItem in tabItems"
-        @click="activeTab = tabItem"
-        :class="[activeTab == tabItem ? 'active' : '']"
-      >
+      <button class="tablinks" v-for="tabItem in tabItems" @click="activeTab = tabItem"
+        :class="[activeTab == tabItem ? 'active' : '']">
         {{ tabItem }}
       </button>
     </div>
