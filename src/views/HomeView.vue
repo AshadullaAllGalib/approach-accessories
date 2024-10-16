@@ -1,14 +1,9 @@
 <script setup>
+import HomeSlider from '@/components/HomeSlider.vue';
 </script>
 
 <template>
-  <div>
-    <h1>This is Home Page</h1>
-  </div>
+  <HomeSlider />
 </template>
 
-<style lang="scss" scoped>
-div {
-  height: 50vh;
-}
-</style>
+<style lang="scss" scoped></style>
