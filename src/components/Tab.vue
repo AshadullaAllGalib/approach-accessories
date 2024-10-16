@@ -16,19 +16,31 @@
       </button>
     </div>
 
-    <div id="London" class="tabcontent" v-if="activeTab == 'Tab1'">
+    <div class="tabcontent" v-if="activeTab == tabItems[0]">
       <h3>Tab-01 Content</h3>
-      <p>London is the capital city of England.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        dicta nobis placeat odit tempore neque quibusdam asperiores earum culpa
+        mollitia excepturi atque, optio dolorum iste velit sit minima nemo? Hic.
+      </p>
     </div>
 
-    <div id="Paris" class="tabcontent" v-if="activeTab == 'Tab2'">
+    <div class="tabcontent" v-if="activeTab == tabItems[1]">
       <h3>Tab-02 Content</h3>
-      <p>Paris is the capital of France.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        dicta nobis placeat odit tempore neque quibusdam asperiores earum culpa
+        mollitia excepturi atque, optio dolorum iste velit sit minima nemo? Hic.
+      </p>
     </div>
 
-    <div id="Tokyo" class="tabcontent" v-if="activeTab == 'Tab3'">
+    <div class="tabcontent" v-if="activeTab == tabItems[2]">
       <h3>Tab-03 Content</h3>
-      <p>Tokyo is the capital of Japan.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        dicta nobis placeat odit tempore neque quibusdam asperiores earum culpa
+        mollitia excepturi atque, optio dolorum iste velit sit minima nemo? Hic.
+      </p>
     </div>
   </div>
 </template>
