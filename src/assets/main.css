@@ -1,1 +1,21 @@
 @import './base.css';
+
+.v-slick-dots {
+  li {
+    button {
+      &::before {
+        top: -30px;
+        font-size: 18px;
+        color: rgb(115, 161, 201);
+      }
+    }
+
+    &.active {
+      button {
+        &::before {
+          color: rgb(21, 116, 241);
+        }
+      }
+    }
+  }
+}

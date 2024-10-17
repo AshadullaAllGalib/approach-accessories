@@ -92,7 +92,7 @@ import { VSlickCarousel } from 'v-slick-carousel'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,
@@ -148,34 +148,53 @@ const settings = {
             }
           }
         }
-      }
-    }
 
-    ul {
-      background: red;
-
-      li {
-        button {
-          &:before {
-            content: "•";
-            font-size: 26px;
-            line-height: 20px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            opacity: .25;
-            color: #000;
+        &-img {
+          img {
+            width: 550px;
           }
         }
       }
+    }
+  }
+}
 
-      .active {
-        button:before {
-          opacity: .75;
-          color: #d11616 !important;
+@media (max-width: 768px) {
+  .carousel {
+
+    .v-slick-carousel {
+      padding-top: 30px;
+
+      .v-slick-slider {
+        .slider {
+          flex-direction: column;
+
+          &-text {
+            h3 {
+              font-size: 24px;
+              line-height: 23px;
+              padding-bottom: 10px;
+            }
+
+            p {
+              font-size: 14px;
+              line-height: 17px;
+              padding-bottom: 20px;
+            }
+
+            a {
+              padding: 10px 20px;
+              font-size: 14px;
+            }
+          }
+
+          &-img {
+            img {
+
+              width: 350px;
+              padding: 0 15px 15px 15px;
+            }
+          }
         }
       }
     }
