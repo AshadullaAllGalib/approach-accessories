@@ -5,22 +5,20 @@
         <div class="left-item">
           <h3>Corporate Office & Factory:</h3>
           <p>
-            Plot # 160, Uttar Meitka, Shyampur Bazar,<br> Hemayetpur, Savar, Dhaka-1348.
+            Plot # 160, Uttar Meitka, Shyampur Bazar,<br />
+            Hemayetpur, Savar, Dhaka-1348.
           </p>
-          <h3>Branch Office: </h3>
-          <p>
-            52/A, Arambagh, Motijheel, Dhaka-1000.
-          </p>
+          <h3>Branch Office:</h3>
+          <p>52/A, Arambagh, Motijheel, Dhaka-1000.</p>
         </div>
         <div class="middle-item left-item">
-          <h3>Phone: </h3>
-          <p>+880 1974 338707, +880 1975 411616,<br> +880 1718 094002, +880 1716
-            009940
+          <h3>Phone:</h3>
+          <p>
+            +880 1974 338707, +880 1975 411616,<br />
+            +880 1718 094002, +880 1716 009940
           </p>
           <h3>E-mail:</h3>
-          <p>
-            approach@dhaka.net , info@approach-bd.com
-          </p>
+          <p>approach@dhaka.net , info@approach-bd.com</p>
         </div>
         <div class="right-item left-item">
           <h3>Information</h3>
@@ -36,49 +34,49 @@
                 <RouterLink to="/product" class="nav-link">Product</RouterLink>
               </li>
               <li>
-                <RouterLink to="/operation-strength" class="nav-link">Operation Strength
+                <RouterLink to="/operation-strength" class="nav-link"
+                  >Operation Strength
                 </RouterLink>
               </li>
-
             </ul>
             <ul>
               <li>
                 <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
               </li>
               <li>
-                <RouterLink to="/production-facility" class="nav-link">Production Facility
+                <RouterLink to="/production-facility" class="nav-link"
+                  >Production Facility
                 </RouterLink>
               </li>
               <li>
-                <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
+                <RouterLink to="/contact-us" class="nav-link"
+                  >Contact Us</RouterLink
+                >
               </li>
             </ul>
           </div>
-
         </div>
       </div>
-
     </div>
     <div class="footer-bottom">
       <div class="social-links">
         <div class="copy-right">
-          <img src="../assets/images/logo.jpeg" alt="">
+          <img src="../assets/images/logo.jpeg" alt="" />
           <h3>© 2024. Approach Accessories Limited. All rights reserved.</h3>
         </div>
         <a href="#">
-          <img src="../assets/images/social/facebook.png" alt="Facebook">
+          <img src="../assets/images/social/facebook.png" alt="Facebook" />
         </a>
         <a href="#">
-          <img src="../assets/images/social/linkdin.png" alt="Linkdin">
+          <img src="../assets/images/social/linkdin.png" alt="Linkdin" />
         </a>
       </div>
-
     </div>
   </div>
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 </script>
 
 <style lang="scss" scoped>
@@ -88,7 +86,7 @@ import { RouterLink } from 'vue-router';
   width: 100%;
 
   .footer-top {
-    background: #10597a;
+    background: var(--color-primary);
 
     &_item {
       width: 90%;
@@ -125,7 +123,8 @@ import { RouterLink } from 'vue-router';
         }
       }
 
-      .middle-item {}
+      .middle-item {
+      }
 
       .right-item {
         color: var(--vt-c-white);
@@ -171,7 +170,7 @@ import { RouterLink } from 'vue-router';
   }
 
   .footer-bottom {
-    background: #0e4158;
+    background: var(--color-primary-dark);
     width: 100%;
     padding: 12px 0;
 
@@ -204,7 +203,7 @@ import { RouterLink } from 'vue-router';
         padding: 6px 6px 0px 6px;
         background: #ffffffb9;
         border-radius: 100%;
-        transition: all ease-in-out .3s;
+        transition: all ease-in-out 0.3s;
 
         img {
           width: 25px;
@@ -218,18 +217,15 @@ import { RouterLink } from 'vue-router';
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .footer {
-
     .footer-top {
-
       &_item {
         align-items: flex-start;
         flex-direction: column;
         padding-left: 20px;
 
         .left-item {
-
           h3 {
             font-size: 16px;
           }
@@ -239,14 +235,12 @@ import { RouterLink } from 'vue-router';
           }
         }
 
-        .middle-item {}
+        .middle-item {
+        }
 
         .right-item {
-
           &_link {
-
             ul {
-
               li {
                 a {
                   font-size: 13px;
@@ -259,10 +253,8 @@ import { RouterLink } from 'vue-router';
     }
 
     .footer-bottom {
-
       .social-links {
         gap: 5px;
-
 
         .copy-right {
           align-items: flex-start;
@@ -281,7 +273,6 @@ import { RouterLink } from 'vue-router';
         }
 
         a {
-
           img {
             width: 20px;
           }

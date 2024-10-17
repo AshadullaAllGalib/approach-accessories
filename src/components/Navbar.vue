@@ -7,47 +7,73 @@
         </RouterLink>
       </div>
       <nav class="navigation">
-        <ul class="nav-menu" :class="{ 'active': isMenuOpen }"
-          @click.prevent="isMenuOpen = !isMenuOpen">
+        <ul
+          class="nav-menu"
+          :class="{ active: isMenuOpen }"
+          @click.prevent="isMenuOpen = !isMenuOpen"
+        >
           <li>
-            <RouterLink to="/" :class="[isActiveLink('/') ? 'active' : 'nav-link']">Home
+            <RouterLink
+              to="/"
+              :class="[isActiveLink('/') ? 'active' : 'nav-link']"
+              >Home
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/about" :class="[isActiveLink('/about') ? 'active' : 'nav-link']">About
-              Us
+            <RouterLink
+              to="/about"
+              :class="[isActiveLink('/about') ? 'active' : 'nav-link']"
+              >About Us
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/product" :class="[isActiveLink('/product') ? 'active' : 'nav-link']">
-              Product</RouterLink>
+            <RouterLink
+              to="/product"
+              :class="[isActiveLink('/product') ? 'active' : 'nav-link']"
+            >
+              Product</RouterLink
+            >
           </li>
           <li>
-            <RouterLink to="/operation-strength"
-              :class="[isActiveLink('/operation-strength') ? 'active' : 'nav-link']">Operation
-              Strength
+            <RouterLink
+              to="/operation-strength"
+              :class="[
+                isActiveLink('/operation-strength') ? 'active' : 'nav-link',
+              ]"
+              >Operation Strength
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/gallery" :class="[isActiveLink('/gallery') ? 'active' : 'nav-link']">
+            <RouterLink
+              to="/gallery"
+              :class="[isActiveLink('/gallery') ? 'active' : 'nav-link']"
+            >
               Gallery
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/production-facility"
-              :class="[isActiveLink('/production-facility') ? 'active' : 'nav-link']">Production
-              Facility
+            <RouterLink
+              to="/production-facility"
+              :class="[
+                isActiveLink('/production-facility') ? 'active' : 'nav-link',
+              ]"
+              >Production Facility
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/contact-us"
-              :class="[isActiveLink('/contact-us') ? 'active' : 'nav-link']">Contact Us
+            <RouterLink
+              to="/contact-us"
+              :class="[isActiveLink('/contact-us') ? 'active' : 'nav-link']"
+              >Contact Us
             </RouterLink>
           </li>
         </ul>
       </nav>
-      <div class="hamburger" :class="{ 'active': isMenuOpen }"
-        @click.prevent="isMenuOpen = !isMenuOpen">
+      <div
+        class="hamburger"
+        :class="{ active: isMenuOpen }"
+        @click.prevent="isMenuOpen = !isMenuOpen"
+      >
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -57,19 +83,19 @@
 </template>
 
 <script setup>
-import { RouterLink, useRoute } from 'vue-router';
-import { ref } from 'vue';
-const isMenuOpen = ref(false);
-const isActiveLink = (routePath) => {
-  const route = useRoute();
-  return route.path === routePath;
+import { RouterLink, useRoute } from 'vue-router'
+import { ref } from 'vue'
+const isMenuOpen = ref(false)
+const isActiveLink = routePath => {
+  const route = useRoute()
+  return route.path === routePath
 }
 </script>
 
 <style lang="scss" scoped>
 header {
   height: 100px;
-  background: #10597a;
+  background: var(--color-primary);
 
   .header-container {
     width: 90%;
@@ -154,7 +180,7 @@ header {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #fff;
+        background-color: var(--vt-c-white);
       }
     }
   }
@@ -206,7 +232,6 @@ header {
             .nav-link {
               border-bottom: 1px solid #fff;
               width: 100%;
-
             }
           }
         }

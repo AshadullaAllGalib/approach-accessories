@@ -6,8 +6,12 @@
     </p>
 
     <div class="tab">
-      <button class="tablinks" v-for="tabItem in tabItems" @click="activeTab = tabItem"
-        :class="[activeTab == tabItem ? 'active' : '']">
+      <button
+        class="tablinks"
+        v-for="tabItem in tabItems"
+        @click="activeTab = tabItem"
+        :class="[activeTab == tabItem ? 'active' : '']"
+      >
         {{ tabItem }}
       </button>
     </div>
@@ -54,49 +58,83 @@ const activeTab = ref('Tab1')
 </script>
 
 <style lang="scss" scoped>
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+.tabs {
+  width: 90%;
+  margin: 30px auto;
+
+  .tab {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 3px;
+      border-radius: 100px;
+      background-color: #cccccc83;
+    }
+
+    button {
+      position: relative;
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      border-radius: 100px;
+
+      &:hover {
+        background-color: #ddd;
+      }
+
+      &.active {
+        background-color: var(--color-primary);
+        color: #fff;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -20px;
+          left: 0;
+          width: 100%;
+          height: 7px;
+          border-radius: 100px;
+          background-color: var(--color-primary);
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  .tabcontent {
+    position: relative;
+    padding: 6px 12px;
+    animation: tabContentAnimation 1s ease-in-out forwards;
+  }
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
+@keyframes tabContentAnimation {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Style the tab content */
-.tabcontent {
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-/* Style the close button */
-.topright {
-  float: right;
-  cursor: pointer;
-  font-size: 28px;
-}
-
-.topright:hover {
-  color: red;
-}
 </style>
