@@ -1,14 +1,31 @@
 <script setup>
+import Tab from '@/components/Tab.vue';
 </script>
 
 <template>
-  <div>
-    <h1>This is About Page</h1>
+  <div class="about-banner">
+    <div class="text">
+      <h2>About Approach Accessories Ltd.</h2>
+    </div>
   </div>
+  <tab />
 </template>
 
 <style lang="scss" scoped>
-div {
-  height: 50vh;
+.about-banner {
+  width: 100%;
+  background: var(--color-primary-dark);
+  margin-top: 100px;
+
+  .text {
+    text-align: center;
+    padding: 60px 0;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
 }
 </style>

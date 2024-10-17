@@ -17,6 +17,7 @@
 <style lang="scss" scoped>
 .not-found {
   background: #2f57a0f5;
+  margin-top: 100px;
 
   .not-found-info {
     width: 80%;

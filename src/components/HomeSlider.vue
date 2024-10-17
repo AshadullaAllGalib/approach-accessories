@@ -92,7 +92,7 @@ import { VSlickCarousel } from 'v-slick-carousel'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,
@@ -102,6 +102,7 @@ const settings = {
 <style lang="scss" scoped>
 .carousel {
   background: #e8ecf0;
+  margin-top: 100px;
 
   .v-slick-carousel {
     width: 90%;

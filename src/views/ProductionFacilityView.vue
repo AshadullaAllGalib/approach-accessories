@@ -10,5 +10,6 @@
 <style lang="scss" scoped>
 div {
   height: 50vh;
+  margin-top: 100px;
 }
 </style>

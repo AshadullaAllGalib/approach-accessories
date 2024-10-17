@@ -1,11 +1,11 @@
 <script setup>
-import Tab from '../components/Tab.vue'
 import HomeSlider from '@/components/HomeSlider.vue';
+import About from '@/components/About.vue';
 </script>
 
 <template>
   <HomeSlider />
-  <Tab />
+  <About />
 </template>
 
 <style lang="scss" scoped></style>
