@@ -34,8 +34,7 @@
                 <RouterLink to="/product" class="nav-link">Product</RouterLink>
               </li>
               <li>
-                <RouterLink to="/operation-strength" class="nav-link"
-                  >Operation Strength
+                <RouterLink to="/operation-strength" class="nav-link">Operation Strength
                 </RouterLink>
               </li>
             </ul>
@@ -44,14 +43,11 @@
                 <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
               </li>
               <li>
-                <RouterLink to="/production-facility" class="nav-link"
-                  >Production Facility
+                <RouterLink to="/production-facility" class="nav-link">Production Facility
                 </RouterLink>
               </li>
               <li>
-                <RouterLink to="/contact-us" class="nav-link"
-                  >Contact Us</RouterLink
-                >
+                <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
               </li>
             </ul>
           </div>
@@ -123,8 +119,7 @@ import { RouterLink } from 'vue-router'
         }
       }
 
-      .middle-item {
-      }
+      .middle-item {}
 
       .right-item {
         color: var(--vt-c-white);
@@ -235,8 +230,7 @@ import { RouterLink } from 'vue-router'
           }
         }
 
-        .middle-item {
-        }
+        .middle-item {}
 
         .right-item {
           &_link {
