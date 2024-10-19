@@ -162,6 +162,7 @@ const settings = {
 
 @media (max-width: 768px) {
   .carousel {
+    margin-top: 70px;
 
     .v-slick-carousel {
       padding-top: 30px;

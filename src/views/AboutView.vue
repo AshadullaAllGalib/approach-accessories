@@ -28,4 +28,10 @@ import Tab from '@/components/Tab.vue';
     }
   }
 }
+
+@media (max-width:768px) {
+  .about-banner {
+    margin-top: 70px;
+  }
+}
 </style>
