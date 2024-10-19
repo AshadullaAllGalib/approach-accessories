@@ -116,6 +116,7 @@ import { RouterLink } from 'vue-router'
         p {
           font-size: 14px;
           line-height: 20px;
+          color: var(--vt-c-white);
         }
       }
 

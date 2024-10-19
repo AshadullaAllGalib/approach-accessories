@@ -25,19 +25,7 @@
   text-align: center;
   padding: 40px 0;
 
-  h2 {
-    font-size: 32px;
-    font-weight: 600;
-    display: inline-block;
-    color: var(--vt-c-neviblue-dark);
-    border-bottom: 2px solid var(--vt-c-neviblue-dark);
-    margin-bottom: 20px;
-  }
-
   p {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--vt-c-black);
     text-align: justify;
   }
 }
@@ -45,15 +33,6 @@
 @media (max-width: 768px) {
   .about {
     padding: 30px 0;
-
-    h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 14px;
-    }
   }
 }
 </style>
