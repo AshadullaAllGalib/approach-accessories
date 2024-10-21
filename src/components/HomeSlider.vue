@@ -102,7 +102,7 @@ const settings = {
 <style lang="scss" scoped>
 .carousel {
   background: #e8ecf0;
-  margin-top: 100px;
+  margin-top: 80px;
 
   .v-slick-carousel {
     width: 90%;

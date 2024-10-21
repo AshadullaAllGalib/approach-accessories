@@ -71,7 +71,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: var(--color-primary);
   z-index: 10000;
 
@@ -89,7 +89,9 @@ header {
         display: inline-block;
 
         img {
-          height: 80px;
+          margin-top: 4px;
+          height: 60px;
+          border-radius: 2px;
         }
       }
     }

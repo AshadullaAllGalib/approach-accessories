@@ -15,7 +15,7 @@ import Tab from '@/components/Tab.vue';
 .about-banner {
   width: 100%;
   background: var(--color-primary-dark);
-  margin-top: 100px;
+  margin-top: 80px;
 
   .text {
     text-align: center;
