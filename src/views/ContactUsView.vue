@@ -1,15 +1,9 @@
 <script setup>
+import ContactUs from '@/components/ContactUs.vue';
 </script>
 
 <template>
-  <div>
-    <h1>This is Contact Us Page</h1>
-  </div>
+  <ContactUs />
 </template>
 
-<style lang="scss" scoped>
-div {
-  height: 50vh;
-  margin-top: 100px;
-}
-</style>
+<style lang="scss" scoped></style>
