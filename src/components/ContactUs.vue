@@ -3,6 +3,7 @@
 <template>
   <div class="contact-banner">
     <h2>Contact Us</h2>
+    <p>We are always happy to help you find the right solution for your needs.</p>
   </div>
 
   <div class="contact">
@@ -80,9 +81,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   h2 {
     color: #fff;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    width: 90%;
   }
 }
 
@@ -305,5 +315,84 @@
     }
   }
 
+}
+
+@media (max-width: 1024px) {
+  .contact-banner {
+    margin-top: 70px;
+  }
+
+  .contact {
+    padding: 30px 0;
+
+    &-details {
+      flex-direction: column;
+
+      &_info {
+        width: auto;
+
+
+
+        .pe {
+          width: auto;
+
+          h2 {
+            font-size: 24px;
+          }
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .form-main {
+        width: 100%;
+        margin-top: 20px;
+
+        .main-wrapper {
+          padding: 15px;
+
+          .form-head {
+            font-size: 24px;
+            margin: 0px 0 5px;
+          }
+
+          .form-wrapper {
+            gap: 5px;
+
+            .form-card {
+              width: 100%;
+
+              .form-input {
+                font-size: 14px;
+              }
+
+              .form-label {
+                font-size: 15px;
+              }
+
+              .form-textarea {
+                font-size: 14px;
+              }
+
+              .form-textarea-label {
+                font-size: 15px;
+              }
+            }
+
+            .btn-wrap {
+              padding: 10px 0 0;
+
+              button {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
 }
 </style>
