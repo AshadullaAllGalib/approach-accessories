@@ -1,15 +1,10 @@
 <script setup>
+import OurProducts from '@/components/OurProducts.vue';
+
 </script>
 
 <template>
-  <div>
-    <h1>This is Product Page</h1>
-  </div>
+  <OurProducts />
 </template>
 
-<style lang="scss" scoped>
-div {
-  height: 50vh;
-  margin-top: 100px;
-}
-</style>
+<style lang="scss" scoped></style>
