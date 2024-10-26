@@ -2,14 +2,25 @@
 </script>
 
 <template>
-  <div>
-    <h1>This is Gallery Page</h1>
+  <div class="banner">
+    <img src="../assets/images/banner.jpeg" alt="Banner">
   </div>
 </template>
 
 <style lang="scss" scoped>
-div {
-  height: 50vh;
-  margin-top: 100px;
+.banner {
+  padding-top: 80px;
+  width: 100%;
+
+  img {
+    height: 150px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding-top: 70px;
+  }
 }
 </style>
