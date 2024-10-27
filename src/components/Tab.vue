@@ -54,7 +54,7 @@ const activeTab = ref('Tab1')
 
 <style lang="scss" scoped>
 .tabs {
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
 
   .tab {

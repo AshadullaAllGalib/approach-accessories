@@ -76,7 +76,7 @@ header {
   z-index: 10000;
 
   .header-container {
-    width: 90%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
     display: flex;

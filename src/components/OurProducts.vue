@@ -134,7 +134,7 @@
   padding: 30px 0 60px 0;
 
   &-category {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
     .title {
@@ -154,7 +154,7 @@
         background: var(--vt-c-white);
         width: 34%;
         flex-basis: calc(34% - 30px);
-        height: 400px;
+        height: 350px;
         padding: 20px;
         border-radius: 10px;
         // border: 2px solid var(--vt-c-neviblue-dark);
@@ -173,8 +173,6 @@
             font-size: 22px;
             color: var(--vt-c-neviblue-dark);
             position: absolute;
-            left: 10px;
-            padding-bottom: 30px;
           }
 
           .products-img {
@@ -182,7 +180,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 350px;
+            width: 300px;
           }
 
           span {

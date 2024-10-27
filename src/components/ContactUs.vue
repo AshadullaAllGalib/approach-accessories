@@ -97,8 +97,6 @@
 }
 
 .contact {
-  width: 90%;
-  margin: 0 auto;
   padding: 60px 0;
 
   &-details {
@@ -347,7 +345,7 @@
       }
 
       .form-main {
-        width: 100%;
+        width: 80%;
         margin-top: 20px;
 
         .main-wrapper {

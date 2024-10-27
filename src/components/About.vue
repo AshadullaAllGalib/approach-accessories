@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
 .about {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 40px 0;

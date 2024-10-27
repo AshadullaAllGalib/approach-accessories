@@ -105,7 +105,7 @@ const settings = {
   margin-top: 80px;
 
   .v-slick-carousel {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
     .v-slick-slider {
@@ -117,7 +117,7 @@ const settings = {
 
         &-text {
           h3 {
-            font-size: 40px;
+            font-size: 36px;
             line-height: 43px;
             color: #343434;
             padding-bottom: 15px;

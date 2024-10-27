@@ -17,11 +17,11 @@
 <style lang="scss" scoped>
 .not-found {
   background: #2f57a0f5;
-  margin-top: 100px;
+  margin-top: 80px;
 
   .not-found-info {
     width: 80%;
-    height: 50vh;
+    height: 65vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -56,6 +56,19 @@
 
       &:hover {
         transform: scale(1.08);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .not-found {
+    margin-top: 70px;
+
+    .not-found-info {
+
+      h1 {
+        font-size: 24px;
       }
     }
   }

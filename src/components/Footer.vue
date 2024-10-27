@@ -1,74 +1,77 @@
 <template>
-  <div class="footer">
-    <div class="footer-top">
-      <div class="footer-top_item">
-        <div class="left-item">
-          <h3>Corporate Office & Factory:</h3>
-          <p>
-            Plot # 160, Uttar Meitka, Shyampur Bazar,<br />
-            Hemayetpur, Savar, Dhaka-1348.
-          </p>
-          <h3>Branch Office:</h3>
-          <p>52/A, Arambagh, Motijheel, Dhaka-1000.</p>
-        </div>
-        <div class="middle-item left-item">
-          <h3>Phone:</h3>
-          <p>
-            +880 1974 338707, +880 1975 411616,<br />
-            +880 1718 094002, +880 1716 009940
-          </p>
-          <h3>E-mail:</h3>
-          <p>approach@dhaka.net , info@approach-bd.com</p>
-        </div>
-        <div class="right-item left-item">
-          <h3>Information</h3>
-          <div class="right-item_link">
-            <ul>
-              <li>
-                <RouterLink to="/" class="nav-link">Home</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/about" class="nav-link">About Us</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/product" class="nav-link">Product</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/operation-strength" class="nav-link">Operation Strength
-                </RouterLink>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/production-facility" class="nav-link">Production Facility
-                </RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
-              </li>
-            </ul>
+  <footer>
+    <div class="footer">
+      <div class="footer-top">
+        <div class="footer-top_item">
+          <div class="left-item">
+            <h3>Corporate Office & Factory:</h3>
+            <p>
+              Plot # 160, Uttar Meitka, Shyampur Bazar,<br />
+              Hemayetpur, Savar, Dhaka-1348.
+            </p>
+            <h3>Branch Office:</h3>
+            <p>52/A, Arambagh, Motijheel, Dhaka-1000.</p>
+          </div>
+          <div class="middle-item left-item">
+            <h3>Phone:</h3>
+            <p>
+              +880 1974 338707, +880 1975 411616,<br />
+              +880 1718 094002, +880 1716 009940
+            </p>
+            <h3>E-mail:</h3>
+            <p>approach@dhaka.net , info@approach-bd.com</p>
+          </div>
+          <div class="right-item left-item">
+            <h3>Information</h3>
+            <div class="right-item_link">
+              <ul>
+                <li>
+                  <RouterLink to="/" class="nav-link">Home</RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/about" class="nav-link">About Us</RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/product" class="nav-link">Product</RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/operation-strength" class="nav-link">Operation Strength
+                  </RouterLink>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/production-facility" class="nav-link">Production Facility
+                  </RouterLink>
+                </li>
+                <li>
+                  <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="social-links">
-        <div class="copy-right">
-          <img src="../assets/images/logo.jpeg" alt="" />
-          <h3>© 2024. Approach Accessories Limited. All rights reserved.</h3>
+      <div class="footer-bottom">
+        <div class="social-links">
+          <div class="copy-right">
+            <img src="../assets/images/logo.jpeg" alt="" />
+            <h3>© 2024. Approach Accessories Limited. All rights reserved.</h3>
+          </div>
+          <a href="#">
+            <img src="../assets/images/social/facebook.png" alt="Facebook" />
+          </a>
+          <a href="#">
+            <img src="../assets/images/social/linkdin.png" alt="Linkdin" />
+          </a>
         </div>
-        <a href="#">
-          <img src="../assets/images/social/facebook.png" alt="Facebook" />
-        </a>
-        <a href="#">
-          <img src="../assets/images/social/linkdin.png" alt="Linkdin" />
-        </a>
       </div>
     </div>
-  </div>
+  </footer>
+
 </template>
 
 <script setup>
@@ -85,7 +88,7 @@ import { RouterLink } from 'vue-router'
     background: var(--color-primary);
 
     &_item {
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
       padding: 15px 0;
       display: flex;

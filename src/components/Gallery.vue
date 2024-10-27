@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
 .gallery {
-  width: 90%;
+  width: 80%;
   padding: 40px;
   height: 50vh;
   margin: 0 auto;
