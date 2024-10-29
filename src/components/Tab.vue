@@ -1,13 +1,10 @@
 <template>
   <div class="tabs">
-    <h2>Tabs</h2>
-    <p>
-      Click on the x button in the top right corner to close the current tab:
-    </p>
     <div class="tab">
       <button
         class="tablinks"
-        v-for="tabItem in tabItems"
+        v-for="(tabItem, index) in tabItems"
+        :key="index"
         @click="activeTab = tabItem"
         :class="[activeTab == tabItem ? 'active' : '']"
       >
@@ -16,44 +13,25 @@
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <h3>Tab-01 Content</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        dicta nobis placeat odit tempore neque quibusdam asperiores earum culpa
-        mollitia excepturi atque, optio dolorum iste velit sit minima nemo? Hic.
-      </p>
+      <TextAndImageContent />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[1]">
-      <div class="members">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+      <div class="members board-of-directors">
+        <MemberCard v-for="(n, index) in 7" :key="index" />
       </div>
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
-      <div class="members">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+      <div class="members management-team">
+        <MemberCard v-for="(n, index) in 6" :key="index" />
       </div>
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
-      <h3>Vision & Values</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-        dicta nobis placeat odit tempore neque quibusdam asperiores earum culpa
-        mollitia excepturi atque, optio dolorum iste velit sit minima nemo? Hic.
-      </p>
+      <TextAndImageContent />
+    </div>
+    <div class="tabcontent" v-if="activeTab == tabItems[7]">
+      <TextAndImageContent />
     </div>
   </div>
 </template>
@@ -61,6 +39,7 @@
 <script setup>
 import { ref } from 'vue'
 import MemberCard from '@/components/MemberCard.vue'
+import TextAndImageContent from '@/components/TextAndImageContent.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   'Our Profile',
@@ -204,7 +183,12 @@ const activeTab = ref(tabItems[0])
 
     .tabcontent {
       position: relative;
-      padding: 6px 12px;
+      padding: 15px 12px;
+
+      .members {
+        flex-direction: column;
+        gap: 15px;
+      }
     }
   }
 }
