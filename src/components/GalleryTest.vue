@@ -1,3 +1,57 @@
+<script setup>
+import { ref } from 'vue';
+
+
+import wovenImage from '../assets/images/woven.png';
+// import dummyImage from '../assets/images/dummy-pro.png';
+
+const images = ref([
+  { src: wovenImage },
+  // { src: dummyImage },
+  { src: wovenImage },
+  // { src: dummyImage },
+  { src: wovenImage },
+  // { src: dummyImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  { src: wovenImage },
+  // { src: dummyImage },
+  { src: wovenImage },
+  // { src: dummyImage },
+  { src: wovenImage }
+  // { src: dummyImage }
+]);
+
+const overlays = ref(Array(images.value.length).fill(false));
+
+const lightbox = ref({
+  isOpen: false,
+  currentImage: 0
+});
+
+const openLightbox = (index) => {
+  lightbox.value.isOpen = true;
+  lightbox.value.currentImage = index;
+};
+
+const closeLightbox = () => {
+  lightbox.value.isOpen = false;
+};
+
+const nextImage = () => {
+  lightbox.value.currentImage = (lightbox.value.currentImage + 1) % images.value.length;
+};
+
+const prevImage = () => {
+  lightbox.value.currentImage =
+    (lightbox.value.currentImage - 1 + images.value.length) % images.value.length;
+};
+</script>
+
 <template>
   <section id="gallery">
     <h1>For testing</h1>
@@ -30,54 +84,6 @@
   </section>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
-
-import wovenImage from '../assets/images/woven.png';
-import dummyImage from '../assets/images/dummy-pro.png';
-
-const images = ref([
-  { src: wovenImage },
-  { src: dummyImage },
-  { src: wovenImage },
-  { src: dummyImage },
-  { src: wovenImage },
-  { src: dummyImage },
-  { src: wovenImage },
-  { src: dummyImage },
-  { src: wovenImage },
-  { src: dummyImage },
-  { src: wovenImage },
-  { src: dummyImage }
-]);
-
-const overlays = ref(Array(images.value.length).fill(false));
-
-const lightbox = ref({
-  isOpen: false,
-  currentImage: 0
-});
-
-const openLightbox = (index) => {
-  lightbox.value.isOpen = true;
-  lightbox.value.currentImage = index;
-};
-
-const closeLightbox = () => {
-  lightbox.value.isOpen = false;
-};
-
-const nextImage = () => {
-  lightbox.value.currentImage = (lightbox.value.currentImage + 1) % images.value.length;
-};
-
-const prevImage = () => {
-  lightbox.value.currentImage =
-    (lightbox.value.currentImage - 1 + images.value.length) % images.value.length;
-};
-</script>
-
 
 <style lang="scss">
 #gallery {
@@ -106,6 +112,7 @@ const prevImage = () => {
         background: #ffffff;
         border-radius: 5px;
         box-shadow: 0 0 3px;
+        cursor: pointer;
 
         .img-wrapper {
           position: relative;
@@ -140,10 +147,6 @@ const prevImage = () => {
     }
   }
 }
-
-
-
-
 
 #overlay {
   background: rgba(0, 0, 0, 0.7);
