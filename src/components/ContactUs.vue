@@ -40,7 +40,7 @@
       </div>
       <div class="form-main">
         <div class="main-wrapper">
-          <h3 class="form-head">Contact From</h3>
+          <h3 class="form-head">Get In Touch</h3>
           <form class="form-wrapper">
             <div class="form-card">
               <input class="form-input" type="text" name="full_name" required="required" />

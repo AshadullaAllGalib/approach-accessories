@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink } from 'vue-router';
 
 </script>
 
@@ -41,8 +40,6 @@ import { RouterLink } from 'vue-router';
     <a class="button" href="#popup11">
       <img src="../assets/images/dummy-pro.png" alt="">
     </a>
-
-
   </div>
 
 
@@ -120,7 +117,6 @@ import { RouterLink } from 'vue-router';
     </div>
   </div>
   <!-- popup Image here end-->
-
 </template>
 
 

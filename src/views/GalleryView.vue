@@ -1,5 +1,6 @@
 <script setup>
 import Gallery from '@/components/Gallery.vue';
+import GalleryTest from '@/components/GalleryTest.vue';
 </script>
 
 <template>
@@ -7,6 +8,8 @@ import Gallery from '@/components/Gallery.vue';
     <img src="../assets/images/banner.jpeg" alt="Banner">
   </div>
   <Gallery />
+
+  <GalleryTest />
 </template>
 
 <style lang="scss" scoped>
