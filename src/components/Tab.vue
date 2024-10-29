@@ -27,9 +27,22 @@
         <MemberCard v-for="(n, index) in 6" :key="index" />
       </div>
     </div>
+
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
       <TextAndImageContent />
     </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[5]">
+      <div class="files">
+        <DownloadCard v-for="(n, index) in 6" :key="index" />
+      </div>
+    </div>
+    <div class="tabcontent" v-if="activeTab == tabItems[6]">
+      <div class="files">
+        <DownloadCard v-for="(n, index) in 6" :key="index" />
+      </div>
+    </div>
+
     <div class="tabcontent" v-if="activeTab == tabItems[7]">
       <TextAndImageContent />
     </div>
@@ -40,6 +53,7 @@
 import { ref } from 'vue'
 import MemberCard from '@/components/MemberCard.vue'
 import TextAndImageContent from '@/components/TextAndImageContent.vue'
+import DownloadCard from '@/components/DownloadCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   'Our Profile',
@@ -130,6 +144,12 @@ const activeTab = ref(tabItems[0])
       flex-wrap: wrap;
       gap: 30px;
     }
+
+    .files {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
   }
 }
 
@@ -188,6 +208,11 @@ const activeTab = ref(tabItems[0])
       .members {
         flex-direction: column;
         gap: 15px;
+      }
+
+      .files {
+        flex-direction: column;
+        gap: 20px;
       }
     }
   }
