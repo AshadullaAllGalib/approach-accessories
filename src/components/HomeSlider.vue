@@ -13,7 +13,7 @@
             are printed or manufactured by world renowned printing machines.
           </p>
 
-          <a href="#">View More</a>
+          <RouterLink to="/product">View More</RouterLink>
 
         </div>
 
@@ -33,7 +33,7 @@
             are printed or manufactured by world renowned printing machines.
           </p>
 
-          <a href="#">View More</a>
+          <RouterLink to="/product">View More</RouterLink>
 
         </div>
 
@@ -53,7 +53,7 @@
             are printed or manufactured by world renowned printing machines.
           </p>
 
-          <a href="#">View More</a>
+          <RouterLink to="/product">View More</RouterLink>
 
         </div>
 
@@ -73,7 +73,7 @@
             are printed or manufactured by world renowned printing machines.
           </p>
 
-          <a href="#">View More</a>
+          <RouterLink to="/product">View More</RouterLink>
 
         </div>
 
@@ -89,6 +89,7 @@
 <script setup>
 import 'v-slick-carousel/style.css'
 import { VSlickCarousel } from 'v-slick-carousel'
+import { RouterLink } from 'vue-router';
 
 const settings = {
   slidesToShow: 1,
