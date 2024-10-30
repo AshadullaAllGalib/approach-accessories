@@ -1,5 +1,5 @@
 <script setup>
-import WovenCard from './ProductsDetailsCard/WovenCard.vue';
+import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
 // import OurProductsCard from './OurProductsCard.vue';
 
 </script>
@@ -58,7 +58,7 @@ import WovenCard from './ProductsDetailsCard/WovenCard.vue';
         </ul>
       </div>
       <div class="details-right">
-        <img src="../assets/images/woven.jpeg" alt="">
+        <img src="../../assets/images/woven.jpeg" alt="">
       </div>
       <div class="card">
         <WovenCard />

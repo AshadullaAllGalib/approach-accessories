@@ -7,7 +7,8 @@ import GalleryView from '@/views/GalleryView.vue'
 import ProductionFacilityView from '@/views/ProductionFacilityView.vue'
 import ContactUsView from '@/views/ContactUsView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
-import ProductDetails from '@/components/ProductDetails.vue'
+// import WovenDetails from '@/components/ProductDetails/WovenDetails.vue'
+import WovenView from '@/views/WovenView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,9 +29,9 @@ const router = createRouter({
       component: ProductView,
     },
     {
-      path: '/product/product-details',
+      path: '/product/woven-details',
       name: 'product-details',
-      component: ProductDetails,
+      component: WovenView,
     },
     {
       path: '/operation-strength',

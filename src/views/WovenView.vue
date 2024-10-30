@@ -1,8 +1,8 @@
 <script setup>
-import ProductDetails from '@/components/ProductDetails.vue';
+import WovenDetails from '@/components/ProductDetails/WovenDetails.vue';
 </script>
 <template>
-  <ProductDetails />
+  <WovenDetails />
 </template>
 
 

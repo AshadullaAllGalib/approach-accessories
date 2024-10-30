@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import ProductDetails from './ProductDetails.vue';
 </script>
 
 <template>
@@ -8,7 +7,7 @@ import ProductDetails from './ProductDetails.vue';
     <div class="product-category">
       <div class="products">
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -18,7 +17,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -28,7 +27,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -38,7 +37,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -48,7 +47,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -58,7 +57,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -68,7 +67,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -78,7 +77,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -88,7 +87,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -98,7 +97,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -108,7 +107,7 @@ import ProductDetails from './ProductDetails.vue';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -226,7 +225,8 @@ import ProductDetails from './ProductDetails.vue';
 
   0%,
   100% {
-    transform: translate(0, 0);}
+    transform: translate(0, 0);
+  }
 
   50% {
     transform: translate(10px, 0);
