@@ -2,28 +2,18 @@
 import { ref } from 'vue';
 
 
-import wovenImage from '../assets/images/woven.png';
-// import dummyImage from '../assets/images/dummy-pro.png';
+import wovenImage from '../assets/images/woven/woven1.jpeg';
+import wovenImage2 from '../assets/images/woven/woven2.jpg';
 
 const images = ref([
   { src: wovenImage },
-  // { src: dummyImage },
+  { src: wovenImage2 },
   { src: wovenImage },
-  // { src: dummyImage },
+  { src: wovenImage2 },
   { src: wovenImage },
-  // { src: dummyImage },
+  { src: wovenImage2 },
   { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage }
-  // { src: dummyImage }
+  { src: wovenImage2 }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));
@@ -54,7 +44,7 @@ const prevImage = () => {
 
 <template>
   <section id="gallery">
-    <h1>For testing</h1>
+    <h2>Product Image</h2>
     <div class="container">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"
@@ -87,18 +77,17 @@ const prevImage = () => {
 
 <style lang="scss" scoped>
 #gallery {
-  width: 80%;
-  margin: 0 auto;
-  padding: 40px 0;
+  width: 100%;
+  padding: 50px 0 20px 0;
 
-  h1 {
+  h2 {
     text-align: center;
+    margin-bottom: 50px;
   }
 
   .container {
 
     .image-gallery {
-      width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -106,9 +95,8 @@ const prevImage = () => {
       gap: 30px;
 
       .image {
-        width: 33%;
-        min-height: 300px;
-        flex-basis: calc(33% - 30px);
+        width: 20%;
+        flex-basis: calc(20% - 25px);
         background: #ffffff;
         border-radius: 5px;
         box-shadow: 0 0 3px;
@@ -120,7 +108,6 @@ const prevImage = () => {
 
           img {
             width: 100%;
-            height: 100%;
             border-radius: 5px;
           }
 

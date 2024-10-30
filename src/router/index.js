@@ -7,6 +7,7 @@ import GalleryView from '@/views/GalleryView.vue'
 import ProductionFacilityView from '@/views/ProductionFacilityView.vue'
 import ContactUsView from '@/views/ContactUsView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
+import ProductDetails from '@/components/ProductDetails.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +26,11 @@ const router = createRouter({
       path: '/product',
       name: 'product',
       component: ProductView,
+    },
+    {
+      path: '/product-details',
+      name: 'product-details',
+      component: ProductDetails,
     },
     {
       path: '/operation-strength',
