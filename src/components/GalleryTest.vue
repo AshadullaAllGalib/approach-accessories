@@ -208,4 +208,64 @@ const prevImage = () => {
   top: 20%;
   right: 32%;
 }
+
+@media (max-width: 1024px) {
+  #gallery {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+
+
+
+    .container {
+      padding-top: 30px;
+
+      .image-gallery {
+        flex-direction: column;
+
+        .image {
+          width: 100%;
+
+          .img-wrapper {
+            .img-overlay {
+
+              i {
+                color: #fff;
+                font-size: 3em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #overlay {
+    top: -5%;
+
+    img {
+      width: 80%;
+
+    }
+  }
+
+  #nextButton,
+  #prevButton,
+  #exitButton {
+    font-size: 24px;
+  }
+
+  #nextButton {
+    right: 2%;
+  }
+
+  #prevButton {
+    left: 2%;
+  }
+
+  #exitButton {
+    top: 32%;
+    right: 14%;
+  }
+}
 </style>
