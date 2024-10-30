@@ -157,14 +157,8 @@
         height: 350px;
         padding: 20px;
         border-radius: 10px;
-        // border: 2px solid var(--vt-c-neviblue-dark);
         box-shadow: 0 0 10px;
         position: relative;
-        transition: all ease-in-out .3s;
-
-        &:hover {
-          transform: scale(1.01);
-        }
 
         &_link {
           text-decoration: none;
@@ -181,6 +175,11 @@
             left: 50%;
             transform: translate(-50%, -50%);
             width: 300px;
+            transition: all ease-in-out .3s;
+
+            &:hover {
+              width: 310px;
+            }
           }
 
           span {
