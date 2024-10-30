@@ -187,4 +187,64 @@ const prevImage = () => {
   top: 20%;
   right: 32%;
 }
+
+@media (max-width: 768px) {
+  #gallery {
+    width: 100%;
+    padding: 50px 0 20px 0;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .container {
+
+      .image-gallery {
+
+        .image {
+          width: 50%;
+          flex-basis: calc(50% - 15px);
+
+          .img-wrapper {
+            margin-top: 15px;
+
+            img {
+              width: 100%;
+            }
+
+            .img-overlay {}
+          }
+        }
+      }
+    }
+  }
+
+  #overlay {
+    background: rgba(0, 0, 0, 0.815);
+
+    img {
+      width: 80%;
+
+    }
+  }
+
+  #nextButton,
+  #prevButton,
+  #exitButton {
+    font-size: 24px;
+  }
+
+  #nextButton {
+    right: 2%;
+  }
+
+  #prevButton {
+    left: 2%;
+  }
+
+  #exitButton {
+    top: 25%;
+    right: 11%;
+  }
+}
 </style>

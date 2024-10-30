@@ -167,4 +167,64 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .product-details {
+    padding: 100px 0 40px 0;
+
+
+    .details {
+      padding-top: 15px;
+
+      &-left {
+        width: auto;
+        padding: 10px;
+
+        .left-title {
+          background: rgb(9, 77, 133);
+          padding: 10px;
+          text-align: center;
+
+          h3 {
+            font-size: 16px;
+          }
+        }
+
+        ul {
+          padding: 20px 0 0 0;
+
+
+          li {
+            font-size: 12px;
+
+            i {}
+          }
+        }
+
+      }
+
+      &-right {
+        display: none;
+
+        img {}
+      }
+
+      .description {
+        padding-top: 20px;
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .other-product {
+      padding-top: 40px;
+
+      h2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
 </style>
