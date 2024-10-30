@@ -54,7 +54,9 @@ const prevImage = () => {
 
 <template>
   <section id="gallery">
-    <h1>For testing</h1>
+    <div class="gallery">
+      <h2>Approach Accessories Photo Gallery</h2>
+    </div>
     <div class="container">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"
@@ -91,11 +93,17 @@ const prevImage = () => {
   margin: 0 auto;
   padding: 40px 0;
 
+  .gallery {
+    text-align: center;
+
+  }
+
   h1 {
     text-align: center;
   }
 
   .container {
+    padding-top: 30px;
 
     .image-gallery {
       width: 100%;

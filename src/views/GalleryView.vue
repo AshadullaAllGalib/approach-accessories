@@ -1,5 +1,5 @@
 <script setup>
-import Gallery from '@/components/Gallery.vue';
+// import Gallery from '@/components/Gallery.vue';
 import GalleryTest from '@/components/GalleryTest.vue';
 </script>
 
@@ -7,7 +7,7 @@ import GalleryTest from '@/components/GalleryTest.vue';
   <div class="banner">
     <img src="../assets/images/banner.jpeg" alt="Banner">
   </div>
-  <Gallery />
+  <!-- <Gallery /> -->
 
   <GalleryTest />
 </template>

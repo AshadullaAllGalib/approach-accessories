@@ -93,7 +93,7 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
 .product-details {
   width: 80%;
   margin: 0 auto;
-  padding: 80px 0 40px 0;
+  padding: 120px 0 40px 0;
 
   .title {
     text-align: center;
