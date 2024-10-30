@@ -141,8 +141,8 @@ import { RouterLink } from 'vue-router';
 
       &-cards {
         background: var(--vt-c-white);
-        width: 34%;
-        flex-basis: calc(34% - 30px);
+        width: 33%;
+        flex-basis: calc(33% - 20px);
         height: 350px;
         padding: 20px;
         border-radius: 10px;
