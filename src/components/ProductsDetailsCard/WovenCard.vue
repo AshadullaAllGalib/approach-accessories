@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 
 
-import wovenImage from '../assets/images/woven/woven1.jpeg';
-import wovenImage2 from '../assets/images/woven/woven2.jpg';
+import wovenImage from '../../assets/images/woven/woven1.jpeg';
+import wovenImage2 from '../../assets/images/woven/woven2.jpg';
 
 const images = ref([
   { src: wovenImage },

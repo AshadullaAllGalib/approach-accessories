@@ -1,5 +1,5 @@
 <script setup>
-import WovenCard from './WovenCard.vue';
+import WovenCard from './ProductsDetailsCard/WovenCard.vue';
 // import OurProductsCard from './OurProductsCard.vue';
 
 </script>

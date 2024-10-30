@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import ProductDetails from './ProductDetails.vue';
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { RouterLink } from 'vue-router';
     <div class="product-category">
       <div class="products">
         <div class="products-cards">
-          <RouterLink to="/product-details" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
@@ -17,104 +18,104 @@ import { RouterLink } from 'vue-router';
           </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
         <div class="products-cards">
-          <a class="products-cards_link" href="#">
+          <RouterLink :to="{ path: `/product/product-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="../assets/images/woven.png" alt="">
             <span>
               <p>Find More</p>
               <img class="arrow" src="../assets/images/right-arrow.png" alt="">
             </span>
-          </a>
+          </RouterLink>
         </div>
 
       </div>
@@ -225,8 +226,7 @@ import { RouterLink } from 'vue-router';
 
   0%,
   100% {
-    transform: translate(0, 0);
-  }
+    transform: translate(0, 0);}
 
   50% {
     transform: translate(10px, 0);
