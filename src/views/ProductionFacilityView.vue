@@ -1,15 +1,9 @@
 <script setup>
+import ProductionFacility from '@/components/ProductionFacility/ProductionFacility.vue';
 </script>
 
 <template>
-  <div>
-    <h1>This is Production Facility Page</h1>
-  </div>
+  <ProductionFacility />
 </template>
 
-<style lang="scss" scoped>
-div {
-  height: 50vh;
-  margin-top: 100px;
-}
-</style>
+<style lang="scss" scoped></style>
