@@ -1,13 +1,8 @@
 <template>
   <div class="tabs">
     <div class="tab">
-      <button
-        class="tablinks"
-        v-for="(tabItem, index) in tabItems"
-        :key="index"
-        @click="activeTab = tabItem"
-        :class="[activeTab == tabItem ? 'active' : '']"
-      >
+      <button class="tablinks" v-for="(tabItem, index) in tabItems" :key="index"
+        @click="activeTab = tabItem" :class="[activeTab == tabItem ? 'active' : '']">
         {{ tabItem }}
       </button>
     </div>
@@ -33,9 +28,9 @@
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[4]">
-      <div class="files">
-        <RecognitionCard />
-      </div>
+      <!-- <div class="files"> -->
+      <RecognitionCard />
+      <!-- </div> -->
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[5]">
       <div class="files">
@@ -68,7 +63,7 @@ let tabItems = [
   'Vision & Values',
   'Recognition',
   'Publications',
-  'Sustainability Report',
+  // 'Sustainability Report',
   'CSR',
 ]
 const isActiveLink = routePath => {

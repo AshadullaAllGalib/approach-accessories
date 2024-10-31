@@ -57,13 +57,8 @@ const prevImage = () => {
   <section id="gallery">
     <div class="container">
       <div id="image-gallery" class="image-gallery">
-        <div
-          v-for="(image, index) in images"
-          :key="index"
-          class="image"
-          @mouseover="overlays[index] = true"
-          @mouseleave="overlays[index] = false"
-        >
+        <div v-for="(image, index) in images" :key="index" class="image"
+          @mouseover="overlays[index] = true" @mouseleave="overlays[index] = false">
           <div class="img-wrapper" @click="openLightbox(index)">
             <img :src="image.src" alt="Gallery Image" />
             <h4 class="title">Approach Accessories Ltd - ISO 9001-2008</h4>
@@ -92,9 +87,6 @@ const prevImage = () => {
 
 <style lang="scss" scoped>
 #gallery {
-  width: 80%;
-  margin: 0 auto;
-  //   padding: 40px 0;
 
   .gallery {
     text-align: center;
@@ -114,7 +106,7 @@ const prevImage = () => {
       gap: 30px;
 
       .image {
-        flex-basis: calc(20% - 30px);
+        flex-basis: calc(25% - 23px);
         background: #ffffff;
         cursor: pointer;
 
@@ -167,7 +159,7 @@ const prevImage = () => {
   img {
     background: #fff;
     border-radius: 5px;
-    width: 40%;
+    width: 30%;
     height: auto;
     object-fit: contain;
     padding: 5%;
