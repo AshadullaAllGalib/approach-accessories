@@ -13,63 +13,43 @@
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <TextAndImageContent />
+      <ImageTextContent />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[1]">
       <div class="members board-of-directors">
-        <MemberCard v-for="(n, index) in 7" :key="index" />
+        <ImageTextContent />
       </div>
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
       <div class="members management-team">
-        <MemberCard v-for="(n, index) in 6" :key="index" />
+        <ImageTextContent />
       </div>
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
-      <TextAndImageContent />
+      <ImageTextContent />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[4]">
       <div class="files">
-        <RecognitionCard />
+        <ImageTextContent />
       </div>
-    </div>
-    <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <div class="files">
-        <DownloadCard v-for="(n, index) in 6" :key="index" />
-      </div>
-    </div>
-    <div class="tabcontent" v-if="activeTab == tabItems[6]">
-      <div class="files">
-        <DownloadCard v-for="(n, index) in 6" :key="index" />
-      </div>
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[7]">
-      <TextAndImageContent />
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
-import MemberCard from '@/components/AboutUs/MemberCard.vue'
-import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
-import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
+import ImageTextContent from '@/components/OperationStrength/ImageTextContent.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
-  'Our Profile',
-  'Board of Directors',
-  'Management Team',
-  'Vision & Values',
-  'Recognition',
-  'Publications',
-  'Sustainability Report',
-  'CSR',
+  'Client Relation',
+  'Supply Chain Management',
+  'HRD & HRIS',
+  'People',
+  'Worldwide Operation',
 ]
 const isActiveLink = routePath => {
   const route = useRoute()
