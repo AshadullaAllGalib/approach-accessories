@@ -1,7 +1,6 @@
 <script setup>
-import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
+import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
 // import OurProductsCard from './OurProductsCard.vue';
-
 </script>
 
 <template>
@@ -58,25 +57,28 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
         </ul>
       </div>
       <div class="details-right">
-        <img src="../../assets/images/woven.jpeg" alt="">
+        <img src="@/assets/images/woven.jpeg" alt="" />
       </div>
       <div class="card">
         <WovenCard />
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and printed fabric label
-          production facilities with a dedicated production plant..
-        </p><br>
+          Approach Accessories has state of the art Infrastructure woven and
+          printed fabric label production facilities with a dedicated production
+          plant..
+        </p>
+        <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD capabilities and latest
-          technology machines ranging from air jets, to needle looms, ultrasonic slit, and cut-fold
-          machines. Approach Accessories specialize in high quality damask labels, taffeta, and
-          satin
-          labels of all kinds utilizing high performance German and Italian weaving looms. We create
-          clothing which are designed to have exquisite quality like high definition micro filament,
-          polyester and satin broad loom soft woven labels, satin needle loom woven edge labels, and
-          the super fine woven label with 50 denier yarns.
+          Our woven label production unit equipped with the advanced CAD
+          capabilities and latest technology machines ranging from air jets, to
+          needle looms, ultrasonic slit, and cut-fold machines. Approach
+          Accessories specialize in high quality damask labels, taffeta, and
+          satin labels of all kinds utilizing high performance German and
+          Italian weaving looms. We create clothing which are designed to have
+          exquisite quality like high definition micro filament, polyester and
+          satin broad loom soft woven labels, satin needle loom woven edge
+          labels, and the super fine woven label with 50 denier yarns.
         </p>
       </div>
     </div>
@@ -85,8 +87,6 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
     </div> -->
     <!-- <OurProductsCard /> -->
   </section>
-
-
 </template>
 
 <style lang="scss" scoped>
@@ -105,8 +105,15 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
 
     &-left {
       width: 80%;
-      background-image: linear-gradient(to right, #082dff 0%, #0ebbff 0%, #b8cbb8 0%, #1c5ed8 30%, #c2ce9c 64%, #060b53 100%);
-      ;
+      background-image: linear-gradient(
+        to right,
+        #082dff 0%,
+        #0ebbff 0%,
+        #b8cbb8 0%,
+        #1c5ed8 30%,
+        #c2ce9c 64%,
+        #060b53 100%
+      );
       padding: 20px 40px 40px 40px;
 
       .left-title {
@@ -125,7 +132,6 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
         padding: 40px 0 0 0;
         list-style: none;
 
-
         li {
           font-size: 15px;
           padding-bottom: 10px;
@@ -136,7 +142,6 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
           }
         }
       }
-
     }
 
     &-right {
@@ -172,7 +177,6 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
   .product-details {
     padding: 100px 0 40px 0;
 
-
     .details {
       padding-top: 15px;
 
@@ -193,20 +197,20 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue';
         ul {
           padding: 20px 0 0 0;
 
-
           li {
             font-size: 12px;
 
-            i {}
+            i {
+            }
           }
         }
-
       }
 
       &-right {
         display: none;
 
-        img {}
+        img {
+        }
       }
 
       .description {

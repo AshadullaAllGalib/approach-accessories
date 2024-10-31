@@ -4,84 +4,83 @@
       <div class="slider">
         <div class="slider-text">
           <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br>With Approach Accessories.
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories.
           </h3>
 
           <p>
             Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br>Labels
-            are printed or manufactured by world renowned printing machines.
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
-
         </div>
 
         <div class="slider-img">
-          <img src="../assets/images/woven.png" alt="">
+          <img src="@/assets/images/woven.png" alt="" />
         </div>
       </div>
       <div class="slider">
         <div class="slider-text">
           <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br>With Approach Accessories.
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories.
           </h3>
 
           <p>
             Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br>Labels
-            are printed or manufactured by world renowned printing machines.
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
-
         </div>
 
         <div class="slider-img">
-          <img src="../assets/images/woven.png" alt="">
+          <img src="@/assets/images/woven.png" alt="" />
         </div>
       </div>
       <div class="slider">
         <div class="slider-text">
           <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br>With Approach Accessories.
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories.
           </h3>
 
           <p>
             Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br>Labels
-            are printed or manufactured by world renowned printing machines.
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
-
         </div>
 
         <div class="slider-img">
-          <img src="../assets/images/woven.png" alt="">
+          <img src="@/assets/images/woven.png" alt="" />
         </div>
       </div>
       <div class="slider">
         <div class="slider-text">
           <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br>With Approach Accessories.
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories.
           </h3>
 
           <p>
             Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br>Labels
-            are printed or manufactured by world renowned printing machines.
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
-
         </div>
 
         <div class="slider-img">
-          <img src="../assets/images/woven.png" alt="">
+          <img src="@/assets/images/woven.png" alt="" />
         </div>
       </div>
-
     </VSlickCarousel>
   </div>
 </template>
@@ -89,7 +88,7 @@
 <script setup>
 import 'v-slick-carousel/style.css'
 import { VSlickCarousel } from 'v-slick-carousel'
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 
 const settings = {
   slidesToShow: 1,
@@ -142,7 +141,7 @@ const settings = {
             text-decoration: none;
             color: #fff;
             font-size: 16px;
-            transition: all ease-in-out .3s;
+            transition: all ease-in-out 0.3s;
 
             &:hover {
               // transform: scale(1.5);
@@ -193,7 +192,6 @@ const settings = {
 
           &-img {
             img {
-
               width: 350px;
               padding: 0 15px 15px 15px;
             }

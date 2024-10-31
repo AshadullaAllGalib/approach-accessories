@@ -3,17 +3,17 @@
     <VSlickCarousel v-bind="settings">
       <div class="slider">
         <div class="slider-img">
-          <img src="../assets/images/slide.jpg" alt="">
+          <img src="@/assets/images/slide.jpg" alt="" />
         </div>
       </div>
       <div class="slider">
         <div class="slider-img">
-          <img src="../assets/images/slide2.png" alt="">
+          <img src="@/assets/images/slide2.png" alt="" />
         </div>
       </div>
       <div class="slider">
         <div class="slider-img">
-          <img src="../assets/images/slide.jpg" alt="">
+          <img src="@/assets/images/slide.jpg" alt="" />
         </div>
       </div>
     </VSlickCarousel>
@@ -43,7 +43,6 @@ const settings = {
 
     .v-slick-slider {
       .slider {
-
         &-img {
           img {
             width: 100%;
@@ -60,12 +59,11 @@ const settings = {
     margin-top: 70px;
 
     .v-slick-carousel {
-
       .v-slick-slider {
         .slider {
-
           &-img {
-            img {}
+            img {
+            }
           }
         }
       }

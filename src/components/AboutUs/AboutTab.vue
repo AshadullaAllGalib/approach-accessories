@@ -51,14 +51,14 @@
 
 <script setup>
 import { ref } from 'vue'
-import MemberCard from '@/components/MemberCard.vue'
-import TextAndImageContent from '@/components/TextAndImageContent.vue'
-import DownloadCard from '@/components/DownloadCard.vue'
+import MemberCard from '@/components/AboutUs/MemberCard.vue'
+import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
+import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   'Our Profile',
   'Board of Directors',
-  'Management Tam',
+  'Management Team',
   'Vision & Values',
   'Recognition',
   'Publications',

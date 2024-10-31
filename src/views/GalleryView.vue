@@ -1,11 +1,11 @@
 <script setup>
 // import Gallery from '@/components/Gallery.vue';
-import GalleryTest from '@/components/GalleryTest.vue';
+import GalleryTest from '@/components/GalleryTest.vue'
 </script>
 
 <template>
   <div class="banner">
-    <img src="../assets/images/banner.jpeg" alt="Banner">
+    <img src="@/assets/images/banner.jpeg" alt="Banner" />
   </div>
   <!-- <Gallery /> -->
 

@@ -32,23 +32,31 @@
                   <RouterLink to="/about" class="nav-link">About Us</RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/product" class="nav-link">Product</RouterLink>
+                  <RouterLink to="/product" class="nav-link"
+                    >Product</RouterLink
+                  >
                 </li>
                 <li>
-                  <RouterLink to="/operation-strength" class="nav-link">Operation Strength
+                  <RouterLink to="/operation-strength" class="nav-link"
+                    >Operation Strength
                   </RouterLink>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
+                  <RouterLink to="/gallery" class="nav-link"
+                    >Gallery</RouterLink
+                  >
                 </li>
                 <li>
-                  <RouterLink to="/production-facility" class="nav-link">Production Facility
+                  <RouterLink to="/production-facility" class="nav-link"
+                    >Production Facility
                   </RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
+                  <RouterLink to="/contact-us" class="nav-link"
+                    >Contact Us</RouterLink
+                  >
                 </li>
               </ul>
             </div>
@@ -58,20 +66,19 @@
       <div class="footer-bottom">
         <div class="social-links">
           <div class="copy-right">
-            <img src="../assets/images/logo.jpeg" alt="" />
+            <img src="@/assets/images/logo.jpeg" alt="" />
             <h3>© 2024. Approach Accessories Limited. All rights reserved.</h3>
           </div>
           <a href="#">
-            <img src="../assets/images/social/facebook.png" alt="Facebook" />
+            <img src="@/assets/images/social/facebook.png" alt="Facebook" />
           </a>
           <a href="#">
-            <img src="../assets/images/social/linkdin.png" alt="Linkdin" />
+            <img src="@/assets/images/social/linkdin.png" alt="Linkdin" />
           </a>
         </div>
       </div>
     </div>
   </footer>
-
 </template>
 
 <script setup>
@@ -123,7 +130,8 @@ import { RouterLink } from 'vue-router'
         }
       }
 
-      .middle-item {}
+      .middle-item {
+      }
 
       .right-item {
         color: var(--vt-c-white);
@@ -234,7 +242,8 @@ import { RouterLink } from 'vue-router'
           }
         }
 
-        .middle-item {}
+        .middle-item {
+        }
 
         .right-item {
           &_link {

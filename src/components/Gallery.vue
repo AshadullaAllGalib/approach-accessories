@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div class="gallery">
@@ -8,117 +6,109 @@
   </div>
   <div class="box">
     <a class="button" href="#popup1">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup2">
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </a>
     <a class="button" href="#popup3">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup4">
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </a>
     <a class="button" href="#popup5">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup6">
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </a>
     <a class="button" href="#popup7">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup8">
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </a>
     <a class="button" href="#popup9">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup10">
-      <img src="../assets/images/woven.png" alt="">
+      <img src="@/assets/images/woven.png" alt="" />
     </a>
     <a class="button" href="#popup11">
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </a>
   </div>
-
 
   <!-- popup Image here start-->
   <div id="popup1" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <div id="popup2" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </div>
   </div>
   <div id="popup3" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <div id="popup4" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </div>
   </div>
   <div id="popup5" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <div id="popup6" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </div>
   </div>
   <div id="popup7" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <div id="popup8" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </div>
   </div>
   <div id="popup9" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <div id="popup10" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/dummy-pro.png" alt="">
+      <img src="@/assets/images/dummy-pro.png" alt="" />
     </div>
   </div>
   <div id="popup11" class="overlay">
     <div class="popup">
       <a class="close" href="#">&times;</a>
-      <img src="../assets/images/woven.png" alt="">
-
+      <img src="@/assets/images/woven.png" alt="" />
     </div>
   </div>
   <!-- popup Image here end-->
 </template>
-
 
 <style lang="scss" scoped>
 .gallery {
@@ -126,9 +116,7 @@
   padding-top: 40px;
   margin: 0 auto;
   text-align: center;
-
 }
-
 
 .box {
   width: 80%;
@@ -138,7 +126,6 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-
 
   .button {
     width: 33%;
@@ -161,7 +148,6 @@
     }
   }
 }
-
 
 .overlay {
   position: fixed;
@@ -216,8 +202,6 @@
     }
   }
 }
-
-
 
 @media screen and (max-width: 700px) {
   .box {

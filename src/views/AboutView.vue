@@ -1,5 +1,5 @@
 <script setup>
-import Tab from '@/components/Tab.vue';
+import AboutTab from '@/components/AboutUs/AboutTab.vue'
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import Tab from '@/components/Tab.vue';
       <h2>About Approach Accessories Ltd.</h2>
     </div>
   </div>
-  <tab />
+  <AboutTab />
 </template>
 
 <style lang="scss" scoped>
@@ -29,7 +29,7 @@ import Tab from '@/components/Tab.vue';
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .about-banner {
     margin-top: 70px;
   }
