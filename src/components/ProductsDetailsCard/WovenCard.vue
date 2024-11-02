@@ -97,9 +97,9 @@ const prevImage = () => {
       .image {
         width: 20%;
         flex-basis: calc(20% - 25px);
-        background: #ffffff;
+        // background: red;
         border-radius: 5px;
-        box-shadow: 0 0 3px;
+        // box-shadow: 0 0 3px;
         cursor: pointer;
 
         .img-wrapper {

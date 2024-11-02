@@ -1,6 +1,6 @@
 <script setup>
 import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
-// import OurProductsCard from './OurProductsCard.vue';
+import OurProductsCard from '../OurProductsCard.vue';
 </script>
 
 <template>
@@ -82,10 +82,10 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
         </p>
       </div>
     </div>
-    <!-- <div class="other-product">
+    <div class="other-product">
       <h2>Other Products</h2>
-    </div> -->
-    <!-- <OurProductsCard /> -->
+    </div>
+    <OurProductsCard />
   </section>
 </template>
 
@@ -105,15 +105,13 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
 
     &-left {
       width: 80%;
-      background-image: linear-gradient(
-        to right,
-        #082dff 0%,
-        #0ebbff 0%,
-        #b8cbb8 0%,
-        #1c5ed8 30%,
-        #c2ce9c 64%,
-        #060b53 100%
-      );
+      background-image: linear-gradient(to right,
+          #082dff 0%,
+          #0ebbff 0%,
+          #b8cbb8 0%,
+          #1c5ed8 30%,
+          #c2ce9c 64%,
+          #060b53 100%);
       padding: 20px 40px 40px 40px;
 
       .left-title {
@@ -200,8 +198,7 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
           li {
             font-size: 12px;
 
-            i {
-            }
+            i {}
           }
         }
       }
@@ -209,8 +206,7 @@ import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
       &-right {
         display: none;
 
-        img {
-        }
+        img {}
       }
 
       .description {

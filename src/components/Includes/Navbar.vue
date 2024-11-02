@@ -20,7 +20,7 @@
           </li>
           <li>
             <RouterLink to="/product" :class="[isActiveLink('/product') ? 'active' : 'nav-link']">
-              Product</RouterLink>
+              Products</RouterLink>
           </li>
           <li>
             <RouterLink to="/operation-strength" :class="[

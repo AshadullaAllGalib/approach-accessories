@@ -1,6 +1,6 @@
 <script setup>
 // import Gallery from '@/components/Gallery.vue';
-import GalleryTest from '@/components/GalleryTest.vue'
+import GalleryImage from '@/components/GalleryImage.vue'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import GalleryTest from '@/components/GalleryTest.vue'
   </div>
   <!-- <Gallery /> -->
 
-  <GalleryTest />
+  <GalleryImage />
 </template>
 
 <style lang="scss" scoped>

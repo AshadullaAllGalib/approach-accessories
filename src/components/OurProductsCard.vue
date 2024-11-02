@@ -7,10 +7,7 @@ import { RouterLink } from 'vue-router'
     <div class="product-category">
       <div class="products">
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
@@ -20,11 +17,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Printed Labels</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -33,11 +27,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Hang Tags</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -46,11 +37,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Garment Tape</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -59,11 +47,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Leather Patch</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -72,11 +57,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Hang Tag Strings</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -85,11 +67,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Thermal Sticker</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -98,11 +77,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Woven Patch</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -111,11 +87,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Photo Inlay</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -124,11 +97,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Brand Roll</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -137,11 +107,8 @@ import { RouterLink } from 'vue-router'
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink
-            :to="{ path: `/product/woven-details` }"
-            class="products-cards_link"
-          >
-            <h3>Woven Labels</h3>
+          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+            <h3>Draw String</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
               <p>Find More</p>
@@ -214,8 +181,7 @@ import { RouterLink } from 'vue-router'
               color: var(--vt-c-neviblue-dark);
             }
 
-            .arrow {
-            }
+            .arrow {}
           }
 
           &:hover {
@@ -247,6 +213,7 @@ import { RouterLink } from 'vue-router'
 }
 
 @keyframes arrow {
+
   0%,
   100% {
     transform: translate(0, 0);
