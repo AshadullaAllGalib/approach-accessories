@@ -33,7 +33,7 @@
 .production {
   width: 80%;
   margin: 0 auto;
-  padding: 120px 0 40px 0;
+  padding: 110px 0 30px 0;
 
   .title {
     text-align: center;
@@ -79,11 +79,11 @@
 
 @media (max-width: 768px) {
   .production {
-    padding: 100px 0 40px 0;
+    padding: 100px 0 20px 0;
 
     .title {
       h2 {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
     }
 
