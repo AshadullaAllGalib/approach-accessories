@@ -14,12 +14,22 @@
           </div>
           <div class="middle-item left-item">
             <h3>Phone:</h3>
-            <p>
-              +880 1974 338707, +880 1975 411616,<br />
-              +880 1718 094002, +880 1716 009940
-            </p>
+            <div class="phone-email">
+              <a href="tel:+880 1974 338707"><i class="pi pi-phone"></i>+880 1974 338707</a>
+              <a href="tel:+880 1975 411616"><i class="pi pi-phone"></i>+880 1975 411616</a><br>
+              <a href="tel:+880 1718 094002"><i class="pi pi-phone"></i>+880 1718 094002</a>
+              <a href="tel:+880 1716 009940"><i class="pi pi-phone"></i>+880 1716 009940</a>
+
+            </div>
             <h3>E-mail:</h3>
-            <p>approach@dhaka.net , info@approach-bd.com</p>
+            <div class="phone-email">
+              <a href="mailto:info@approach-bd.com">
+                <i class="pi pi-envelope"></i>info@approach-bd.com
+              </a>
+              <a href="mailto:approach@dhaka.net">
+                <i class="pi pi-envelope"></i>approach@dhaka.net
+              </a>
+            </div>
           </div>
           <div class="right-item left-item">
             <h3>Information</h3>
@@ -32,31 +42,23 @@
                   <RouterLink to="/about" class="nav-link">About Us</RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/product" class="nav-link"
-                    >Product</RouterLink
-                  >
+                  <RouterLink to="/product" class="nav-link">Product</RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/operation-strength" class="nav-link"
-                    >Operation Strength
+                  <RouterLink to="/operation-strength" class="nav-link">Operation Strength
                   </RouterLink>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <RouterLink to="/gallery" class="nav-link"
-                    >Gallery</RouterLink
-                  >
+                  <RouterLink to="/gallery" class="nav-link">Gallery</RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/production-facility" class="nav-link"
-                    >Production Facility
+                  <RouterLink to="/production-facility" class="nav-link">Production Facility
                   </RouterLink>
                 </li>
                 <li>
-                  <RouterLink to="/contact-us" class="nav-link"
-                    >Contact Us</RouterLink
-                  >
+                  <RouterLink to="/contact-us" class="nav-link">Contact Us</RouterLink>
                 </li>
               </ul>
             </div>
@@ -131,6 +133,21 @@ import { RouterLink } from 'vue-router'
       }
 
       .middle-item {
+        .phone-email {
+          a {
+
+            font-size: 14px;
+            line-height: 20px;
+            color: var(--vt-c-white);
+            text-decoration: none;
+            padding-right: 10px;
+
+            i {
+              margin-right: 5px;
+            }
+          }
+
+        }
       }
 
       .right-item {
@@ -230,7 +247,6 @@ import { RouterLink } from 'vue-router'
       &_item {
         align-items: flex-start;
         flex-direction: column;
-        padding-left: 20px;
 
         .left-item {
           h3 {
@@ -243,6 +259,18 @@ import { RouterLink } from 'vue-router'
         }
 
         .middle-item {
+          .phone-email {
+            a {
+
+              font-size: 13px;
+              padding-right: 7px;
+
+              i {
+                margin-right: 3px;
+              }
+            }
+
+          }
         }
 
         .right-item {
@@ -269,7 +297,7 @@ import { RouterLink } from 'vue-router'
           flex-direction: column;
 
           h3 {
-            font-size: 11px;
+            font-size: 10px;
           }
 
           img {
