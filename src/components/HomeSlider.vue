@@ -58,7 +58,7 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/woven.png" alt="" />
+          <img src="@/assets/images/printed-label.png" alt="" />
         </div>
       </div>
       <div class="slider">
@@ -78,7 +78,7 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/woven.png" alt="" />
+          <img src="@/assets/images/hang-tag.png" alt="" />
         </div>
       </div>
     </VSlickCarousel>
@@ -152,7 +152,8 @@ const settings = {
 
         &-img {
           img {
-            width: 550px;
+            width: 400px;
+            height: 400px;
           }
         }
       }
@@ -193,6 +194,7 @@ const settings = {
           &-img {
             img {
               width: 350px;
+              height: 350px;
               padding: 0 15px 15px 15px;
             }
           }

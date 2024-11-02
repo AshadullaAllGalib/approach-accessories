@@ -97,10 +97,13 @@ const prevImage = () => {
       .image {
         width: 20%;
         flex-basis: calc(20% - 25px);
-        // background: red;
         border-radius: 5px;
-        // box-shadow: 0 0 3px;
         cursor: pointer;
+        transition: all ease-in-out .3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
 
         .img-wrapper {
           position: relative;
@@ -165,7 +168,7 @@ const prevImage = () => {
   color: #123852;
   font-size: 30px;
   position: absolute;
-  transition: opacity 0.8s;
+  transition: opacity 0.3s;
   cursor: pointer;
 
   &:hover {

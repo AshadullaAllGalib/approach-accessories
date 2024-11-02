@@ -19,7 +19,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Printed Labels</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -29,7 +29,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Hang Tags</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -39,7 +39,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Garment Tape</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -59,7 +59,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Hang Tag Strings</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -69,7 +69,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Thermal Sticker</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -89,7 +89,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Photo Inlay</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -99,7 +99,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Brand Roll</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -109,7 +109,7 @@ import { RouterLink } from 'vue-router'
         <div class="products-cards">
           <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
             <h3>Draw String</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
+            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />

@@ -3,27 +3,24 @@ import { ref } from 'vue';
 
 
 import wovenImage from '../assets/images/woven.png';
-// import dummyImage from '../assets/images/dummy-pro.png';
+import HangTag from '../assets/images/hang-tag.png';
 
 const images = ref([
   { src: wovenImage },
   // { src: dummyImage },
+  { src: HangTag },
   { src: wovenImage },
-  // { src: dummyImage },
+  { src: HangTag },
   { src: wovenImage },
-  // { src: dummyImage },
+  { src: HangTag },
   { src: wovenImage },
+  { src: HangTag },
   { src: wovenImage },
+  { src: HangTag },
   { src: wovenImage },
+  { src: HangTag },
   { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage }
-  // { src: dummyImage }
+  { src: HangTag }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));
@@ -115,20 +112,29 @@ const prevImage = () => {
 
       .image {
         width: 33%;
-        min-height: 300px;
         flex-basis: calc(33% - 30px);
         background: #ffffff;
         border-radius: 5px;
         box-shadow: 0 0 3px;
         cursor: pointer;
 
+
+
+
         .img-wrapper {
           position: relative;
-          margin-top: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all ease-in-out 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
 
           img {
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 220px;
             border-radius: 5px;
           }
 
