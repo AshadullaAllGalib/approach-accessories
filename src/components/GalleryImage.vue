@@ -119,9 +119,6 @@ const prevImage = () => {
         box-shadow: 0 0 3px;
         cursor: pointer;
 
-
-
-
         .img-wrapper {
           position: relative;
           display: flex;
@@ -168,7 +165,7 @@ const prevImage = () => {
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 0;
+  top: 7%;
   left: 0;
   display: flex;
   justify-content: center;
@@ -180,7 +177,7 @@ const prevImage = () => {
     background: #fff;
     border-radius: 5px;
     width: 40%;
-    height: auto;
+    height: 450px;
     object-fit: contain;
     padding: 5%;
 
@@ -212,8 +209,8 @@ const prevImage = () => {
 }
 
 #exitButton {
-  top: 20%;
-  right: 32%;
+  top: 16%;
+  right: 31%;
 }
 
 @media (max-width: 1024px) {
@@ -248,11 +245,11 @@ const prevImage = () => {
   }
 
   #overlay {
-    top: -5%;
+    top: 5%;
 
     img {
       width: 80%;
-
+      height: 260px;
     }
   }
 
@@ -271,8 +268,8 @@ const prevImage = () => {
   }
 
   #exitButton {
-    top: 32%;
-    right: 14%;
+    top: 23%;
+    right: 11%;
   }
 }
 </style>

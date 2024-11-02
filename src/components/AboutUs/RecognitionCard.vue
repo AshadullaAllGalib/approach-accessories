@@ -87,15 +87,6 @@ const prevImage = () => {
 
 <style lang="scss" scoped>
 #gallery {
-
-  .gallery {
-    text-align: center;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
   .container {
     .image-gallery {
       width: 100%;
@@ -112,6 +103,11 @@ const prevImage = () => {
 
         .img-wrapper {
           position: relative;
+          transition: all ease-in-out 0.3s;
+
+          &:hover {
+            transform: scale(1.03);
+          }
 
           img {
             width: 100%;
@@ -129,7 +125,6 @@ const prevImage = () => {
             justify-content: center;
             align-items: center;
             opacity: 0;
-            transition: opacity 0.6s;
 
             i {
               color: #fff;
@@ -147,9 +142,8 @@ const prevImage = () => {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 7%;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,15 +185,12 @@ const prevImage = () => {
 }
 
 #exitButton {
-  top: 20%;
-  right: 32%;
+  top: 10%;
+  right: 36%;
 }
 
 @media (max-width: 1024px) {
   #gallery {
-    width: 80%;
-    margin: 0 auto;
-
     .container {
       .image-gallery {
         gap: 15px;
@@ -222,10 +213,10 @@ const prevImage = () => {
   }
 
   #overlay {
-    top: -5%;
+    top: 7%;
 
     img {
-      width: 80%;
+      width: 70%;
     }
   }
 
@@ -244,8 +235,8 @@ const prevImage = () => {
   }
 
   #exitButton {
-    top: 32%;
-    right: 14%;
+    top: 10%;
+    right: 15%;
   }
 }
 </style>

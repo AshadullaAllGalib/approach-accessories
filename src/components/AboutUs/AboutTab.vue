@@ -138,7 +138,7 @@ const activeTab = ref(tabItems[0])
   .tabcontent {
     position: relative;
     padding: 30px 12px;
-    animation: tabContentAnimation 1s ease-in-out forwards;
+    // animation: tabContentAnimation 1s ease-in-out forwards;
 
     .members {
       display: flex;
