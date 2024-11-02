@@ -4,23 +4,24 @@ import { ref } from 'vue';
 
 import wovenImage from '../assets/images/woven.png';
 import HangTag from '../assets/images/hang-tag.png';
+import HangTagString from '../assets/images/hang-tag-string.png';
 
 const images = ref([
   { src: wovenImage },
   // { src: dummyImage },
   { src: HangTag },
-  { src: wovenImage },
+  { src: HangTagString },
   { src: HangTag },
   { src: wovenImage },
-  { src: HangTag },
+  { src: HangTagString },
   { src: wovenImage },
   { src: HangTag },
-  { src: wovenImage },
+  { src: HangTagString },
   { src: HangTag },
   { src: wovenImage },
-  { src: HangTag },
+  { src: HangTagString },
   { src: wovenImage },
-  { src: HangTag }
+  { src: HangTagString }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));

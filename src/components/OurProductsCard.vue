@@ -180,8 +180,6 @@ import { RouterLink } from 'vue-router'
               font-size: 16px;
               color: var(--vt-c-neviblue-dark);
             }
-
-            .arrow {}
           }
 
           &:hover {
