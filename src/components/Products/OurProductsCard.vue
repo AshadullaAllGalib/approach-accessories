@@ -13,7 +13,7 @@ onMounted(() => {
     <div class="product-category">
       <div class="products">
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-labels` }" class="products-cards_link">
             <h3>Woven Labels</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
@@ -23,7 +23,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/printed-labels` }" class="products-cards_link">
             <h3>Printed Labels</h3>
             <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
@@ -33,7 +33,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/hang-tags` }" class="products-cards_link">
             <h3>Hang Tags</h3>
             <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
@@ -43,7 +43,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/garment-tape` }" class="products-cards_link">
             <h3>Garment Tape</h3>
             <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
@@ -53,7 +53,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/leather-patch` }" class="products-cards_link">
             <h3>Leather Patch</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
@@ -63,7 +63,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/hang-tag-string` }" class="products-cards_link">
             <h3>Hang Tag Strings</h3>
             <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
             <span>
@@ -73,7 +73,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/thermal-sticker` }" class="products-cards_link">
             <h3>Thermal Sticker</h3>
             <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
@@ -83,7 +83,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/woven-patch` }" class="products-cards_link">
             <h3>Woven Patch</h3>
             <img class="products-img" src="@/assets/images/woven.png" alt="" />
             <span>
@@ -93,7 +93,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/photo-inlay` }" class="products-cards_link">
             <h3>Photo Inlay</h3>
             <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
             <span>
@@ -103,7 +103,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/brand-roll` }" class="products-cards_link">
             <h3>Brand Roll</h3>
             <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
             <span>
@@ -113,7 +113,7 @@ onMounted(() => {
           </RouterLink>
         </div>
         <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-details` }" class="products-cards_link">
+          <RouterLink :to="{ path: `/product/draw-string` }" class="products-cards_link">
             <h3>Draw String</h3>
             <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
             <span>
