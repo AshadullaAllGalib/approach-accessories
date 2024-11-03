@@ -9,7 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+  <div class="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="product-category">
       <div class="products">
         <div class="products-cards">

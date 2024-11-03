@@ -47,7 +47,7 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <h2>Product Image</h2>
     <div class="container">
       <div id="image-gallery" class="image-gallery">

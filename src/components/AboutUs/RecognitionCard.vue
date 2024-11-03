@@ -59,7 +59,7 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="container">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"

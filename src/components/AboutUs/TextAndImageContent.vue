@@ -1,6 +1,6 @@
 <template>
   <div class="text-image-content our-profile" data-aos="fade-up" data-aos-easing="linear"
-    data-aos-duration="1000">
+    data-aos-duration="800">
     <div class="text">
       <div class="title">
         <p>

@@ -1,5 +1,5 @@
 <template>
-  <div class="download-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+  <div class="download-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="card-body">
       <div class="icon">
         <img src="@/assets/images/file-icon.png" alt="file icon" />

@@ -7,8 +7,7 @@ onMounted(() => {
 })
 </script>
 <template>
-  <section class="production" data-aos="fade-down" data-aos-easing="linear"
-    data-aos-duration="1000">
+  <section class="production" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
     <div class="title">
       <h2>Corporate Office & Factory</h2>
     </div>

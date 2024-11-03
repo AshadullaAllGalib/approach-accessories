@@ -1,6 +1,6 @@
 <template>
   <RouterLink to="/about" class="member-card" data-aos="fade-up" data-aos-easing="linear"
-    data-aos-duration="1000">
+    data-aos-duration="800">
     <div class="image">
       <img alt="main logo" src="@/assets/images/dummy-member.jpg" />
     </div>

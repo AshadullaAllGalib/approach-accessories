@@ -1,5 +1,5 @@
 <template>
-  <div class="products" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+  <div class="products" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="products-category">
       <div class="title">
         <h2>Our Products</h2>

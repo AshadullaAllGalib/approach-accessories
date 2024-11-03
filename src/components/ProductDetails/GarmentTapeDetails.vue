@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <section class="product-details" data-aos="fade-down" data-aos-easing="linear"
-    data-aos-duration="1000">
+    data-aos-duration="800">
     <div class="title">
       <h2>Garment Tape</h2>
     </div>

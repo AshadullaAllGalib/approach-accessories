@@ -13,7 +13,7 @@ onMounted(() => {
     <p>We are always happy to help you find the right solution for your needs.</p>
   </div>
 
-  <div class="contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100">
+  <div class="contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
     <div class="contact-details">
       <div class="contact-details_info">
         <div class="phone pe">

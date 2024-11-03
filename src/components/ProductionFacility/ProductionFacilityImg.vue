@@ -44,11 +44,11 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section data-aos="fade-up" data-aos-duration="1100" id="gallery">
+  <section id="gallery">
     <div class="gallery">
       <h2>Corporate Office & Factory Photo</h2>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="800">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"
           @mouseover="overlays[index] = true" @mouseleave="overlays[index] = false">
