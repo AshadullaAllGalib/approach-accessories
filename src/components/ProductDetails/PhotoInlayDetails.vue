@@ -199,7 +199,6 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
           li {
             font-size: 12px;
 
-            i {}
           }
         }
       }
@@ -207,7 +206,6 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
       &-right {
         display: none;
 
-        img {}
       }
 
       .description {
