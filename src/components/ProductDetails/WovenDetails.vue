@@ -1,6 +1,6 @@
 <script setup>
 import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
-import OurProductsCard from '../OurProductsCard.vue';
+import OurProductsCard from '../Products/OurProductsCard.vue';
 </script>
 
 <template>

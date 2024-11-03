@@ -2,9 +2,9 @@
 import { ref } from 'vue';
 
 
-import wovenImage from '../assets/images/woven.png';
-import HangTag from '../assets/images/hang-tag.png';
-import HangTagString from '../assets/images/hang-tag-string.png';
+import wovenImage from '../../assets/images/woven.png';
+import HangTag from '../../assets/images/hang-tag.png';
+import HangTagString from '../../assets/images/hang-tag-string.png';
 
 const images = ref([
   { src: wovenImage },

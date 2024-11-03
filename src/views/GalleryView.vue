@@ -1,6 +1,6 @@
 <script setup>
 // import Gallery from '@/components/Gallery.vue';
-import GalleryImage from '@/components/GalleryImage.vue'
+import GalleryImage from '@/components/Gallery/GalleryImage.vue'
 </script>
 
 <template>
