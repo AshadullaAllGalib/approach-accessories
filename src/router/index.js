@@ -122,6 +122,18 @@ const router = createRouter({
       component: NotFoundView
     }
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve) => {
+      // Smooth scrolling to saved position or top
+      if (savedPosition) {
+        window.scrollTo({ top: savedPosition.top, behavior: 'smooth' });
+        resolve(savedPosition);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        resolve({ top: 0 });
+      }
+    });
+  }
 })
 
 export default router

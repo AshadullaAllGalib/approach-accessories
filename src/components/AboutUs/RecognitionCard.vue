@@ -59,8 +59,8 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
-    <div class="container">
+  <section id="gallery">
+    <div class="container" data-aos="fade-up" data-aos-duration="800">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"
           @mouseover="overlays[index] = true" @mouseleave="overlays[index] = false">
@@ -112,6 +112,11 @@ const prevImage = () => {
 
           &:hover {
             transform: scale(1.03);
+          }
+
+          .title {
+            font-size: 14px;
+            line-height: 16px;
           }
 
           img {
@@ -199,12 +204,17 @@ const prevImage = () => {
     .container {
       .image-gallery {
         gap: 15px;
-        flex-direction: column;
+        // flex-direction: column;
 
         .image {
-          width: 100%;
+          flex-basis: calc(50% - 15px);
 
           .img-wrapper {
+            .title {
+              font-size: 12px;
+              line-height: 13px;
+            }
+
             .img-overlay {
               i {
                 color: #fff;
