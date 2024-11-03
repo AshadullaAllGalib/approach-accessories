@@ -1,11 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-import AOS from "aos";
-
-onMounted(() => {
-  AOS.init();
-})
-
+import { ref } from 'vue';
 import wovenImage from '../../assets/images/woven/woven1.jpeg';
 import wovenImage2 from '../../assets/images/woven/woven2.jpg';
 
@@ -47,7 +41,7 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+  <section id="gallery">
     <h2>Product Image</h2>
     <div class="container">
       <div id="image-gallery" class="image-gallery">

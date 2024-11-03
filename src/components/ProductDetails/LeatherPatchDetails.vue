@@ -1,17 +1,11 @@
 <script setup>
 import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
 import OurProductsCard from '../Products/OurProductsCard.vue';
-import { onMounted } from "vue";
-import AOS from "aos";
 
-onMounted(() => {
-  AOS.init();
-})
 </script>
 
 <template>
-  <section class="product-details" data-aos="fade-down" data-aos-easing="linear"
-    data-aos-duration="800">
+  <section class="product-details">
     <div class="title">
       <h2>Leather Patch</h2>
     </div>
