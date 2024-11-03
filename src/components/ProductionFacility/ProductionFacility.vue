@@ -1,8 +1,14 @@
 <script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
 
+onMounted(() => {
+  AOS.init();
+})
 </script>
 <template>
-  <section class="production">
+  <section class="production" data-aos="fade-down" data-aos-easing="linear"
+    data-aos-duration="1000">
     <div class="title">
       <h2>Corporate Office & Factory</h2>
     </div>

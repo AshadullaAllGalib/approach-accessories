@@ -1,6 +1,9 @@
 <script setup>
-import { ref } from 'vue';
-
+import { ref, onMounted } from 'vue';
+import Aos from 'aos';
+onMounted(() => {
+  Aos.init();
+})
 
 import Factory from '../../assets/images/dummy-pro.png';
 
@@ -41,7 +44,7 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery">
+  <section data-aos="fade-up" data-aos-duration="1100" id="gallery">
     <div class="gallery">
       <h2>Corporate Office & Factory Photo</h2>
     </div>
