@@ -1,9 +1,15 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
 </script>
 
 <template>
-  <div class="product">
+  <div class="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
     <div class="product-category">
       <div class="products">
         <div class="products-cards">

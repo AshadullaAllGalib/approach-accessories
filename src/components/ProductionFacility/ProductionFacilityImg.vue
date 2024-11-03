@@ -107,7 +107,7 @@ const prevImage = () => {
 
       .image {
         width: 33%;
-        flex-basis: calc(33% - 30px);
+        flex-basis: calc(33% - 17px);
         // background: #ffffff;
         border-radius: 5px;
         // box-shadow: 0 0 3px;

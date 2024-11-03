@@ -1,5 +1,6 @@
 <template>
-  <RouterLink to="/about" class="member-card">
+  <RouterLink to="/about" class="member-card" data-aos="fade-up" data-aos-easing="linear"
+    data-aos-duration="1000">
     <div class="image">
       <img alt="main logo" src="@/assets/images/dummy-member.jpg" />
     </div>
@@ -10,7 +11,14 @@
   </RouterLink>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
+</script>
 
 <style lang="scss" scoped>
 .member-card {

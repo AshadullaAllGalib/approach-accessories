@@ -1,5 +1,6 @@
 <template>
-  <div class="text-image-content our-profile">
+  <div class="text-image-content our-profile" data-aos="fade-up" data-aos-easing="linear"
+    data-aos-duration="1000">
     <div class="text">
       <div class="title">
         <p>
@@ -38,7 +39,14 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
+</script>
 
 <style lang="scss" scoped>
 .text-image-content {
@@ -67,6 +75,7 @@
     img {
       width: 100%;
       border: 1px solid #33333342;
+
       &:nth-child(1) {
         grid-column: 1 / 5;
         grid-row: 1 / 5;

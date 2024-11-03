@@ -1,5 +1,10 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
 
 import wovenImage from '@/assets/images/certificate.jpg'
 // import dummyImage from '../assets/images/dummy-pro.png';
@@ -54,7 +59,7 @@ const prevImage = () => {
 </script>
 
 <template>
-  <section id="gallery">
+  <section id="gallery" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
     <div class="container">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"

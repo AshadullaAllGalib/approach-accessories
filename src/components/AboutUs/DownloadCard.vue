@@ -1,19 +1,24 @@
 <template>
-  <div class="download-card">
+  <div class="download-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
     <div class="card-body">
       <div class="icon">
         <img src="@/assets/images/file-icon.png" alt="file icon" />
       </div>
       <p class="name">Directors’ Report to the Shareholders</p>
     </div>
-    <a class="download-link" href="#"
-      ><span>Download PDF File</span
-      ><img src="@/assets/images/download-icon.png" alt=""
-    /></a>
+    <a class="download-link" href="#"><span>Download PDF File</span><img
+        src="@/assets/images/download-icon.png" alt="" /></a>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
+</script>
 
 <style lang="scss" scoped>
 .download-card {
@@ -46,10 +51,12 @@
         width: 50px;
       }
     }
+
     .name {
       text-align: center;
     }
   }
+
   .download-link {
     background-color: var(--color-primary);
     color: var(--vt-c-white);

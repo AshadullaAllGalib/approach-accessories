@@ -28,9 +28,9 @@
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[4]">
-      <!-- <div class="files"> -->
-      <RecognitionCard />
-      <!-- </div> -->
+      <div class="files">
+        <RecognitionCard />
+      </div>
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[5]">
       <div class="files">
