@@ -272,7 +272,7 @@ const prevImage = () => {
   }
 
   #exitButton {
-    top: 23%;
+    top: 32%;
     right: 11%;
   }
 }

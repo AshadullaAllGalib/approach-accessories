@@ -250,7 +250,7 @@ const prevImage = () => {
   }
 
   #exitButton {
-    top: 10%;
+    top: 23%;
     right: 15%;
   }
 }
