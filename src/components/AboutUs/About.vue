@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-    <h2>Approach Accessories</h2>
+    <h2>Approach Accessories Limited</h2>
     <p>
-      Approach Accessories Ltd. is a cent percent export-oriented readymade garments accessories
+      Approach Accessories Ltd. is a cent percent export-oriented ready made garments accessories
       manufacturer and supplier company in Bangladesh. We are one of the leading labels and
       accessories companies in the country. The company produces some of the most essential labels
       and accessories for garment products. We manufacture fabrics and garment accessories in a wide

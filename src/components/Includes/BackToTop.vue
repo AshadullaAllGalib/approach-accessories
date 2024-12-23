@@ -34,7 +34,7 @@ onUnmounted(() => {
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #ffffff;
-  background-color: #1d2947;
+  background-color: var(--vt-c-light-green);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
   transition-duration: 300ms;

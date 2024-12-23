@@ -5,7 +5,7 @@
         <div class="slider-text">
           <h3>
             <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories.
+            Approach Accessories Limited.
           </h3>
 
           <p>
@@ -25,7 +25,7 @@
         <div class="slider-text">
           <h3>
             <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories.
+            Approach Accessories Limited.
           </h3>
 
           <p>
@@ -45,7 +45,7 @@
         <div class="slider-text">
           <h3>
             <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories.
+            Approach Accessories Limited.
           </h3>
 
           <p>
@@ -65,7 +65,7 @@
         <div class="slider-text">
           <h3>
             <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories.
+            Approach Accessories Limited.
           </h3>
 
           <p>
@@ -119,23 +119,23 @@ const settings = {
           h3 {
             font-size: 36px;
             line-height: 43px;
-            color: #343434;
+            color: var(--vt-c-dark-green);
             padding-bottom: 15px;
 
             span {
-              color: rgb(33, 81, 145);
+              color: var(--vt-c-light-green);
             }
           }
 
           p {
             font-size: 16px;
             line-height: 22px;
-            color: #343434;
+            color: var(--vt-c-black);
             padding-bottom: 25px;
           }
 
           a {
-            background: rgb(74, 134, 190);
+            background: var(--vt-c-light-green);
             padding: 12px 22px;
             border-radius: 5px;
             text-decoration: none;
@@ -145,7 +145,7 @@ const settings = {
 
             &:hover {
               // transform: scale(1.5);
-              background: rgb(22, 83, 139);
+              background: var(--vt-c-dark-green);
             }
           }
         }
