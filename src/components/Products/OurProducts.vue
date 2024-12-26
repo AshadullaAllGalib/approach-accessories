@@ -3,7 +3,7 @@
     <div class="products-category">
       <div class="title">
         <h2>Our Products</h2>
-        <p>We Provide and Supplies a wide range of accessories</p>
+        <p>We Provide and Supplies a wide range of garments accessories.</p>
         <OurProductsCard />
       </div>
     </div>

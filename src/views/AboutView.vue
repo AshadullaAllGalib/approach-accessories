@@ -1,4 +1,5 @@
 <script setup>
+import About from '@/components/AboutUs/About.vue';
 import AboutTab from '@/components/AboutUs/AboutTab.vue'
 </script>
 
@@ -8,6 +9,7 @@ import AboutTab from '@/components/AboutUs/AboutTab.vue'
       <h2>About Approach Accessories Ltd.</h2>
     </div>
   </div>
+  <About />
   <AboutTab />
 </template>
 
