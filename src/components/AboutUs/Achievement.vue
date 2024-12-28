@@ -81,7 +81,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 5px 0 35px 0;
+  padding: 5px 0 25px 0;
 
   .slider {
     // background-color: rgb(255, 250, 250);

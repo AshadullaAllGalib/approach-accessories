@@ -24,7 +24,7 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .products {
-  background: #e8ecf0;
+  background: var(--vt-c-soft-green);
   padding: 20px 0 30px 0;
 
   &-category {
