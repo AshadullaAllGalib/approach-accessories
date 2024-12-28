@@ -23,7 +23,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 0;
+  padding: 30px 0;
 
   p {
     text-align: justify;

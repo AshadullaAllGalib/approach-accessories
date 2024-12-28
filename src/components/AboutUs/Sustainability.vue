@@ -2,30 +2,27 @@
   <div class="sustainable">
     <h2>Human sustainability</h2>
 
-    <p>
-      <span>Approach Accessories Limited</span> is at the forefront of sustainability and innovation
-      in
-      the
-      garment accessories industry. Recognizing the growing importance of eco-conscious practices,
-      we have integrated sustainable strategies across our operations. From sourcing environmentally
-      friendly materials such as recycled and biodegradable inputs to optimizing our production
-      processes, we are committed to reducing our environmental footprint while maintaining the
-      highest standards of quality.
-    </p>
-    <p>
-      Our dedication to innovation is reflected in our continuous investment in advanced machinery
-      and technologies. By upgrading our equipment, we enhance production efficiency, reduce energy
-      consumption, and minimize waste generation. These improvements enable us to meet the
-      increasing demand for sustainable garment accessories without compromising on precision,
-      durability, or style.
-    </p>
-    <p>
-      We believe in fostering a greener future for the fashion industry by aligning with global
-      sustainability goals. Through collaboration with clients and partners, we aim to provide
-      eco-friendly solutions that not only meet but exceed the expectations of brands and consumers
-      who value ethical and sustainable practices.
-    </p>
+    <div class="sustain-img">
+      <img src="../../assets/images/sustainable.jpg" alt="">
+    </div>
 
+    <div class="sustain-text">
+      <p>
+        <span>Approach Accessories Ltd.</span> leads the garment accessories industry with a focus
+        on
+        sustainability and innovation. We use eco-friendly materials like recycled and biodegradable
+        inputs and optimize our production processes to reduce environmental impact while
+        maintaining top quality.
+
+        Our investment in advanced machinery enhances efficiency, reduces energy use, and minimizes
+        waste, enabling us to deliver sustainable accessories that are precise, durable, and
+        stylish.
+
+        Committed to a greener future, we collaborate with clients and partners to provide
+        eco-friendly solutions that align with global sustainability goals and meet the expectations
+        of conscious brands and consumers.
+      </p>
+    </div>
 
   </div>
 </template>
@@ -41,6 +38,17 @@
   text-align: center;
   padding: 0 0 40px 0;
 
+
+  .sustain-img {
+    padding: 5px 0 10px 0;
+
+    img {
+      width: 100%;
+      height: 440px;
+      border-radius: 10px;
+    }
+  }
+
   p {
     text-align: justify;
     padding-bottom: 10px;
@@ -48,6 +56,20 @@
     span {
       font-weight: 700;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .sustainable {
+
+    .sustain-img {
+      padding: 5px 0 10px 0;
+
+      img {
+        height: auto;
+      }
+    }
+
   }
 }
 </style>

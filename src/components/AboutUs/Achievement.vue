@@ -81,7 +81,7 @@
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 10px 0 40px 0;
+  padding: 5px 0 35px 0;
 
   .slider {
     // background-color: rgb(255, 250, 250);
@@ -91,7 +91,7 @@
       display: flex;
       gap: 3em;
       overflow: hidden;
-      padding: 20px 0;
+      padding: 5px 0 15px 0;
 
       .slide {
         background: #ffffff;
