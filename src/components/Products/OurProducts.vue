@@ -178,8 +178,8 @@ const cards = [
     transition: all ease-in-out .3s;
 
     h3 {
-      font-weight: 600;
-      font-size: 22px;
+      font-weight: 500;
+      font-size: 18px;
       text-align: center;
       color: var(--vt-c-white);
     }
