@@ -13,7 +13,7 @@ import OurProducts from '@/components/Products/OurProducts.vue';
   <Achievement />
   <Sustainability />
   <SortVideo />
-  <OurProducts />
+  <OurProducts :limit="3" />
 </template>
 
 <style lang="scss" scoped></style>

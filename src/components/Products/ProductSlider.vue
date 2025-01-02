@@ -62,8 +62,7 @@ const settings = {
       .v-slick-slider {
         .slider {
           &-img {
-            img {
-            }
+            img {}
           }
         }
       }

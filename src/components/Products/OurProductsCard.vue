@@ -1,121 +1,52 @@
 <script setup>
-import { RouterLink } from 'vue-router'
-import { onMounted } from "vue";
-import AOS from "aos";
+import { RouterLink } from 'vue-router';
+import { onMounted, defineProps } from 'vue';
+import AOS from 'aos';
+
+// Import images explicitly
+import wovenImage from '@/assets/images/woven.png';
+import printedImage from '@/assets/images/printed-label.png';
+import hangTagImage from '@/assets/images/hang-tag.png';
+import hangTagStringImage from '@/assets/images/hang-tag-string.png';
+
+// Prop to limit the number of cards
+defineProps({
+  limit: {
+    type: Number,
+    default: null, // Default is no limit
+  },
+});
 
 onMounted(() => {
   AOS.init();
-})
+});
+
+// Cards data
+const cards = [
+  { path: '/product/woven-labels', title: 'Woven Labels', img: wovenImage },
+  { path: '/product/printed-labels', title: 'Printed Labels', img: printedImage },
+  { path: '/product/hang-tags', title: 'Hang Tags', img: hangTagImage },
+  { path: '/product/garment-tape', title: 'Garment Tape', img: hangTagImage },
+  { path: '/product/leather-patch', title: 'Leather Patch', img: wovenImage },
+  { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
+  { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },
+  { path: '/product/woven-patch', title: 'Woven Patch', img: wovenImage },
+  { path: '/product/photo-inlay', title: 'Photo Inlay', img: hangTagStringImage },
+  { path: '/product/brand-roll', title: 'Brand Roll', img: printedImage },
+  { path: '/product/draw-string', title: 'Draw String', img: hangTagImage },
+];
+
 </script>
 
 <template>
   <div class="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="product-category">
       <div class="products">
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-labels` }" class="products-cards_link">
-            <h3>Woven Labels</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/printed-labels` }" class="products-cards_link">
-            <h3>Printed Labels</h3>
-            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/hang-tags` }" class="products-cards_link">
-            <h3>Hang Tags</h3>
-            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/garment-tape` }" class="products-cards_link">
-            <h3>Garment Tape</h3>
-            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/leather-patch` }" class="products-cards_link">
-            <h3>Leather Patch</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/hang-tag-string` }" class="products-cards_link">
-            <h3>Hang Tag Strings</h3>
-            <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/thermal-sticker` }" class="products-cards_link">
-            <h3>Thermal Sticker</h3>
-            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/woven-patch` }" class="products-cards_link">
-            <h3>Woven Patch</h3>
-            <img class="products-img" src="@/assets/images/woven.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/photo-inlay` }" class="products-cards_link">
-            <h3>Photo Inlay</h3>
-            <img class="products-img" src="@/assets/images/hang-tag-string.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/brand-roll` }" class="products-cards_link">
-            <h3>Brand Roll</h3>
-            <img class="products-img" src="@/assets/images/printed-label.png" alt="" />
-            <span>
-              <p>Find More</p>
-              <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
-            </span>
-          </RouterLink>
-        </div>
-        <div class="products-cards">
-          <RouterLink :to="{ path: `/product/draw-string` }" class="products-cards_link">
-            <h3>Draw String</h3>
-            <img class="products-img" src="@/assets/images/hang-tag.png" alt="" />
+        <div v-for="(card, index) in cards.slice(0, limit || cards.length)" :key="index"
+          class="products-cards">
+          <RouterLink :to="{ path: card.path }" class="products-cards_link">
+            <h3>{{ card.title }}</h3>
+            <img class="products-img" :src="card.img" alt="" />
             <span>
               <p>Find More</p>
               <img class="arrow" src="@/assets/images/right-arrow.png" alt="" />
@@ -126,6 +57,7 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
 
 <style lang="scss" scoped>
 .product {
