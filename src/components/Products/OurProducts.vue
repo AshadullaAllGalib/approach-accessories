@@ -1,5 +1,5 @@
 <script setup>
-import OurProductsCard from './OurProductsCard.vue'
+// import OurProductsCard from './OurProductsCard.vue'
 import { RouterLink } from 'vue-router';
 import { onMounted, defineProps } from 'vue';
 import AOS from "aos";
@@ -15,6 +15,10 @@ defineProps({
   limit: {
     type: Number,
     default: null, // Default is no limit
+  },
+  showButton: {
+    type: Boolean,
+    default: false,
   },
 });
 
@@ -66,6 +70,10 @@ const cards = [
       </div>
     </div>
 
+    <RouterLink v-if="showButton" to="/product" class="show-button">
+      <h3>View More</h3>
+    </RouterLink>
+
   </div>
 </template>
 
@@ -85,7 +93,7 @@ const cards = [
     }
 
     .product {
-      padding: 20px 0 40px 0;
+      padding: 20px 0 5px 0;
 
       &-category {
         margin: 0 auto;
@@ -156,9 +164,33 @@ const cards = [
         }
       }
     }
+
   }
 
+  .show-button {
+    display: block;
+    text-decoration: none;
+    background-color: var(--vt-c-light-green);
+    width: 155px;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 10px;
+    transition: all ease-in-out .3s;
 
+    h3 {
+      font-weight: 600;
+      font-size: 22px;
+      text-align: center;
+      color: var(--vt-c-white);
+    }
+  }
+
+  &:hover {
+    .show-button {
+      background-color: var(--vt-c-neviblue-dark);
+      transform: scale(1.05);
+    }
+  }
 }
 
 @media (max-width: 1024px) {
