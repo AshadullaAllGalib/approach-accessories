@@ -1,3 +1,28 @@
+<script setup>
+import { ref } from 'vue'
+import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
+import MemberCard from '@/components/AboutUs/MemberCard.vue'
+import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
+import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
+const isMenuOpen = ref(false)
+let tabItems = [
+  'Our Profile',
+  'Board of Directors',
+  'Management Team',
+  'Vision & Values',
+  'Recognition',
+  'Publications',
+  'Sustainability Report',
+  'CSR',
+]
+const isActiveLink = routePath => {
+  const route = useRoute()
+  return route.path === routePath
+}
+
+const activeTab = ref(tabItems[0])
+</script>
+
 <template>
   <div class="tabs">
     <div class="tab">
@@ -49,30 +74,6 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
-import MemberCard from '@/components/AboutUs/MemberCard.vue'
-import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
-import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
-const isMenuOpen = ref(false)
-let tabItems = [
-  'Our Profile',
-  'Board of Directors',
-  'Management Team',
-  'Vision & Values',
-  'Recognition',
-  'Publications',
-  // 'Sustainability Report',
-  'CSR',
-]
-const isActiveLink = routePath => {
-  const route = useRoute()
-  return route.path === routePath
-}
-
-const activeTab = ref(tabItems[0])
-</script>
 
 <style lang="scss" scoped>
 .tabs {
