@@ -1,7 +1,14 @@
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+})
+</script>
 
 <template>
-  <div class="directors">
+  <div class="directors" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
     <div class="title">
       <h2>Board Of Directors</h2>
       <p>
@@ -75,16 +82,34 @@
 
       h2 {
         margin: 0;
-        font-size: 26px;
+        font-size: 24px;
 
       }
 
       h3 {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
       }
     }
 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .directors {
+
+    .title {
+      p {
+        width: auto;
+      }
+    }
+
+    .cards {
+      &-details {
+        flex-basis: auto;
+        padding: 10px;
+      }
+    }
   }
 }
 </style>

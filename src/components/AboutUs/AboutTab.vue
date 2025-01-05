@@ -46,14 +46,16 @@ const activeTab = ref(tabItems[0])
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[1]">
-      <div class="members management-team">
+      <!-- <div class="members management-team">
         <MemberCard v-for="(n, index) in 6" :key="index" />
-      </div>
+      </div> -->
+      <DirectorsCard />
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
-      <div class="members design-team">
+      <!-- <div class="members design-team">
         <MemberCard v-for="(n, index) in 6" :key="index" />
-      </div>
+      </div> -->
+      <DirectorsCard />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
