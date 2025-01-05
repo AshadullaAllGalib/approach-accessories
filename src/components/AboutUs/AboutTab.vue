@@ -4,6 +4,7 @@ import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
 import MemberCard from '@/components/AboutUs/MemberCard.vue'
 import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
+import DirectorsCard from '@/components/AboutUs//DirectorsCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   // 'Our Profile',
@@ -38,9 +39,10 @@ const activeTab = ref(tabItems[0])
     </div> -->
 
     <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <div class="members board-of-directors">
+      <!-- <div class="members board-of-directors">
         <MemberCard v-for="(n, index) in 7" :key="index" />
-      </div>
+      </div> -->
+      <DirectorsCard />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[1]">
