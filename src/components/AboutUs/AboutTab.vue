@@ -4,7 +4,9 @@ import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
 import MemberCard from '@/components/AboutUs/MemberCard.vue'
 import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
-import DirectorsCard from '@/components/AboutUs//DirectorsCard.vue'
+import DirectorsCard from '@/components/AboutUs/DirectorsCard.vue'
+import ManagementCards from '@/components/AboutUs/ManagementCards.vue'
+import DesignTeamCard from '@/components/AboutUs/DesignTeamCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   // 'Our Profile',
@@ -13,7 +15,7 @@ let tabItems = [
   'Design Team',
   'Vision & Values',
   'Recognition',
-  'Publications',
+  // 'Publications',
   // 'Sustainability Report',
   'CSR',
 ]
@@ -49,13 +51,13 @@ const activeTab = ref(tabItems[0])
       <!-- <div class="members management-team">
         <MemberCard v-for="(n, index) in 6" :key="index" />
       </div> -->
-      <DirectorsCard />
+      <ManagementCards />
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
       <!-- <div class="members design-team">
         <MemberCard v-for="(n, index) in 6" :key="index" />
       </div> -->
-      <DirectorsCard />
+      <DesignTeamCard />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
@@ -67,17 +69,20 @@ const activeTab = ref(tabItems[0])
         <RecognitionCard />
       </div>
     </div>
-    <div class="tabcontent" v-if="activeTab == tabItems[5]">
+    <!-- <div class="tabcontent" v-if="activeTab == tabItems[5]">
       <div class="files">
         <DownloadCard v-for="(n, index) in 6" :key="index" />
       </div>
-    </div>
+    </div> -->
     <!-- <div class="tabcontent" v-if="activeTab == tabItems[5]">
       <div class="files">
         <DownloadCard v-for="(n, index) in 6" :key="index" />
       </div>
     </div> -->
 
+    <div class="tabcontent" v-if="activeTab == tabItems[5]">
+      <TextAndImageContent />
+    </div>
     <div class="tabcontent" v-if="activeTab == tabItems[6]">
       <TextAndImageContent />
     </div>

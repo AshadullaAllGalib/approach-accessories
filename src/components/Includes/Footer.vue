@@ -69,7 +69,7 @@
         <div class="social-links">
           <div class="copy-right">
             <img src="@/assets/images/logo.jpeg" alt="" />
-            <h3>© 2024. Approach Accessories Limited. All rights reserved.</h3>
+            <h3>© 2025. Approach Accessories Ltd. All rights reserved.</h3>
           </div>
           <a href="#">
             <img src="@/assets/images/social/facebook.png" alt="Facebook" />
