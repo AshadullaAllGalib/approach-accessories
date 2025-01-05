@@ -5,8 +5,10 @@ import AboutTab from '@/components/AboutUs/AboutTab.vue'
 
 <template>
   <div class="about-banner">
-    <div class="text">
-      <h2>About Approach Accessories Ltd.</h2>
+    <div class="banner">
+      <div class="text">
+        <h2>About Approach Accessories Ltd.</h2>
+      </div>
     </div>
   </div>
   <About />
@@ -16,17 +18,25 @@ import AboutTab from '@/components/AboutUs/AboutTab.vue'
 <style lang="scss" scoped>
 .about-banner {
   width: 100%;
-  background: var(--color-primary-dark);
   margin-top: 80px;
 
-  .text {
-    text-align: center;
-    padding: 60px 0;
+  .banner {
+    background-image: url(../assets/images/about-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    h2 {
-      font-size: 32px;
-      font-weight: 600;
-      color: #fff;
+    .text {
+      text-align: center;
+      padding: 150px 0;
+      background-color: var(--vt-c-neviblue-blur);
+
+      h2 {
+        font-size: 32px;
+        font-weight: 600;
+        // color: var(--vt-c-dark-green);
+        color: var(--vt-c-white);
+      }
     }
   }
 }
