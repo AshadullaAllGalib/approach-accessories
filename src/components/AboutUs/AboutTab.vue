@@ -6,13 +6,14 @@ import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
-  'Our Profile',
+  // 'Our Profile',
   'Board of Directors',
   'Management Team',
+  'Design Team',
   'Vision & Values',
   'Recognition',
   'Publications',
-  'Sustainability Report',
+  // 'Sustainability Report',
   'CSR',
 ]
 const isActiveLink = routePath => {
@@ -32,18 +33,23 @@ const activeTab = ref(tabItems[0])
       </button>
     </div>
 
-    <div class="tabcontent" v-if="activeTab == tabItems[0]">
+    <!-- <div class="tabcontent" v-if="activeTab == tabItems[0]">
       <TextAndImageContent />
-    </div>
+    </div> -->
 
-    <div class="tabcontent" v-if="activeTab == tabItems[1]">
+    <div class="tabcontent" v-if="activeTab == tabItems[0]">
       <div class="members board-of-directors">
         <MemberCard v-for="(n, index) in 7" :key="index" />
       </div>
     </div>
 
-    <div class="tabcontent" v-if="activeTab == tabItems[2]">
+    <div class="tabcontent" v-if="activeTab == tabItems[1]">
       <div class="members management-team">
+        <MemberCard v-for="(n, index) in 6" :key="index" />
+      </div>
+    </div>
+    <div class="tabcontent" v-if="activeTab == tabItems[2]">
+      <div class="members design-team">
         <MemberCard v-for="(n, index) in 6" :key="index" />
       </div>
     </div>
@@ -62,13 +68,13 @@ const activeTab = ref(tabItems[0])
         <DownloadCard v-for="(n, index) in 6" :key="index" />
       </div>
     </div>
-    <div class="tabcontent" v-if="activeTab == tabItems[6]">
+    <!-- <div class="tabcontent" v-if="activeTab == tabItems[5]">
       <div class="files">
         <DownloadCard v-for="(n, index) in 6" :key="index" />
       </div>
-    </div>
+    </div> -->
 
-    <div class="tabcontent" v-if="activeTab == tabItems[7]">
+    <div class="tabcontent" v-if="activeTab == tabItems[6]">
       <TextAndImageContent />
     </div>
   </div>
@@ -78,14 +84,14 @@ const activeTab = ref(tabItems[0])
 <style lang="scss" scoped>
 .tabs {
   width: 80%;
-  margin: 30px auto;
+  margin: 20px auto;
 
   .tab {
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     width: fit-content;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -108,10 +114,12 @@ const activeTab = ref(tabItems[0])
       border: none;
       outline: none;
       cursor: pointer;
-      padding: 14px 16px;
+      padding: 12px 14px;
       transition: 0.3s;
       font-size: 17px;
       border-radius: 100px;
+      color: var(--vt-c-neviblue-dark);
+      font-weight: 600;
 
       &:hover {
         background-color: #ddd;
