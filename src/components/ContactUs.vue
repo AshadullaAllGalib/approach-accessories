@@ -9,9 +9,17 @@ onMounted(() => {
 
 <template>
   <div class="contact-banner">
-    <h2>Contact Us</h2>
-    <p>We are always happy to help you find the right solution for your needs.</p>
+    <div class="banner">
+      <div class="text">
+        <h2>Contact Us</h2>
+        <p>We are always happy to help you find the right solution for your needs.</p>
+      </div>
+    </div>
   </div>
+
+  <!-- ../assets/images/banner/contact-banner.jpg -->
+
+
 
   <div class="contact" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
     <div class="contact-details">
@@ -82,24 +90,31 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .contact-banner {
-  background: var(--color-primary-dark);
-  height: 200px;
+  width: 100%;
   margin-top: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 
-  h2 {
-    color: #fff;
-    margin-bottom: 0;
-  }
+  .banner {
+    background-image: url(../assets/images/banner/contact-banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-  p {
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    width: 90%;
+    .text {
+      text-align: center;
+      padding: 180px 0;
+      background-color: var(--vt-c-neviblue-blur);
+
+      h2 {
+        font-size: 32px;
+        font-weight: 600;
+        // color: var(--vt-c-dark-green);
+        color: var(--vt-c-white);
+      }
+
+      p {
+        color: var(--vt-c-white);
+      }
+    }
   }
 }
 

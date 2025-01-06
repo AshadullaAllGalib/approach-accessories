@@ -21,7 +21,7 @@ import AboutTab from '@/components/AboutUs/AboutTab.vue'
   margin-top: 80px;
 
   .banner {
-    background-image: url(../assets/images/about-banner.jpg);
+    background-image: url(../assets/images/banner/about-banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
