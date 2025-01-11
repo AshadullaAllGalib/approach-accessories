@@ -39,7 +39,6 @@
 
         <div class="slider-img">
           <img src="@/assets/images/products/cotton-printed-label.png" alt="label" />
-          <!-- <img src="@/assets/images/products/cotton-printed-label1.jpg" alt="label" /> -->
         </div>
       </div>
       <div class="slider">
