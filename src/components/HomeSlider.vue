@@ -81,6 +81,47 @@
           <img src="@/assets/images/products/satin-label.png" alt="label" />
         </div>
       </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/screen-label.png" alt="label" />
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/hang-tag.png" alt="Hang-Tag" />
+        </div>
+      </div>
+
     </VSlickCarousel>
   </div>
 </template>
@@ -92,7 +133,7 @@ import { RouterLink } from 'vue-router'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,

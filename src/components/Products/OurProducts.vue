@@ -9,11 +9,15 @@ import wovenLabel from '@/assets/images/products/woven-label.png';
 import printedLabel from '@/assets/images/products/cotton-printed-label.png';
 import sticker from '@/assets/images/products/sticker.png';
 import satinLabel from '@/assets/images/products/satin-label.png';
+import screenLabel from '@/assets/images/products/screen-label.png';
+import hangTag from '@/assets/images/products/hang-tag.png';
+import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
+import sewingThread from '@/assets/images/products/sewing-threads.png';
+import polyBag from '@/assets/images/products/poly-bag.png';
 
 
 import printedImage from '@/assets/images/printed-label.png';
 import hangTagImage from '@/assets/images/hang-tag.png';
-import hangTagStringImage from '@/assets/images/hang-tag-string.png';
 
 // Prop to limit the number of cards
 defineProps({
@@ -37,12 +41,13 @@ const cards = [
   { path: '/product/cotton-printing-labels', title: 'Cotton Printing Labels', img: printedLabel },
   { path: '/product/Stickers', title: 'Stickers', img: sticker },
   { path: '/product/garment-tape', title: 'Satin Printing Labels', img: satinLabel },
-
-  { path: '/product/leather-patch', title: 'Leather Patch', img: wovenLabel },
+  { path: '/product/leather-patch', title: 'Screen Print Label', img: screenLabel },
+  { path: '/product/thermal-sticker', title: 'Hang Tag', img: hangTag },
   { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
-  { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },
-  { path: '/product/woven-patch', title: 'Woven Patch', img: wovenLabel },
-  { path: '/product/photo-inlay', title: 'Photo Inlay', img: hangTagStringImage },
+  { path: '/product/woven-patch', title: 'Sewing Thread', img: sewingThread },
+  { path: '/product/photo-inlay', title: 'Poly Bag', img: polyBag },
+
+  // { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },
   { path: '/product/brand-roll', title: 'Brand Roll', img: printedImage },
   { path: '/product/draw-string', title: 'Draw String', img: hangTagImage },
 ];
