@@ -18,7 +18,7 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/woven.png" alt="" />
+          <img src="@/assets/images/products/woven-label.png" alt="Woven-label" />
         </div>
       </div>
       <div class="slider">
@@ -38,7 +38,8 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/woven.png" alt="" />
+          <img src="@/assets/images/products/cotton-printed-label.png" alt="label" />
+          <!-- <img src="@/assets/images/products/cotton-printed-label1.jpg" alt="label" /> -->
         </div>
       </div>
       <div class="slider">
@@ -92,7 +93,7 @@ import { RouterLink } from 'vue-router'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,
@@ -152,8 +153,9 @@ const settings = {
 
         &-img {
           img {
-            width: 400px;
+            width: 410px;
             height: 400px;
+            padding-top: 15px;
           }
         }
       }

@@ -5,7 +5,10 @@ import { onMounted, defineProps } from 'vue';
 import AOS from "aos";
 
 // Import images explicitly
-import wovenImage from '@/assets/images/woven.png';
+import wovenLabel from '@/assets/images/products/woven-label.png';
+import printedLabel from '@/assets/images/products/cotton-printed-label.png';
+
+
 import printedImage from '@/assets/images/printed-label.png';
 import hangTagImage from '@/assets/images/hang-tag.png';
 import hangTagStringImage from '@/assets/images/hang-tag-string.png';
@@ -28,14 +31,14 @@ onMounted(() => {
 
 // Cards data
 const cards = [
-  { path: '/product/woven-labels', title: 'Woven Labels', img: wovenImage },
-  { path: '/product/printed-labels', title: 'Printed Labels', img: printedImage },
+  { path: '/product/woven-labels', title: 'Woven Labels', img: wovenLabel },
+  { path: '/product/printed-labels', title: 'Printed Labels', img: printedLabel },
   { path: '/product/hang-tags', title: 'Hang Tags', img: hangTagImage },
   { path: '/product/garment-tape', title: 'Garment Tape', img: hangTagImage },
-  { path: '/product/leather-patch', title: 'Leather Patch', img: wovenImage },
+  { path: '/product/leather-patch', title: 'Leather Patch', img: wovenLabel },
   { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
   { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },
-  { path: '/product/woven-patch', title: 'Woven Patch', img: wovenImage },
+  { path: '/product/woven-patch', title: 'Woven Patch', img: wovenLabel },
   { path: '/product/photo-inlay', title: 'Photo Inlay', img: hangTagStringImage },
   { path: '/product/brand-roll', title: 'Brand Roll', img: printedImage },
   { path: '/product/draw-string', title: 'Draw String', img: hangTagImage },
