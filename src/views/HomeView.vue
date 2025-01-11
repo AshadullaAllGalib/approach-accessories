@@ -3,7 +3,7 @@ import HomeSlider from '@/components/HomeSlider.vue';
 import About from '@/components/AboutUs/About.vue';
 import Achievement from '@/components/AboutUs/Achievement.vue';
 import Sustainability from '@/components/AboutUs/Sustainability.vue';
-import SortVideo from '@/components/Includes/SortVideo.vue'
+// import SortVideo from '@/components/Includes/SortVideo.vue'
 import OurProducts from '@/components/Products/OurProducts.vue';
 </script>
 
@@ -12,7 +12,7 @@ import OurProducts from '@/components/Products/OurProducts.vue';
   <About />
   <Achievement />
   <Sustainability />
-  <SortVideo />
+  <!-- <SortVideo /> -->
   <OurProducts :limit="6" showButton="true" />
 </template>
 
