@@ -7,6 +7,8 @@ import AOS from "aos";
 // Import images explicitly
 import wovenLabel from '@/assets/images/products/woven-label.png';
 import printedLabel from '@/assets/images/products/cotton-printed-label.png';
+import sticker from '@/assets/images/products/sticker.png';
+import satinLabel from '@/assets/images/products/satin-label.png';
 
 
 import printedImage from '@/assets/images/printed-label.png';
@@ -32,9 +34,10 @@ onMounted(() => {
 // Cards data
 const cards = [
   { path: '/product/woven-labels', title: 'Woven Labels', img: wovenLabel },
-  { path: '/product/printed-labels', title: 'Printed Labels', img: printedLabel },
-  { path: '/product/hang-tags', title: 'Hang Tags', img: hangTagImage },
-  { path: '/product/garment-tape', title: 'Garment Tape', img: hangTagImage },
+  { path: '/product/cotton-printing-labels', title: 'Cotton Printing Labels', img: printedLabel },
+  { path: '/product/Stickers', title: 'Stickers', img: sticker },
+  { path: '/product/garment-tape', title: 'Satin Printing Labels', img: satinLabel },
+
   { path: '/product/leather-patch', title: 'Leather Patch', img: wovenLabel },
   { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
   { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },

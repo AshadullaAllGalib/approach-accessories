@@ -46,12 +46,12 @@ const router = createRouter({
       component: WovenView,
     },
     {
-      path: '/product/printed-labels',
+      path: '/product/cotton-printing-labels',
       name: 'printed-details',
       component: PrintedLabelView,
     },
     {
-      path: '/product/hang-tags',
+      path: '/product/stickers',
       name: 'hang-details',
       component: HangTagsView,
     },

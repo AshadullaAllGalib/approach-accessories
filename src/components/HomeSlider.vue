@@ -58,7 +58,7 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/printed-label.png" alt="" />
+          <img src="@/assets/images/products/sticker.png" alt="stickers" />
         </div>
       </div>
       <div class="slider">
@@ -78,7 +78,7 @@
         </div>
 
         <div class="slider-img">
-          <img src="@/assets/images/hang-tag.png" alt="" />
+          <img src="@/assets/images/products/satin-label.png" alt="label" />
         </div>
       </div>
     </VSlickCarousel>
