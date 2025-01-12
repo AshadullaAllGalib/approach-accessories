@@ -16,8 +16,8 @@ import sewingThread from '@/assets/images/products/sewing-threads.png';
 import polyBag from '@/assets/images/products/poly-bag.png';
 
 
-import printedImage from '@/assets/images/printed-label.png';
-import hangTagImage from '@/assets/images/hang-tag.png';
+import gumTape from '@/assets/images/products/gum-tape.png';
+import silicaGel from '@/assets/images/products/silica-gel.png';
 
 // Prop to limit the number of cards
 defineProps({
@@ -40,16 +40,14 @@ const cards = [
   { path: '/product/woven-labels', title: 'Woven Labels', img: wovenLabel },
   { path: '/product/cotton-printing-labels', title: 'Cotton Printing Labels', img: printedLabel },
   { path: '/product/Stickers', title: 'Stickers', img: sticker },
-  { path: '/product/garment-tape', title: 'Satin Printing Labels', img: satinLabel },
-  { path: '/product/leather-patch', title: 'Screen Print Label', img: screenLabel },
-  { path: '/product/thermal-sticker', title: 'Hang Tag', img: hangTag },
+  { path: '/product/satin-printing-labels', title: 'Satin Printing Labels', img: satinLabel },
+  { path: '/product/screen-print-label', title: 'Screen Print Label', img: screenLabel },
+  { path: '/product/hang-tag', title: 'Hang Tag', img: hangTag },
   { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
-  { path: '/product/woven-patch', title: 'Sewing Thread', img: sewingThread },
-  { path: '/product/photo-inlay', title: 'Poly Bag', img: polyBag },
-
-  // { path: '/product/thermal-sticker', title: 'Thermal Sticker', img: printedImage },
-  { path: '/product/brand-roll', title: 'Brand Roll', img: printedImage },
-  { path: '/product/draw-string', title: 'Draw String', img: hangTagImage },
+  { path: '/product/sewing-thread', title: 'Sewing Thread', img: sewingThread },
+  { path: '/product/poly-bag', title: 'Poly Bag', img: polyBag },
+  { path: '/product/gum-tape', title: 'Gum Tape', img: gumTape },
+  { path: '/product/silica-gel', title: 'Silica Gel', img: silicaGel },
 ];
 
 </script>
