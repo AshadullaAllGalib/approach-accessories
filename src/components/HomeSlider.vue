@@ -121,6 +121,106 @@
           <img src="@/assets/images/products/hang-tag.png" alt="Hang-Tag" />
         </div>
       </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/hang-tag-string.png" alt="Hang-Tag-String" />
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/sewing-threads.png" alt="Sewing-thread" />
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/poly-bag.png" alt="Poly-Bag" />
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/gum-tape.png" alt="GumTape" />
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+
+          <p>
+            Approach Accessories is leading in both printed and woven labels
+            manufacturing.<br />Labels are printed or manufactured by world
+            renowned printing machines.
+          </p>
+
+          <RouterLink to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img src="@/assets/images/products/silica-gel.png" alt="Silica" />
+        </div>
+      </div>
 
     </VSlickCarousel>
   </div>
