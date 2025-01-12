@@ -6,26 +6,30 @@ onMounted(() => {
   AOS.init();
 })
 
-import wovenImage from '../../assets/images/woven.png';
-import HangTag from '../../assets/images/hang-tag.png';
-import HangTagString from '../../assets/images/hang-tag-string.png';
+import wovenLabel from '@/assets/images/products/woven-label.png';
+import printedLabel from '@/assets/images/products/cotton-printed-label.png';
+import sticker from '@/assets/images/products/sticker.png';
+import satinLabel from '@/assets/images/products/satin-label.png';
+import screenLabel from '@/assets/images/products/screen-label.png';
+import hangTag from '@/assets/images/products/hang-tag.png';
+import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
+import sewingThread from '@/assets/images/products/sewing-threads.png';
+import polyBag from '@/assets/images/products/poly-bag.png';
+import gumTape from '@/assets/images/products/gum-tape.png';
+import silicaGel from '@/assets/images/products/silica-gel.png';
 
 const images = ref([
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: HangTag },
-  { src: HangTagString },
-  { src: HangTag },
-  { src: wovenImage },
-  { src: HangTagString },
-  { src: wovenImage },
-  { src: HangTag },
-  { src: HangTagString },
-  { src: HangTag },
-  { src: wovenImage },
-  { src: HangTagString },
-  { src: wovenImage },
-  { src: HangTagString }
+  { src: wovenLabel },
+  { src: printedLabel },
+  { src: sticker },
+  { src: satinLabel },
+  { src: screenLabel },
+  { src: hangTag },
+  { src: hangTagStringImage },
+  { src: sewingThread },
+  { src: polyBag },
+  { src: gumTape },
+  { src: silicaGel }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));

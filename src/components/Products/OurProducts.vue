@@ -14,8 +14,6 @@ import hangTag from '@/assets/images/products/hang-tag.png';
 import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
 import sewingThread from '@/assets/images/products/sewing-threads.png';
 import polyBag from '@/assets/images/products/poly-bag.png';
-
-
 import gumTape from '@/assets/images/products/gum-tape.png';
 import silicaGel from '@/assets/images/products/silica-gel.png';
 
