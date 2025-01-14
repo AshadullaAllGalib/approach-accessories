@@ -88,7 +88,7 @@ const cards = [
 
 <style lang="scss" scoped>
 .products {
-  background: var(--vt-c-soft-green);
+  // background: var(--vt-c-soft-green);
   padding: 20px 0 30px 0;
 
   &-category {
