@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from 'vue'
 import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
-import MemberCard from '@/components/AboutUs/MemberCard.vue'
+// import MemberCard from '@/components/AboutUs/MemberCard.vue'
 import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
-import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
+// import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
 import DirectorsCard from '@/components/AboutUs/DirectorsCard.vue'
 import ManagementCards from '@/components/AboutUs/ManagementCards.vue'
 import DesignTeamCard from '@/components/AboutUs/DesignTeamCard.vue'
