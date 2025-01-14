@@ -1,6 +1,7 @@
 <script setup>
 import HomeSlider from '@/components/HomeSlider.vue';
 import About from '@/components/AboutUs/About.vue';
+import AboutQualityText from '@/components/AboutUs/AboutQualityText.vue';
 import Achievement from '@/components/AboutUs/Achievement.vue';
 import Sustainability from '@/components/AboutUs/Sustainability.vue';
 // import SortVideo from '@/components/Includes/SortVideo.vue'
@@ -10,6 +11,7 @@ import OurProducts from '@/components/Products/OurProducts.vue';
 <template>
   <HomeSlider />
   <About />
+  <AboutQualityText />
   <Achievement />
   <Sustainability />
   <!-- <SortVideo /> -->
