@@ -116,4 +116,25 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .category {
+
+    &-detail {
+      gap: 20px;
+      padding: 20px 10px;
+      flex-direction: column;
+
+      .cards {
+        gap: 20px;
+
+        .support {
+
+          i {}
+        }
+
+      }
+    }
+  }
+}
 </style>
