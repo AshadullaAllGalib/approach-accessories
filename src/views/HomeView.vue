@@ -10,7 +10,7 @@ import OurProducts from '@/components/Products/OurProducts.vue';
 </script>
 
 <template>
-  <HomeSlider />
+  <HomeSlider showButton="true" />
   <About />
   <AboutQualityText />
   <FourCategory />

@@ -1,247 +1,8 @@
-<template>
-  <div class="carousel">
-    <VSlickCarousel v-bind="settings">
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is leading in both printed and woven labels<br />
-            manufacturing. Labels are printed or manufactured by world
-            renowned printing machines.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/woven-label.png" alt="Woven-label" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of <br />cotton printed
-            labels. Our labels are produced using world-renowned printing machines, ensuring
-            superior quality
-            and precision.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/cotton-printed-label.png" alt="label" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of high-quality<br />
-            stickers. Our
-            stickers are produced using world-renowned printing machines, ensuring exceptional
-            quality and precision.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/sticker.png" alt="stickers" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of satin labels.<br> Our
-            labels
-            are
-            crafted using world-renowned printing machines, ensuring exceptional quality and
-            precision.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/satin-label.png" alt="label" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of screen-printed<br>
-            labels. Our
-            labels are produced using advanced printing technology, ensuring outstanding quality and
-            precision.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/screen-label.png" alt="label" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of premium<br> hang tags.
-            Our hang
-            tags are crafted using world-renowned printing machines, ensuring exceptional quality
-            and attention to detail.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/hang-tag.png" alt="Hang-Tag" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of high-quality <br> hang
-            tag
-            strings.
-            Our strings are designed with precision and crafted to complement our premium hang tags,
-            ensuring durability and elegance.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/hang-tag-string.png" alt="Hang-Tag-String" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of high-quality <br>
-            sewing
-            threads.
-            Our threads are crafted with precision and durability, meeting the highest standards for
-            all your stitching needs
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/sewing-threads.png" alt="Sewing-thread" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of high-quality<br> poly
-            bags. Our
-            poly bags are designed with precision and durability, ensuring reliable packaging
-            solutions for a variety of needs.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/poly-bag.png" alt="Poly-Bag" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories Limited is a leader in the manufacturing of high-quality gum tapes.
-            Our gum
-            tapes are crafted with superior adhesion and durability, providing reliable solutions
-            for all your packaging needs.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/gum-tape.png" alt="GumTape" />
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slider-text">
-          <h3>
-            <Span>Finishing Your Garments Professionally</Span> <br />With
-            Approach Accessories Limited.
-          </h3>
-
-          <p>
-            Approach Accessories is a leader in the manufacturing of premium silica gel. Our silica
-            gel is produced to the highest standards, ensuring effective moisture control and
-            protection for a wide range of products.
-          </p>
-
-          <RouterLink to="/product">View More</RouterLink>
-        </div>
-
-        <div class="slider-img">
-          <img src="@/assets/images/products/silica-gel.png" alt="Silica" />
-        </div>
-      </div>
-
-    </VSlickCarousel>
-  </div>
-</template>
-
 <script setup>
 import 'v-slick-carousel/style.css'
 import { VSlickCarousel } from 'v-slick-carousel'
 import { RouterLink } from 'vue-router'
+import { defineProps } from 'vue';
 
 const settings = {
   slidesToShow: 1,
@@ -250,7 +11,89 @@ const settings = {
   dots: true,
   arrows: false,
 }
+defineProps({
+  showButton: {
+    type: Boolean,
+    default: false,
+  },
+});
+
+// Import images explicitly
+import wovenLabel from '@/assets/images/products/woven-label.png';
+import printedLabel from '@/assets/images/products/cotton-printed-label.png';
+import sticker from '@/assets/images/products/sticker.png';
+import satinLabel from '@/assets/images/products/satin-label.png';
+import screenLabel from '@/assets/images/products/screen-label.png';
+import hangTag from '@/assets/images/products/hang-tag.png';
+import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
+import sewingThread from '@/assets/images/products/sewing-threads.png';
+import polyBag from '@/assets/images/products/poly-bag.png';
+import gumTape from '@/assets/images/products/gum-tape.png';
+import silicaGel from '@/assets/images/products/silica-gel.png';
+
+// slider data
+const sliders = [
+  {
+    title: 'Approach Accessories Limited is leading in both printed and woven labels  manufacturing.Labels are printed or manufactured by world renowned printing machines.', img: wovenLabel
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of cotton printed labels.Our labels are produced using world- renowned printing machines, ensuring superior quality and precision.', img: printedLabel
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of high-quality stickers. Our stickers are produced using world-renowned printing machines, ensuring exceptional quality and precision.', img: sticker
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of satin labels. Our labels are crafted using world-renowned printing machines, ensuring exceptional quality and precision.', img: satinLabel
+
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of screen-printed labels. Our labels are produced using advanced printing technology, ensuring outstanding quality and precision.', img: screenLabel
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of premium hang tags. Our hang tags are crafted using world-renowned printing machines, ensuring exceptional quality and attention to detail.', img: hangTag
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of high-quality hang tag strings. Our strings are designed with precision and crafted to complement our premium hang tags, ensuring durability and elegance.', img: hangTagStringImage
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of high-quality sewing threads. Our threads are crafted with precision and durability, meeting the highest standards for all your stitching needs.', img: sewingThread
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of high-quality poly bags. Our poly bags are designed with precision and durability, ensuring reliable packaging solutions for a variety of needs.', img: polyBag
+  },
+  {
+    title: 'Approach Accessories Limited is a leader in the manufacturing of high-quality gum tapes. Our gum tapes are crafted with superior adhesion and durability, providing reliable solutions for all your packaging needs.', img: gumTape
+  },
+  {
+    title: 'Approach Accessories is a leader in the manufacturing of premium silica gel. Our silica gel is produced to the highest standards, ensuring effective moisture control and protection for a wide range of products.', img: silicaGel
+
+  },
+];
 </script>
+
+<template>
+  <div class="carousel">
+    <VSlickCarousel v-bind="settings">
+      <div v-for="(slider, index) in sliders.slice(0, limit || sliders.length)" :key="index"
+        class="slider">
+        <div class="slider-text">
+          <h3>
+            <Span>Finishing Your Garments Professionally</Span> <br />With
+            Approach Accessories Limited.
+          </h3>
+          <p>
+            {{ slider.title }}
+          </p>
+          <RouterLink v-if="showButton" to="/product">View More</RouterLink>
+        </div>
+
+        <div class="slider-img">
+          <img :src="slider.img" alt="Images" />
+        </div>
+      </div>
+    </VSlickCarousel>
+  </div>
+</template>
 
 <style lang="scss" scoped>
 .carousel {
