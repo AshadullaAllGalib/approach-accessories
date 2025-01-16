@@ -9,8 +9,8 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
+            Approach Accessories Limited is leading in both printed and woven labels<br />
+            manufacturing. Labels are printed or manufactured by world
             renowned printing machines.
           </p>
 
@@ -29,9 +29,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of <br />cotton printed
+            labels. Our labels are produced using world-renowned printing machines, ensuring
+            superior quality
+            and precision.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -49,9 +50,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of high-quality<br />
+            stickers. Our
+            stickers are produced using world-renowned printing machines, ensuring exceptional
+            quality and precision.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -69,9 +71,11 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of satin labels.<br> Our
+            labels
+            are
+            crafted using world-renowned printing machines, ensuring exceptional quality and
+            precision.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -89,9 +93,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of screen-printed<br>
+            labels. Our
+            labels are produced using advanced printing technology, ensuring outstanding quality and
+            precision.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -109,9 +114,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of premium<br> hang tags.
+            Our hang
+            tags are crafted using world-renowned printing machines, ensuring exceptional quality
+            and attention to detail.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -129,9 +135,11 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of high-quality <br> hang
+            tag
+            strings.
+            Our strings are designed with precision and crafted to complement our premium hang tags,
+            ensuring durability and elegance.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -149,9 +157,11 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of high-quality <br>
+            sewing
+            threads.
+            Our threads are crafted with precision and durability, meeting the highest standards for
+            all your stitching needs
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -169,9 +179,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of high-quality<br> poly
+            bags. Our
+            poly bags are designed with precision and durability, ensuring reliable packaging
+            solutions for a variety of needs.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -189,9 +200,10 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories Limited is a leader in the manufacturing of high-quality gum tapes.
+            Our gum
+            tapes are crafted with superior adhesion and durability, providing reliable solutions
+            for all your packaging needs.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -209,9 +221,9 @@
           </h3>
 
           <p>
-            Approach Accessories is leading in both printed and woven labels
-            manufacturing.<br />Labels are printed or manufactured by world
-            renowned printing machines.
+            Approach Accessories is a leader in the manufacturing of premium silica gel. Our silica
+            gel is produced to the highest standards, ensuring effective moisture control and
+            protection for a wide range of products.
           </p>
 
           <RouterLink to="/product">View More</RouterLink>
@@ -233,7 +245,7 @@ import { RouterLink } from 'vue-router'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,
