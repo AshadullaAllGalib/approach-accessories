@@ -245,7 +245,7 @@ import { RouterLink } from 'vue-router'
 
 const settings = {
   slidesToShow: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
   arrows: false,

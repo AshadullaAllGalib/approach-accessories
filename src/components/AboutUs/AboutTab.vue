@@ -7,13 +7,14 @@ import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 import DirectorsCard from '@/components/AboutUs/DirectorsCard.vue'
 import ManagementCards from '@/components/AboutUs/ManagementCards.vue'
 import DesignTeamCard from '@/components/AboutUs/DesignTeamCard.vue'
+import MissionVision from '@/components/AboutUs/MissionVision.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   // 'Our Profile',
   'Board of Directors',
   'Management Team',
   'Design Team',
-  'Vision & Values',
+  'Vision & Mission',
   'Recognition',
   // 'Publications',
   // 'Sustainability Report',
@@ -61,7 +62,7 @@ const activeTab = ref(tabItems[0])
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
-      <TextAndImageContent />
+      <MissionVision />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[4]">
@@ -93,7 +94,7 @@ const activeTab = ref(tabItems[0])
 <style lang="scss" scoped>
 .tabs {
   width: 80%;
-  margin: 20px auto;
+  margin: 40px auto 20px auto;
 
   .tab {
     position: relative;
@@ -155,7 +156,7 @@ const activeTab = ref(tabItems[0])
 
   .tabcontent {
     position: relative;
-    padding: 30px 12px;
+    padding: 25px 12px;
     // animation: tabContentAnimation 1s ease-in-out forwards;
 
     .members {
