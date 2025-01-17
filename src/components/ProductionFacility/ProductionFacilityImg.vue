@@ -5,16 +5,38 @@ onMounted(() => {
   Aos.init();
 })
 
-import Factory from '../../assets/images/dummy-pro.png';
+import Machine1 from '@/assets/images/machines/machine1.jpg';
+import Machine2 from '@/assets/images/machines/machine2.jpg';
+import Machine3 from '@/assets/images/machines/machine3.jpg';
+import Machine4 from '@/assets/images/machines/machine4.jpg';
+import Machine5 from '@/assets/images/machines/machine5.jpg';
+import Machine6 from '@/assets/images/machines/machine6.jpg';
+import Machine7 from '@/assets/images/machines/machine7.jpg';
+import Machine8 from '@/assets/images/machines/machine8.jpg';
+import Machine9 from '@/assets/images/machines/machine9.jpg';
+import Machine10 from '@/assets/images/machines/machine10.jpg';
+import Machine11 from '@/assets/images/machines/machine11.jpg';
+import Machine12 from '@/assets/images/machines/machine12.jpg';
+import Machine13 from '@/assets/images/machines/machine13.jpg';
+import Machine14 from '@/assets/images/machines/machine14.jpg';
+import Machine15 from '@/assets/images/machines/machine15.jpg';
 
 const images = ref([
-  { src: Factory },
-  { src: Factory },
-  { src: Factory },
-  { src: Factory },
-  { src: Factory },
-  { src: Factory },
-  { src: Factory }
+  { src: Machine1 },
+  { src: Machine2 },
+  { src: Machine3 },
+  { src: Machine4 },
+  { src: Machine5 },
+  { src: Machine6 },
+  { src: Machine7 },
+  { src: Machine8 },
+  { src: Machine9 },
+  { src: Machine10 },
+  { src: Machine11 },
+  { src: Machine12 },
+  { src: Machine13 },
+  { src: Machine14 },
+  { src: Machine15 }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));
@@ -46,14 +68,14 @@ const prevImage = () => {
 <template>
   <section id="gallery">
     <div class="gallery">
-      <h2>Corporate Office & Factory Photo</h2>
+      <h2>Factory Machines Photo</h2>
     </div>
     <div class="container" data-aos="fade-up" data-aos-duration="800">
       <div id="image-gallery" class="image-gallery">
         <div v-for="(image, index) in images" :key="index" class="image"
           @mouseover="overlays[index] = true" @mouseleave="overlays[index] = false">
           <div class="img-wrapper" @click="openLightbox(index)">
-            <img :src="image.src" alt="Gallery Image" />
+            <img :src="image.src" alt="Image" />
             <div class="img-overlay" v-if="overlays[index]">
               <i class="pi pi-plus" aria-hidden="true"></i>
             </div>
