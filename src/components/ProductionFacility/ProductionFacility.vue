@@ -14,7 +14,7 @@ onMounted(() => {
 
     <div class="factory">
       <div class="factory-image">
-        <img src="../../assets/images/factory-img.png" alt="Factory_image">
+        <img src="../../assets/images/factory-img.jpg" alt="Factory_image">
       </div>
       <div class="text">
         <h4>Corporate Office & Factory:</h4>
@@ -52,6 +52,7 @@ onMounted(() => {
   .factory {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 
     &-image {
@@ -68,13 +69,13 @@ onMounted(() => {
       color: #343434;
 
       h4 {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
         // padding-bottom: 10px;
       }
 
       p {
-        font-size: 14px;
+        font-size: 16px;
         padding-bottom: 10px;
       }
 
