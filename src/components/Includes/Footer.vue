@@ -15,19 +15,20 @@
           <div class="middle-item left-item">
             <h3>Phone:</h3>
             <div class="phone-email">
-              <a href="tel:+880 1974 338707"><i class="pi pi-phone"></i>+880 1974 338707</a>
-              <a href="tel:+880 1975 411616"><i class="pi pi-phone"></i>+880 1975 411616</a><br>
-              <a href="tel:+880 1718 094002"><i class="pi pi-phone"></i>+880 1718 094002</a>
+              <a href="tel:+880 1715 411616"><i class="pi pi-phone"></i>+880 1715 411616</a>
+              <a href="tel:+880 1714 338707"><i class="pi pi-phone"></i>+880 1714 338707</a>
+              <a href="tel:+880 1718 094002"><i class="pi pi-phone"></i>+880 1718 094002</a><br>
               <a href="tel:+880 1716 009940"><i class="pi pi-phone"></i>+880 1716 009940</a>
+              <a href="tel:+880 1914 004335"><i class="pi pi-phone"></i>+880 1914 004335</a>
 
             </div>
             <h3>E-mail:</h3>
             <div class="phone-email">
               <a href="mailto:info@approach-bd.com">
-                <i class="pi pi-envelope"></i>info@approach-bd.com
+                <i class="pi pi-envelope"></i>approach@dhaka.net
               </a>
               <a href="mailto:approach@dhaka.net">
-                <i class="pi pi-envelope"></i>approach@dhaka.net
+                <i class="pi pi-envelope"></i>info@approach-bd.com
               </a>
             </div>
           </div>
