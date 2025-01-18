@@ -1,13 +1,11 @@
 <script setup>
-import WovenCard from '../ProductsDetailsCard/WovenCard.vue'
-import OurProductsCard from '../Products/OurProductsCard.vue';
-
+import OurProducts from '../Products/OurProducts.vue';
 </script>
 
 <template>
   <section class="product-details">
     <div class="title">
-      <h2>Brand Roll</h2>
+      <h2>Cotton Printing Labels</h2>
     </div>
     <div class="details">
       <div class="details-left">
@@ -58,10 +56,7 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
         </ul>
       </div>
       <div class="details-right">
-        <img src="@/assets/images/woven.jpeg" alt="" />
-      </div>
-      <div class="card">
-        <WovenCard />
+        <img src="../../assets/images/products/cotton-printed-label.png" alt="">
       </div>
       <div class="description">
         <p>
@@ -83,18 +78,15 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
         </p>
       </div>
     </div>
-    <div class="other-product">
-      <h2>Other Products</h2>
-    </div>
-    <OurProductsCard />
   </section>
+  <OurProducts :limit="6" showButton="true" />
 </template>
 
 <style lang="scss" scoped>
 .product-details {
   width: 80%;
   margin: 0 auto;
-  padding: 120px 0 40px 0;
+  padding: 120px 0 20px 0;
 
   .title {
     text-align: center;
@@ -107,18 +99,19 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
     &-left {
       width: 80%;
       background-image: linear-gradient(to right,
-          #082dff 0%,
-          #0ebbff 0%,
+          #00854d 0%,
+          #275769 0%,
           #b8cbb8 0%,
-          #1c5ed8 30%,
-          #c2ce9c 64%,
-          #060b53 100%);
+          #0262a1 30%,
+          #135031 64%,
+          #065346 100%);
       padding: 20px 40px 40px 40px;
 
       .left-title {
-        background: rgb(9, 77, 133);
+        background: var(--vt-c-indigo);
         padding: 15px;
         text-align: center;
+        box-shadow: 0 0 10px;
 
         h3 {
           font-size: 24px;
@@ -145,11 +138,15 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
 
     &-right {
       position: absolute;
-      top: 10%;
+      top: 18%;
       right: 0;
+      background-color: #f8fcfa;
+      box-shadow: 0 0 10px;
+      border-radius: 5px;
+      padding: 20px;
 
       img {
-        width: 500px;
+        width: 400px;
       }
     }
 
@@ -160,14 +157,6 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
         font-size: 15px;
         color: #343434;
       }
-    }
-  }
-
-  .other-product {
-    padding-top: 40px;
-
-    h2 {
-      margin-bottom: 0;
     }
   }
 }
@@ -216,14 +205,6 @@ import OurProductsCard from '../Products/OurProductsCard.vue';
         p {
           font-size: 14px;
         }
-      }
-    }
-
-    .other-product {
-      padding-top: 40px;
-
-      h2 {
-        margin-bottom: 0;
       }
     }
   }

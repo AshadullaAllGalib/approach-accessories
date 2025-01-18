@@ -1,5 +1,4 @@
 <script setup>
-// import ProductSlider from '@/components/Products/ProductSlider.vue';
 import HomeSlider from '@/components/Home/HomeSlider.vue';
 import OurProducts from '@/components/Products/OurProducts.vue';
 
@@ -7,7 +6,6 @@ import OurProducts from '@/components/Products/OurProducts.vue';
 
 <template>
   <HomeSlider />
-  <!-- <ProductSlider /> -->
   <OurProducts />
 </template>
 

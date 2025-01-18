@@ -9,6 +9,8 @@ import ContactUsView from '@/views/ContactUsView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 // import WovenDetails from '@/components/ProductDetails/WovenDetails.vue'
 import WovenView from '@/views/ProductDetailsView/WovenView.vue'
+import CottonPrintingLabels from '@/views/ProductDetailsView/CottonPrintingLabelsView.vue'
+
 import PrintedLabelView from '@/views/ProductDetailsView/PrintedLabelView.vue'
 import HangTagsView from '@/views/ProductDetailsView/HangTagsView.vue'
 import GarmentTapeView from '@/views/ProductDetailsView/GarmentTapeView.vue'
@@ -17,7 +19,7 @@ import HangTagStringView from '@/views/ProductDetailsView/HangTagStringView.vue'
 import ThermalStickerView from '@/views/ProductDetailsView/ThermalStickerView.vue'
 import WovenPatchView from '@/views/ProductDetailsView/WovenPatchView.vue'
 import PhotoInlayView from '@/views/ProductDetailsView/PhotoInlayView.vue'
-import BrandRollView from '@/views/ProductDetailsView/BrandRollView.vue'
+import BrandRollView from '@/views/ProductDetailsView/CottonPrintingLabelsView.vue'
 import DrawStringView from '@/views/ProductDetailsView/DrawStringView.vue'
 
 const router = createRouter({
@@ -47,8 +49,8 @@ const router = createRouter({
     },
     {
       path: '/product/cotton-printing-labels',
-      name: 'printed-details',
-      component: PrintedLabelView,
+      name: 'cotton-printed-labels',
+      component: CottonPrintingLabels,
     },
     {
       path: '/product/stickers',
