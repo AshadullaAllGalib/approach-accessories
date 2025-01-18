@@ -10,17 +10,15 @@ import NotFoundView from '@/views/NotFoundView.vue'
 // import WovenDetails from '@/components/ProductDetails/WovenDetails.vue'
 import WovenView from '@/views/ProductDetailsView/WovenView.vue'
 import CottonPrintingLabels from '@/views/ProductDetailsView/CottonPrintingLabelsView.vue'
-
-import PrintedLabelView from '@/views/ProductDetailsView/PrintedLabelView.vue'
+import StickersView from '@/views/ProductDetailsView/StickersView.vue'
+import SatinPrintingView from '@/views/ProductDetailsView/SatinPrintingView.vue'
+import ScreenPrintView from '@/views/ProductDetailsView/ScreenPrintView.vue'
 import HangTagsView from '@/views/ProductDetailsView/HangTagsView.vue'
-import GarmentTapeView from '@/views/ProductDetailsView/GarmentTapeView.vue'
-import LeatherPatchView from '@/views/ProductDetailsView/LeatherPatchView.vue'
 import HangTagStringView from '@/views/ProductDetailsView/HangTagStringView.vue'
-import ThermalStickerView from '@/views/ProductDetailsView/ThermalStickerView.vue'
-import WovenPatchView from '@/views/ProductDetailsView/WovenPatchView.vue'
-import PhotoInlayView from '@/views/ProductDetailsView/PhotoInlayView.vue'
-import BrandRollView from '@/views/ProductDetailsView/CottonPrintingLabelsView.vue'
-import DrawStringView from '@/views/ProductDetailsView/DrawStringView.vue'
+import SewingThreadsView from '@/views/ProductDetailsView/SewingThreadsView.vue'
+import PolyBagView from '@/views/ProductDetailsView/PolyBagView.vue'
+import GumTapeView from '@/views/ProductDetailsView/GumTapeView.vue'
+import SilicaGelView from '@/views/ProductDetailsView/SilicaGelView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,48 +52,48 @@ const router = createRouter({
     },
     {
       path: '/product/stickers',
-      name: 'hang-details',
-      component: HangTagsView,
+      name: 'stickers',
+      component: StickersView,
     },
     {
       path: '/product/satin-printing-labels',
-      name: 'garment-details',
-      component: GarmentTapeView,
+      name: 'satin-printing',
+      component: SatinPrintingView,
     },
     {
       path: '/product/screen-print-label',
-      name: 'leather-details',
-      component: LeatherPatchView,
+      name: 'screen-print',
+      component: ScreenPrintView,
     },
     {
       path: '/product/hang-tag',
-      name: 'hangtag-details',
-      component: HangTagStringView,
+      name: 'hang-tag',
+      component: HangTagsView,
     },
     {
       path: '/product/hang-tag-string',
-      name: 'thermal-details',
-      component: ThermalStickerView,
+      name: 'hang-tag-string',
+      component: HangTagStringView,
     },
     {
       path: '/product/sewing-thread',
-      name: 'patch-details',
-      component: WovenPatchView,
+      name: 'sewing-threads',
+      component: SewingThreadsView,
     },
     {
       path: '/product/poly-bag',
-      name: 'photo-details',
-      component: PhotoInlayView,
+      name: 'poly-bag',
+      component: PolyBagView,
     },
     {
       path: '/product/gum-tape',
-      name: 'brand-details',
-      component: BrandRollView,
+      name: 'gum-tape',
+      component: GumTapeView,
     },
     {
       path: '/product/silica-gel',
-      name: 'draw-details',
-      component: DrawStringView,
+      name: 'silica-gel',
+      component: SilicaGelView,
     },
     // Product details end
     {
