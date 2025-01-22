@@ -10,7 +10,7 @@ import OurProducts from '../Products/OurProducts.vue';
     <div class="details">
       <div class="details-left">
         <div class="left-title">
-          <h3>We weave your dreams on our fine Woven Labels</h3>
+          <h3>We weave your dreams on our fine Poly Bag</h3>
         </div>
         <ul>
           <li>

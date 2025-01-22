@@ -1,8 +1,8 @@
 <script setup>
-import WovenPatchDetails from '@/components/ProductDetails/WovenPatchDetails.vue';
+import SilicaGelDetails from '@/components/ProductDetails/SilicaGelDetails.vue';
 </script>
 <template>
-  <WovenPatchDetails />
+  <SilicaGelDetails />
 </template>
 
 <style lang="scss" scoped></style>
