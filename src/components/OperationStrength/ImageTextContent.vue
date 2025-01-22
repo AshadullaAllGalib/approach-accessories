@@ -1,9 +1,9 @@
 <template>
   <div class="text-image-content our-profile">
     <div class="images">
-      <img src="@/assets/images/woven.png" alt="" />
-      <img src="@/assets/images/woven.png" alt="" />
-      <img src="@/assets/images/woven.png" alt="" />
+      <img src="@/assets/images/products/hang-tag.png" alt="">
+      <img src="@/assets/images/products/screen-label.png" alt="">
+      <img src="@/assets/images/products/hang-tag-string.png" alt="">
     </div>
 
     <div class="text">
@@ -61,6 +61,7 @@
     img {
       width: 100%;
       border: 1px solid #33333342;
+
       &:nth-child(1) {
         grid-column: 1 / 5;
         grid-row: 1 / 5;

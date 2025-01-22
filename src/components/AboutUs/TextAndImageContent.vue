@@ -25,9 +25,9 @@
       </div>
     </div>
     <div class="images">
-      <img src="@/assets/images/woven.png" alt="" />
-      <img src="@/assets/images/woven.png" alt="" />
-      <img src="@/assets/images/woven.png" alt="" />
+      <img src="@/assets/images/products/screen-label.png" alt="">
+      <img src="@/assets/images/products/screen-label.png" alt="">
+      <img src="@/assets/images/products/screen-label.png" alt="">
     </div>
     <div class="note">
       <p>
