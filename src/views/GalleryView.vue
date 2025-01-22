@@ -5,7 +5,7 @@ import GalleryImage from '@/components/Gallery/GalleryImage.vue'
 
 <template>
   <div class="banner">
-    <img src="@/assets/images/banner.jpeg" alt="Banner" />
+    <img src="@/assets/images/banner/gallery-banner.jpg" alt="">
   </div>
   <!-- <Gallery /> -->
 
@@ -18,7 +18,7 @@ import GalleryImage from '@/components/Gallery/GalleryImage.vue'
   width: 100%;
 
   img {
-    height: 150px;
+    height: 300px;
     width: 100%;
   }
 }
