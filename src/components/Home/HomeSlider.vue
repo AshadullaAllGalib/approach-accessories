@@ -172,7 +172,7 @@ const sliders = [
           &-text {
             h3 {
               font-size: 24px;
-              line-height: 23px;
+              line-height: 28px;
               padding-bottom: 10px;
             }
 
