@@ -1,48 +1,10 @@
-<template>
-  <div class="tabs">
-    <div class="tab">
-      <button
-        class="tablinks"
-        v-for="(tabItem, index) in tabItems"
-        :key="index"
-        @click="activeTab = tabItem"
-        :class="[activeTab == tabItem ? 'active' : '']"
-      >
-        {{ tabItem }}
-      </button>
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <ImageTextContent />
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[1]">
-      <div class="members board-of-directors">
-        <ImageTextContent />
-      </div>
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[2]">
-      <div class="members management-team">
-        <ImageTextContent />
-      </div>
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[3]">
-      <ImageTextContent />
-    </div>
-
-    <div class="tabcontent" v-if="activeTab == tabItems[4]">
-      <div class="files">
-        <ImageTextContent />
-      </div>
-    </div>
-  </div>
-</template>
-
 <script setup>
 import { ref } from 'vue'
-import ImageTextContent from '@/components/OperationStrength/ImageTextContent.vue'
+import ClientRelation from '@/components/OperationStrength/ClientRelation.vue'
+import SupplyChain from '@/components/OperationStrength/SupplyChain.vue'
+import HrdHris from '@/components/OperationStrength/HrdHris.vue'
+import People from '@/components/OperationStrength/People.vue'
+import WorldWide from '@/components/OperationStrength/WorldWide.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   'Client Relation',
@@ -58,6 +20,42 @@ const isActiveLink = routePath => {
 
 const activeTab = ref(tabItems[0])
 </script>
+<template>
+  <div class="tabs">
+    <div class="tab">
+      <button class="tablinks" v-for="(tabItem, index) in tabItems" :key="index"
+        @click="activeTab = tabItem" :class="[activeTab == tabItem ? 'active' : '']">
+        {{ tabItem }}
+      </button>
+    </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[0]">
+      <ClientRelation />
+    </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[1]">
+      <div class="members board-of-directors">
+        <SupplyChain />
+      </div>
+    </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[2]">
+      <div class="members management-team">
+        <HrdHris />
+      </div>
+    </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[3]">
+      <People />
+    </div>
+
+    <div class="tabcontent" v-if="activeTab == tabItems[4]">
+      <div class="files">
+        <WorldWide />
+      </div>
+    </div>
+  </div>
+</template>
 
 <style lang="scss" scoped>
 .tabs {

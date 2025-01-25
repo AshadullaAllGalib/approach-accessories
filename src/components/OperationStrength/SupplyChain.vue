@@ -1,38 +1,34 @@
+<script setup></script>
 <template>
   <div class="text-image-content our-profile">
     <div class="images">
       <img src="@/assets/images/products/hang-tag.png" alt="">
-      <img src="@/assets/images/products/screen-label.png" alt="">
       <img src="@/assets/images/products/hang-tag-string.png" alt="">
+      <img src="@/assets/images/products/satin-label.png" alt="">
     </div>
 
     <div class="text">
       <div class="title">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolor
-          amet consequuntur provident enim reprehenderit at architecto hic ipsa
-          ducimus, id asperiores laborum optio sit nisi corrupti error numquam
-          eveniet odit voluptatibus totam porro perspiciatis. Delectus impedit
-          voluptatum, officia voluptate sunt illo quas sit itaque enim, ab odio
-          earum obcaecati.
+          Our supply chain management ensures efficient, reliable, and sustainable operations. From
+          procurement to distribution, we optimize processes to reduce lead times, control costs,
+          and maintain consistent quality. By integrating advanced planning tools, we streamline
+          operations to meet client demands with precision.
         </p>
       </div>
       <div class="seperator"></div>
       <div class="description">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolor
-          amet consequuntur provident enim reprehenderit at architecto hic ipsa
-          ducimus, id asperiores laborum optio sit nisi corrupti error numquam
-          eveniet odit voluptatibus totam porro perspiciatis. Delectus impedit
-          voluptatum, officia voluptate sunt illo quas sit itaque enim, ab odio
-          earum obcaecati.
+          We prioritize strong partnerships with suppliers, fostering transparency and
+          accountability while adhering to ethical and sustainable sourcing practices. Continuously
+          adapting to market trends, we ensure flexibility and responsiveness, delivering
+          exceptional service and products that align with client goals.
         </p>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
 
 <style lang="scss" scoped>
 .text-image-content {
