@@ -21,32 +21,47 @@ onMounted(() => {
       <div class="cards-details">
         <h2>Md.Atinur Rahman Marshal</h2>
         <h3>Managing Director</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+        <p>
+          At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving
+          innovation in every product we offer. Our commitment to excellence sets us apart in the
+          industry.
+        </p>
       </div>
       <div class="cards-details">
         <h2>Babul Biswas</h2>
         <h3>Director</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+        <p>
+          As a Director at Approach Accessories Limited, I am focused on driving innovation and
+          delivering exceptional products. Our commitment to quality and customer satisfaction
+          continues to set us apart in the industry.
+        </p>
       </div>
       <div class="cards-details">
         <h2>Md. Rabiul Awal Sarkar</h2>
         <h3>Director</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+        <p>
+          As a Director at Approach Accessories Limited, I’m dedicated to driving innovation and
+          shaping the future. We create products that challenge conventions and inspire new
+          possibilities for our customers.
+        </p>
       </div>
       <div class="cards-details">
         <h2>Milon Kumar Ghosh</h2>
         <h3>Director</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+        <p>
+          As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit
+          of creative solutions. We’re redefining industry standards with products that push
+          boundaries and inspire our customers.
+        </p>
       </div>
       <div class="cards-details">
         <h2>Md.Aminur Rahman Captin</h2>
         <h3>Director</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+        <p>
+          As a Director at Approach Accessories Limited, I’m focused on delivering innovative
+          solutions that lead the industry. Our products challenge the ordinary and open up exciting
+          new possibilities for our customers.
+        </p>
       </div>
     </div>
   </div>
