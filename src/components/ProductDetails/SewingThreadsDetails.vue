@@ -15,35 +15,23 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Quality Sewing Threads for Professional Results.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Wide Range of Colors, Thicknesses, and Finishes.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Exceptional Strength and Durability for All Fabrics.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Smooth and Tangle-Free Performance.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Eco-Friendly Materials and Manufacturing Processes.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +39,19 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Customizable Thread Options for Various Applications.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Suitable for Hand Sewing, Machine Sewing, and Industrial Use.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Heat, Shrink, and Fade Resistant for Long-Term Use.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Perfect for Fashion, Upholstery, and Specialized Applications.
           </li>
         </ul>
       </div>
@@ -60,21 +60,19 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers high-quality sewing threads designed to deliver
+          professional results across a wide range of applications. Our sewing threads come in
+          various colors, thicknesses, and finishes, ensuring the perfect match for every project,
+          from fashion apparel to upholstery and industrial use.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Our sewing threads are known for their exceptional strength, durability, and smooth
+          performance. Manufactured using premium materials, they provide a tangle-free experience,
+          ensuring seamless stitching even in high-speed machines. Available in cotton, polyester,
+          nylon, and other specialty fibers, our threads are suitable for both hand and machine
+          sewing. With eco-friendly options and strict quality control, our sewing threads meet the
+          highest industry standards, providing reliability, consistency, and long-lasting results.
         </p>
       </div>
     </div>

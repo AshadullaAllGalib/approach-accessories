@@ -15,35 +15,35 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Premium Quality Strings for Hang Tags.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Customizable Lengths, Colors, and Styles.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Eco-Friendly and Sustainable Materials.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Wide Range of Options: Cotton, Polyester, Jute, and Elastic Strings.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Metallic and Plastic Seal Ends for Secure Attachment.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Highly Durable and Tear-Resistant Designs.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Fast and Reliable Production with Reduced Lead Time.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Suitable for Various Industries: Fashion, Accessories, and More.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +51,7 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Enhance Your Hang Tags with Stylish and Functional Strings.
           </li>
         </ul>
       </div>
@@ -60,21 +60,19 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers premium-quality hang tag strings, designed to enhance
+          the presentation and functionality of your products. Our hang tag strings come in various
+          materials, including cotton, polyester, jute, and elastic, with customizable lengths,
+          colors, and finishes to suit your brand’s needs.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Crafted for durability and style, our hang tag strings are ideal for use in fashion,
+          retail, and accessories packaging. They are designed to securely attach tags to your
+          products while providing a professional, high-end look. With options for metal or plastic
+          seal ends, our hang tag strings offer strength and reliability. Whether you need bulk
+          orders or custom designs, we ensure fast production, high-quality materials, and
+          consistent performance for every product.
         </p>
       </div>
     </div>

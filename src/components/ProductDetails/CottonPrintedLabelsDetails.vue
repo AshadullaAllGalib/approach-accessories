@@ -15,35 +15,35 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Speed Printing Machines - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Precision Cutting - Clean Edge Cotton Label Requirements.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Highly Skilled Technicians & Product Development Team.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Exceptional Color Accuracy through Advanced Spectrophotometer Measuring.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Speed Printing Machines - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Eco-Friendly Inks and Sustainable Cotton Fabrics.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Advanced Technology for Sharp, Crisp Print Quality.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Customization Options for Different Label Sizes & Designs.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +51,15 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Fast and Flexible Order Fulfillment.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Innovative Label Solutions Tailored to Your Brand Needs.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control Measures for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +68,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited specializes in high-quality cotton printing labels, designed
+          for a wide range of products in the fashion, apparel, and accessories industries. Our
+          cotton labels offer a natural, soft feel, making them the perfect choice for brands
+          seeking a premium, eco-friendly solution.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Using advanced printing techniques, we ensure vibrant, long-lasting designs that maintain
+          their quality even after multiple washes. Our cotton printing labels are available in
+          various sizes and shapes, with options for custom branding, logos, and care instructions.
+          With eco-friendly ink options and a focus on sustainability, our cotton labels not only
+          provide a durable solution but also align with environmentally conscious practices.
+          Whether you need small or large orders, we ensure consistent quality, fast production, and
+          reliable delivery.
         </p>
       </div>
     </div>

@@ -15,35 +15,27 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Speed Printing Machines - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Precision Cutting - Smooth Edge Satin Label Requirements.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            High-Speed Printing Machines - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Soft and Luxurious Satin Material for Premium Labels.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Advanced Technology for Sharp, Crisp Print Quality.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Customizable Designs, Sizes, and Finishes.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +43,19 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Eco-Friendly Inks and Sustainable Satin Fabrics.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Innovative Label Solutions Tailored to Your Brand Needs.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Durable Labels with a Soft, Non-Irritating Texture.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control Measures for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +64,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited specializes in high-quality satin printing labels, providing
+          a premium solution for branding and product identification. Our satin labels offer a
+          luxurious feel and a smooth finish, making them ideal for high-end fashion, accessories,
+          and specialty products.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Utilizing advanced printing technology and eco-friendly inks, we create vibrant,
+          long-lasting prints on soft satin fabric that maintain clarity and color vibrancy over
+          time. We offer customizable options for sizes, shapes, and finishes, including satin with
+          matte, glossy, or embossed effects. With precision printing and strict quality control
+          measures, our satin labels provide a high-quality, durable solution that adds a touch of
+          elegance to any product. Whether you need small or large batches, we ensure fast
+          production and reliable delivery.
         </p>
       </div>
     </div>

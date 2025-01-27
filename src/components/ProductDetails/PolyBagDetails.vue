@@ -15,35 +15,31 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Quality Poly Bags for Secure Packaging.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Customizable Sizes, Thicknesses, and Designs.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Eco-Friendly and Recyclable Materials Available.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Durable and Tear-Resistant for Reliable Protection.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Clear, Printed, or Opaque Options for Various Needs.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Perfect for Apparel, Accessories, and Retail Packaging.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Waterproof and Dustproof for Maximum Protection.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +47,11 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Heat-Sealed Edges for Extra Durability.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +60,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers high-quality poly bags, designed to provide secure and
+          protective packaging for a wide range of products. Our poly bags come in various sizes,
+          thicknesses, and finishes, making them suitable for industries such as retail, e-commerce,
+          apparel, and more.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Crafted from durable, tear-resistant materials, our poly bags offer reliable protection
+          against dirt, moisture, and other environmental factors. We provide customizable options
+          for branding, including clear or printed poly bags, to enhance your product’s
+          presentation. With eco-friendly options available, our poly bags are also recyclable and
+          meet industry standards for sustainability. Whether you need a standard size or a custom
+          solution, we ensure fast production, high-quality materials, and consistent performance in
+          every order.
         </p>
       </div>
     </div>

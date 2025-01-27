@@ -15,35 +15,35 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Speed Sticker Printing Machines - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Precision Cutting - Clean Edge Sticker Requirements.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Highly Skilled Technicians & Product Development Team.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Exceptional Color Accuracy through Advanced Spectrophotometer Measuring.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Fast and Flexible Order Fulfillment.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Eco-Friendly Adhesives & Sustainable Materials.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Advanced Technology for Sharp, Crisp Print Quality.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Customizable Sticker Sizes, Shapes, and Finishes.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +51,15 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Durable, Waterproof, and Scratch-Resistant Stickers.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Creative Sticker Solutions Tailored to Your Branding Needs.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control Measures for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +68,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers premium quality stickers, designed to meet diverse
+          branding and packaging needs. Our stickers come in a variety of sizes, shapes, and
+          finishes, making them perfect for a wide range of applications, from product labeling to
+          promotional use.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Our sticker production process is powered by cutting-edge printing technology that ensures
+          vibrant colors, sharp details, and long-lasting adhesion. We offer eco-friendly materials
+          and sustainable printing options to meet the growing demand for environmentally conscious
+          products. With options like matte, glossy, transparent, and embossed finishes, our
+          stickers provide a professional, high-quality solution for your branding needs. Whether
+          you need custom designs, bulk orders, or quick turnaround times, our team ensures
+          consistent results and exceptional customer satisfaction.
         </p>
       </div>
     </div>

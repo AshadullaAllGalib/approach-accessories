@@ -15,35 +15,35 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Quality Printing - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Highly Skilled Technicians & Product Development Team.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Exceptional Color Accuracy through Advanced Printing Technology.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Eco-Friendly and Recyclable Materials.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Wide Range of Finishes: Matte, Glossy, Embossed, and Foiled.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Durable and Tear-Resistant Tags.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Custom Shapes, Sizes, and Die-Cut Options.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Elegant and Eye-Catching Designs for Premium Branding.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +51,7 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Strict Quality Control for Consistent and Professional Results.
           </li>
         </ul>
       </div>
@@ -60,21 +60,18 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers high-quality hang tags, designed to provide an elegant
+          and professional touch to your products. Our hang tags come in a variety of shapes, sizes,
+          and finishes, making them ideal for industries such as fashion, retail, and luxury goods.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Made from premium materials, our hang tags are durable, tear-resistant, and can be fully
+          customized to feature your brand’s logo, product details, or promotional messaging. We
+          offer different finishes, including matte, glossy, embossed, and foil stamping, allowing
+          you to create a distinctive look for your brand. With fast production times and strict
+          quality control, our hang tags ensure consistent results, offering a perfect combination
+          of style and functionality to elevate your product packaging.
         </p>
       </div>
     </div>

@@ -15,35 +15,35 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Precision Screen Printing - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Smooth, Durable Finish for High-Quality Screen Print Labels.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Highly Skilled Technicians & Product Development Team.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Exceptional Color Accuracy with Long-Lasting Inks.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Customizable Designs, Sizes, and Textures.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Eco-Friendly Adhesives & Sustainable Materials.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Advanced Technology for Sharp and Clear Printing.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Soft and Flexible Labels with a Premium Feel.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +51,15 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Durable, Fade-Resistant Prints for Long-Term Use.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Creative Sticker Solutions Tailored to Your Branding Needs.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +68,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited specializes in high-quality screen print labels, perfect for
+          a wide range of products and industries. Our screen printing process ensures sharp,
+          vibrant prints that provide exceptional visibility and branding impact on various
+          materials, including fabric, garments, packaging, and more.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Using advanced printing techniques and eco-friendly inks, we offer durable, fade-resistant
+          screen print labels that maintain their quality over time. We provide customizable options
+          for sizes, colors, and finishes, ensuring a perfect match for your branding needs. With
+          our precision printing technology and strict quality control standards, we guarantee
+          consistent results, fast production, and reliable delivery. Our labels are ideal for
+          businesses looking for cost-effective, high-quality solutions for branding and product
+          identification.
         </p>
       </div>
     </div>

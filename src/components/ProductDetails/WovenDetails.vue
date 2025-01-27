@@ -15,7 +15,7 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High Speed Airjet Looms - Reduced Lead Time/Booking.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -23,23 +23,7 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            High Skilled Technicians & Product Development Team.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +35,27 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Premium Quality, Durable Woven Labels.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Precise and Clean Edges with Ultrasonic Slitting.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Advanced Technology for Crisp, Detailed Weaving.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Sustainable, Eco-Friendly Materials.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Strict Quality Control for Consistent Results.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Fast and Efficient Production Process.
           </li>
         </ul>
       </div>
@@ -60,21 +64,21 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited specializes in producing high-quality woven labels, including
+          damask, taffeta, and satin labels. Our expertise lies in utilizing state-of-the-art
+          weaving technology, ensuring precision, durability, and exceptional craftsmanship in every
+          label we create.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Our woven label production unit is equipped with cutting-edge technology, including air
+          jets, needle looms, ultrasonic slitters, and cut-fold machines, ensuring precision and
+          high standards. We utilize advanced CAD capabilities to create labels that maintain
+          excellent quality and durability. We produce a variety of woven labels designed for
+          superior quality, including high-definition micro-filament polyester and satin broadloom
+          soft woven labels, satin needle-loom woven-edge labels, and ultra-fine woven labels.
+          Our labels are crafted to meet the highest industry standards,
+          offering a perfect blend of fine craftsmanship and innovation.
         </p>
       </div>
     </div>

@@ -15,35 +15,31 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Quality Gum Tape for Secure Packaging.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Strong Adhesive for Reliable Sealing.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Eco-Friendly and Recyclable Materials.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Customizable Widths, Lengths, and Branding Options.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Durable and Tear-Resistant for Heavy-Duty Applications.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Water-Activated Adhesive for Enhanced Bond Strength.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
-          </li>
-          <li>
-            <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Perfect for Corrugated Boxes, Cartons, and E-Commerce Packaging.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
@@ -51,7 +47,11 @@ import OurProducts from '../Products/OurProducts.vue';
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Printed Gum Tapes for Professional Branding.
+          </li>
+          <li>
+            <i class="pi pi-spin pi-cog"></i>
+            Sustainable, Cost-Effective Packaging Solution.
           </li>
         </ul>
       </div>
@@ -60,21 +60,20 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers high-quality gum tape, designed to provide a secure
+          and reliable solution for packaging and sealing. Our gum tape is available in various
+          sizes and thicknesses, making it ideal for use in industries such as e-commerce,
+          logistics, and retail packaging.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Crafted with a strong, water-activated adhesive, our gum tape ensures a tight seal that
+          holds up under various conditions. It is perfect for sealing corrugated boxes, cartons,
+          and other packaging materials. With eco-friendly and recyclable options, our gum tape
+          supports sustainable packaging practices. We also offer customizable printed gum tape,
+          allowing you to enhance your brand’s visibility while securing your packages. With fast
+          production and strict quality control, our gum tape provides a durable, professional, and
+          cost-effective packaging solution.
         </p>
       </div>
     </div>

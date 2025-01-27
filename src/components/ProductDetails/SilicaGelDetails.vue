@@ -15,43 +15,43 @@ import OurProducts from '../Products/OurProducts.vue';
         <ul>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            High-Quality Silica Gel for Moisture Absorption.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Protects Products from Humidity and Mold.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Available in Various Sizes and Packaging Options.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Non-Toxic, Eco-Friendly, and Safe for Use.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Speed Airjet Looms - Reduced Lead Time/Booking
+            Perfect for Electronics, Garments, Leather Goods, and Food Packaging.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Customizable Packets for Specific Applications.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Skilled Technicians & Product Development Team
+            Long-Lasting Absorption Capacity.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            High Color Accuracy through spectrophotometer measuring
+            Meets Industry Standards for Quality and Safety.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Oeko-Tex® Standard 100 Certified.
+            Compact and Lightweight for Convenient Use.
           </li>
           <li>
             <i class="pi pi-spin pi-cog"></i>
-            Ultrasonic Slitting - Soft Edge Woven Requirements.
+            Strict Quality Control for Consistent Results.
           </li>
         </ul>
       </div>
@@ -60,21 +60,19 @@ import OurProducts from '../Products/OurProducts.vue';
       </div>
       <div class="description">
         <p>
-          Approach Accessories has state of the art Infrastructure woven and
-          printed fabric label production facilities with a dedicated production
-          plant..
+          Approach Accessories Limited offers high-quality silica gel packets designed to protect
+          products from moisture, mold, and humidity. Our silica gel is available in a variety of
+          sizes and packaging options, making it ideal for use in a wide range of industries,
+          including electronics, apparel, leather goods, and food packaging.
         </p>
         <br />
         <p>
-          Our woven label production unit equipped with the advanced CAD
-          capabilities and latest technology machines ranging from air jets, to
-          needle looms, ultrasonic slit, and cut-fold machines. Approach
-          Accessories specialize in high quality damask labels, taffeta, and
-          satin labels of all kinds utilizing high performance German and
-          Italian weaving looms. We create clothing which are designed to have
-          exquisite quality like high definition micro filament, polyester and
-          satin broad loom soft woven labels, satin needle loom woven edge
-          labels, and the super fine woven label with 50 denier yarns.
+          Our silica gel products are non-toxic, eco-friendly, and safe for use, ensuring the
+          protection of your valuable items while maintaining environmental responsibility. With
+          excellent moisture absorption capacity, our silica gel packets help extend the shelf life
+          of products by maintaining optimal humidity levels. Whether you need customized packaging
+          or bulk orders, our silica gel is carefully manufactured to meet the highest quality
+          standards, providing effective and reliable moisture control solutions.
         </p>
       </div>
     </div>
