@@ -95,10 +95,16 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          transition: all 0.5s ease;
         }
 
         &:hover {
           background-color: var(--vt-c-dark-green);
+
+          i {
+            color: var(--vt-c-dark-green);
+            font-size: 51px;
+          }
         }
       }
 
