@@ -19,7 +19,7 @@ onMounted(() => {
     </div>
     <div class="cards">
       <div class="cards-details">
-        <h2>Md.Atinur Rahman Marshal</h2>
+        <h2>Md. Atinur Rahaman Marshal</h2>
         <h3>Managing Director</h3>
         <p>
           At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving
@@ -28,7 +28,7 @@ onMounted(() => {
         </p>
       </div>
       <div class="cards-details">
-        <h2>Babul Biswas</h2>
+        <h2>Babul Kumar</h2>
         <h3>Director</h3>
         <p>
           As a Director at Approach Accessories Limited, I am focused on driving innovation and
@@ -37,7 +37,7 @@ onMounted(() => {
         </p>
       </div>
       <div class="cards-details">
-        <h2>Md. Rabiul Awal Sarkar</h2>
+        <h2>Md. Rabiul Awal Sarker</h2>
         <h3>Director</h3>
         <p>
           As a Director at Approach Accessories Limited, I’m dedicated to driving innovation and
@@ -55,7 +55,7 @@ onMounted(() => {
         </p>
       </div>
       <div class="cards-details">
-        <h2>Md.Aminur Rahman Captin</h2>
+        <h2>Md. Aminur Rahman Captain</h2>
         <h3>Director</h3>
         <p>
           As a Director at Approach Accessories Limited, I’m focused on delivering innovative
