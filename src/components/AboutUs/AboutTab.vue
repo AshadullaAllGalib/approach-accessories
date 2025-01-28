@@ -1,24 +1,20 @@
 <script setup>
 import { ref } from 'vue'
 import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
-// import MemberCard from '@/components/AboutUs/MemberCard.vue'
 import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
-// import DownloadCard from '@/components/AboutUs/DownloadCard.vue'
 import DirectorsCard from '@/components/AboutUs/DirectorsCard.vue'
 import ManagementCards from '@/components/AboutUs/ManagementCards.vue'
 import DesignTeamCard from '@/components/AboutUs/DesignTeamCard.vue'
 import MissionVision from '@/components/AboutUs/MissionVision.vue'
+import Organogram from '@/components/AboutUs//Organogram.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
-  // 'Our Profile',
   'Board of Directors',
   'Management Team',
   'Design Team',
   'Vision & Mission',
   'Recognition',
-  // 'Publications',
-  // 'Sustainability Report',
-  'CSR',
+  'Organogram',
 ]
 const isActiveLink = routePath => {
   const route = useRoute()
@@ -37,14 +33,7 @@ const activeTab = ref(tabItems[0])
       </button>
     </div>
 
-    <!-- <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <TextAndImageContent />
-    </div> -->
-
     <div class="tabcontent" v-if="activeTab == tabItems[0]">
-      <!-- <div class="members board-of-directors">
-        <MemberCard v-for="(n, index) in 7" :key="index" />
-      </div> -->
       <DirectorsCard />
     </div>
 
@@ -55,9 +44,6 @@ const activeTab = ref(tabItems[0])
       <ManagementCards />
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
-      <!-- <div class="members design-team">
-        <MemberCard v-for="(n, index) in 6" :key="index" />
-      </div> -->
       <DesignTeamCard />
     </div>
 
@@ -82,10 +68,7 @@ const activeTab = ref(tabItems[0])
     </div> -->
 
     <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <TextAndImageContent />
-    </div>
-    <div class="tabcontent" v-if="activeTab == tabItems[6]">
-      <TextAndImageContent />
+      <Organogram />
     </div>
   </div>
 </template>
