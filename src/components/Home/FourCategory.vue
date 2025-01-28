@@ -116,7 +116,7 @@
 
         p {
           font-size: 15px;
-          line-height: 17px;
+          line-height: 18px;
         }
       }
     }

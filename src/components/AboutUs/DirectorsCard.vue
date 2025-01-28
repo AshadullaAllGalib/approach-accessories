@@ -5,6 +5,24 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init();
 })
+
+const directors = [
+  {
+    name: 'Md. Atinur Rahaman Marshal', title: 'Managing Director', description: 'At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving innovation in every product we offer.Our commitment to excellence sets us apart in the industry.'
+  },
+  {
+    name: 'Babul Kumar', title: 'Director', description: 'As a Director at Approach Accessories Limited, I am focused on driving innovation and delivering exceptional products.Our commitment to quality and customer satisfaction continues to set us apart in the industry.'
+  },
+  {
+    name: 'Md. Rabiul Awal Sarker', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m dedicated to driving innovation and shaping the future.We create products that challenge conventions and inspire new possibilities for our customers.'
+  },
+  {
+    name: 'Milon Kumar Ghosh', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit of creative solutions.We’re redefining industry standards with products that push boundaries and inspire our customers.'
+  },
+  {
+    name: 'Md. Aminur Rahman Captain', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m focused on delivering innovative solutions that lead the industry.Our products challenge the ordinary and open up exciting new possibilities for our customers.'
+  },
+];
 </script>
 
 <template>
@@ -18,49 +36,13 @@ onMounted(() => {
       </p>
     </div>
     <div class="cards">
-      <div class="cards-details">
-        <h2>Md. Atinur Rahaman Marshal</h2>
-        <h3>Managing Director</h3>
+
+      <div v-for="(directors, index) in directors.slice(0, limit || directors.length)" :key="index"
+        class="cards-details">
+        <h2>{{ directors.name }}</h2>
+        <h3>{{ directors.title }}</h3>
         <p>
-          At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving
-          innovation in every product we offer. Our commitment to excellence sets us apart in the
-          industry.
-        </p>
-      </div>
-      <div class="cards-details">
-        <h2>Babul Kumar</h2>
-        <h3>Director</h3>
-        <p>
-          As a Director at Approach Accessories Limited, I am focused on driving innovation and
-          delivering exceptional products. Our commitment to quality and customer satisfaction
-          continues to set us apart in the industry.
-        </p>
-      </div>
-      <div class="cards-details">
-        <h2>Md. Rabiul Awal Sarker</h2>
-        <h3>Director</h3>
-        <p>
-          As a Director at Approach Accessories Limited, I’m dedicated to driving innovation and
-          shaping the future. We create products that challenge conventions and inspire new
-          possibilities for our customers.
-        </p>
-      </div>
-      <div class="cards-details">
-        <h2>Milon Kumar Ghosh</h2>
-        <h3>Director</h3>
-        <p>
-          As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit
-          of creative solutions. We’re redefining industry standards with products that push
-          boundaries and inspire our customers.
-        </p>
-      </div>
-      <div class="cards-details">
-        <h2>Md. Aminur Rahman Captain</h2>
-        <h3>Director</h3>
-        <p>
-          As a Director at Approach Accessories Limited, I’m focused on delivering innovative
-          solutions that lead the industry. Our products challenge the ordinary and open up exciting
-          new possibilities for our customers.
+          {{ directors.description }}
         </p>
       </div>
     </div>
