@@ -6,28 +6,12 @@ onMounted(() => {
   AOS.init();
 })
 
-import wovenImage from '@/assets/images/certificate.jpg'
-// import dummyImage from '../assets/images/dummy-pro.png';
+import oeko from '@/assets/images/certificate/oeko.jpg'
+import Scs from '@/assets/images/certificate/scs.jpg'
 
 const images = ref([
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage },
-  { src: wovenImage },
-  // { src: dummyImage }
+  { src: oeko },
+  { src: Scs }
 ])
 
 const overlays = ref(Array(images.value.length).fill(false))
@@ -66,7 +50,7 @@ const prevImage = () => {
           @mouseover="overlays[index] = true" @mouseleave="overlays[index] = false">
           <div class="img-wrapper" @click="openLightbox(index)">
             <img :src="image.src" alt="Gallery Image" />
-            <h4 class="title">Approach Accessories Ltd - ISO 9001-2008</h4>
+            <h4 class="title">Approach Accessories Limited.</h4>
             <div class="img-overlay" v-if="overlays[index]">
               <i class="pi pi-plus" aria-hidden="true"></i>
             </div>
@@ -102,7 +86,7 @@ const prevImage = () => {
       gap: 30px;
 
       .image {
-        flex-basis: calc(25% - 23px);
+        flex-basis: calc(33% - 30px);
         background: #ffffff;
         cursor: pointer;
 
@@ -164,9 +148,9 @@ const prevImage = () => {
     background: #fff;
     border-radius: 5px;
     width: 30%;
-    height: auto;
+    height: 79%;
     object-fit: contain;
-    padding: 5%;
+    padding: 2%;
   }
 }
 
@@ -203,11 +187,11 @@ const prevImage = () => {
   #gallery {
     .container {
       .image-gallery {
-        gap: 15px;
-        // flex-direction: column;
+        gap: 40px;
+        flex-direction: column;
 
         .image {
-          flex-basis: calc(50% - 15px);
+          // flex-basis: calc(50% - 15px);
 
           .img-wrapper {
             .title {
@@ -228,10 +212,11 @@ const prevImage = () => {
   }
 
   #overlay {
-    top: 7%;
+    top: 3%;
 
     img {
-      width: 70%;
+      width: 80%;
+      height: 60%;
     }
   }
 
@@ -250,8 +235,8 @@ const prevImage = () => {
   }
 
   #exitButton {
-    top: 23%;
-    right: 15%;
+    top: 20%;
+    right: 11%;
   }
 }
 </style>
