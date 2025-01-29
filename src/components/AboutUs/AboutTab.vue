@@ -14,7 +14,7 @@ let tabItems = [
   'Design Team',
   'Vision & Mission',
   'Recognition',
-  'Organogram',
+  'CSR',
 ]
 const isActiveLink = routePath => {
   const route = useRoute()
@@ -68,7 +68,8 @@ const activeTab = ref(tabItems[0])
     </div> -->
 
     <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <Organogram />
+      <!-- <Organogram /> -->
+      <TextAndImageContent />
     </div>
   </div>
 </template>
