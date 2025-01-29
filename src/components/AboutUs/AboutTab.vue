@@ -1,20 +1,18 @@
 <script setup>
 import { ref } from 'vue'
-import TextAndImageContent from '@/components/AboutUs/TextAndImageContent.vue'
-import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 import DirectorsCard from '@/components/AboutUs/DirectorsCard.vue'
 import ManagementCards from '@/components/AboutUs/ManagementCards.vue'
-import DesignTeamCard from '@/components/AboutUs/DesignTeamCard.vue'
 import MissionVision from '@/components/AboutUs/MissionVision.vue'
 import Organogram from '@/components/AboutUs//Organogram.vue'
+import RecognitionCard from '@/components/AboutUs/RecognitionCard.vue'
 const isMenuOpen = ref(false)
 let tabItems = [
   'Board of Directors',
   'Management Team',
-  'Design Team',
+  'Organogram',
   'Vision & Mission',
   'Recognition',
-  'CSR',
+
 ]
 const isActiveLink = routePath => {
   const route = useRoute()
@@ -38,13 +36,10 @@ const activeTab = ref(tabItems[0])
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[1]">
-      <!-- <div class="members management-team">
-        <MemberCard v-for="(n, index) in 6" :key="index" />
-      </div> -->
       <ManagementCards />
     </div>
     <div class="tabcontent" v-if="activeTab == tabItems[2]">
-      <DesignTeamCard />
+      <Organogram />
     </div>
 
     <div class="tabcontent" v-if="activeTab == tabItems[3]">
@@ -55,21 +50,6 @@ const activeTab = ref(tabItems[0])
       <div class="files">
         <RecognitionCard />
       </div>
-    </div>
-    <!-- <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <div class="files">
-        <DownloadCard v-for="(n, index) in 6" :key="index" />
-      </div>
-    </div> -->
-    <!-- <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <div class="files">
-        <DownloadCard v-for="(n, index) in 6" :key="index" />
-      </div>
-    </div> -->
-
-    <div class="tabcontent" v-if="activeTab == tabItems[5]">
-      <!-- <Organogram /> -->
-      <TextAndImageContent />
     </div>
   </div>
 </template>

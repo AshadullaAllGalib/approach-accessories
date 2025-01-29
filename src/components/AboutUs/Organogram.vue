@@ -1,315 +1,354 @@
 <script setup></script>
 <template>
-  <div>
-    <div class="container">
-      <h1 class="level-1 rectangle">Managing Director</h1>
-      <h1 class="level-1 rectangle">Directors</h1>
-      <h1 class="level-1 rectangle">Factory Manager</h1>
-      <ol class="level-2-wrapper">
-        <li>
-          <ol class="level-3-wrapper">
-            <li>
-              <h3 class="level-3 rectangle">Designer</h3>
-              <ol class="level-4-wrapper">
-                <li>
-                  <h4 class="level-4 rectangle">Asst. Designer</h4>
-                </li>
-              </ol>
-            </li>
-            <!-- <li>
-              <h3 class="level-3 rectangle">Manager B</h3>
-              <ol class="level-4-wrapper">
-                <li>
-                  <h4 class="level-4 rectangle">Person A</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person B</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person C</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person D</h4>
-                </li>
-              </ol>
-            </li> -->
-          </ol>
-        </li>
-        <li>
-          <ol class="level-3-wrapper">
-            <li>
-              <h3 class="level-3 rectangle">Manager C</h3>
-              <ol class="level-4-wrapper">
-                <li>
-                  <h4 class="level-4 rectangle">Person A</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person B</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person C</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person D</h4>
-                </li>
-              </ol>
-            </li>
-            <li>
-              <h3 class="level-3 rectangle">Manager D</h3>
-              <ol class="level-4-wrapper">
-                <li>
-                  <h4 class="level-4 rectangle">Person A</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person B</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person C</h4>
-                </li>
-                <li>
-                  <h4 class="level-4 rectangle">Person D</h4>
-                </li>
-              </ol>
-            </li>
-          </ol>
-        </li>
-      </ol>
+  <div class="main">
+    <div class="main-top">
+      <div class="connector centre"></div>
+      <span>Managing Director</span>
+    </div>
+    <div class="main-top">
+      <div class="connector centre"></div>
+      <span>Directors</span>
+    </div>
+    <div class="main-top">
+      <div class="connector centre"></div>
+      <span>Factory Manager</span>
+    </div>
+
+    <div class="top-line"></div>
+    <div>
+      <div class="design">
+        <div class="connector centre"></div>
+        <span>Designer</span>
+      </div>
+
+      <div class="design design2 ">
+        <span>Asst.Designer</span>
+      </div>
+    </div>
+
+    <div class="connectorlong right"></div>
+
+    <div class="top-line top-line2"></div>
+
+    <div>
+      <div class="design design3">
+        <span>Operator</span>
+      </div>
+      <div class="design design3 design4">
+        <div class="connector1 centre"></div>
+        <span>Operator</span>
+      </div>
+      <div class="design design3 design5">
+        <div class="connector1 centre"></div>
+        <span>Operator</span>
+      </div>
+      <div class="design design3 design6">
+        <div class="connector1 centre"></div>
+        <span>Operator</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="design design7 design3">
+        <div class="connector1 centre"></div>
+        <span>Asst.Operator</span>
+      </div>
+      <div class="design design7 design4">
+        <div class="connector1 centre"></div>
+        <span>Asst.Operator</span>
+      </div>
+      <div class="design design7 design5">
+        <div class="connector1 centre"></div>
+        <span>Asst.Operator</span>
+      </div>
+      <div class="design design7 design6">
+        <div class="connector1 centre"></div>
+        <span>Asst.Operator</span>
+      </div>
+    </div>
+    <div class="connectorlong right2"></div>
+    <div class="top-line top-line2 top-line3"></div>
+    <div>
+      <div class="design design8">
+        <span>QC</span>
+      </div>
+    </div>
+    <div>
+      <div class="design design9">
+        <div class="connector1 centre"></div>
+        <span>Asst.QC</span>
+      </div>
+      <div class="design design10">
+        <div class="connector1 centre"></div>
+        <span>Asst.QC</span>
+      </div>
+      <div class="design design11">
+        <div class="connector1 centre"></div>
+        <span>Asst.QC</span>
+      </div>
     </div>
   </div>
+
 </template>
 
 
 <style lang="scss" scoped>
-ol {
-  list-style: none;
-}
+.main {
+  width: 100%;
+  height: 100vh;
 
-.container {
-  max-width: 1000px;
-  padding: 0 10px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.rectangle {
-  position: relative;
-  padding: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-
-/* LEVEL-1 STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.level-1 {
-  width: 50%;
-  margin: 0 auto 20px;
-  background: var(--level-1);
-}
-
-.level-1::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-}
-
-
-
-/* LEVEL-2 STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.level-2-wrapper {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.level-2-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 25%;
-  width: 50%;
-  height: 2px;
-  background: var(--black);
-}
-
-.level-2-wrapper::after {
-  display: none;
-  content: "";
-  position: absolute;
-  left: -20px;
-  bottom: -20px;
-  width: calc(100% + 20px);
-  height: 2px;
-  background: var(--black);
-}
-
-.level-2-wrapper li {
-  position: relative;
-}
-
-.level-2-wrapper>li::before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-}
-
-.level-2 {
-  width: 70%;
-  margin: 0 auto 40px;
-  background: var(--level-2);
-}
-
-.level-2::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-}
-
-.level-2::after {
-  display: none;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(-100%, -50%);
-  width: 20px;
-  height: 2px;
-  background: var(--black);
-}
-
-
-/* LEVEL-3 STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.level-3-wrapper {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.level-3-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: calc(25% - 5px);
-  width: calc(50% + 10px);
-  height: 2px;
-  background: var(--black);
-}
-
-.level-3-wrapper>li::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  width: 2px;
-  height: 20px;
-  background: var(--black);
-}
-
-.level-3 {
-  margin-bottom: 20px;
-  background: var(--level-3);
-}
-
-
-/* LEVEL-4 STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.level-4-wrapper {
-  position: relative;
-  width: 80%;
-  margin-left: auto;
-}
-
-.level-4-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  width: 2px;
-  height: calc(100% + 20px);
-  background: var(--black);
-}
-
-.level-4-wrapper li+li {
-  margin-top: 20px;
-}
-
-.level-4 {
-  font-weight: normal;
-  background: var(--level-4);
-}
-
-.level-4::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(-100%, -50%);
-  width: 20px;
-  height: 2px;
-  background: var(--black);
-}
-
-
-/* MQ STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 700px) {
-  .rectangle {
-    padding: 20px 10px;
-  }
-
-  .level-1,
-  .level-2 {
-    width: 100%;
-  }
-
-  .level-1 {
+  .main-top {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #014231;
+    border-radius: 5px;
     margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    span {
+      font-size: 18px;
+      color: #ffffff;
+    }
   }
 
-  .level-1::before,
-  .level-2-wrapper>li::before {
-    display: none;
+  .top-line {
+    position: relative;
+    width: 47.4%;
+    height: 20px;
+    border: 2px solid #000;
+    border-bottom: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .level-2-wrapper,
-  .level-2-wrapper::after,
-  .level-2::after {
-    display: block;
+  .top-line2 {
+    position: absolute;
+    top: 53%;
+    right: 26.77%;
   }
 
-  .level-2-wrapper {
-    width: 90%;
-    margin-left: 10%;
+  .top-line3 {
+    top: 76%;
+    border-left: none;
+    border-right: none;
   }
 
-  .level-2-wrapper::before {
-    left: -20px;
-    width: 2px;
-    height: calc(100% + 40px);
+  .connector {
+    bottom: -20px;
+    height: 20px;
+    border-left: 2px solid #000;
   }
 
-  .level-2-wrapper>li:not(:first-child) {
-    margin-top: 50px;
+  .connector1 {
+    top: -20px;
+    height: 20px;
+    border-left: 2px solid #000;
+  }
+
+  .connectorlong {
+    height: 150px;
+    border-left: 2px solid #000;
+  }
+
+  .centre {
+    position: absolute;
+    left: 50%;
+  }
+
+  .right {
+    position: absolute;
+    right: 26.77%;
+    top: 32%;
+  }
+
+  .right2 {
+    position: absolute;
+    right: 26.77%;
+    top: 54.5%;
+  }
+
+  .offset {
+    margin-top: 90px;
+    margin-left: 50px;
+  }
+
+  .design {
+    position: absolute;
+    width: 11.5%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    left: 22.5%;
+    border-radius: 5px;
+    background-color: #1c6450;
+    color: #ffffff;
+  }
+
+  .design2 {
+    top: 41%;
+    background-color: #6c9489;
+  }
+
+  .design3 {
+    bottom: 31%;
+  }
+
+  .design4 {
+    left: 35%;
+
+  }
+
+  .design5 {
+    left: 47%;
+  }
+
+  .design6 {
+    left: 59%;
+  }
+
+  .design7 {
+    bottom: 22.5%;
+    background-color: #6c9489;
+  }
+
+  .design8 {
+    left: 25.7%;
+    width: 38%;
+    height: 40px;
+    bottom: 10.7%;
+    border-top: none;
+  }
+
+  .design9 {
+    background-color: #6c9489;
+    left: 25.7%;
+    bottom: 2.4%;
+  }
+
+  .design10 {
+    background-color: #6c9489;
+    left: 39%;
+    bottom: 2.4%;
+  }
+
+  .design11 {
+    background-color: #6c9489;
+    left: 52%;
+    bottom: 2.4%;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .main {
+
+    .main-top {
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .top-line {
+      width: 100%;
+    }
+
+    .top-line2 {
+      width: 95%;
+      top: 43.9%;
+      right: 3.5%;
+    }
+
+    .top-line3 {
+      width: 95%;
+      top: 62%;
+    }
+
+    .connector {}
+
+    .connector1 {}
+
+    .connectorlong {
+      height: 120px;
+    }
+
+    .centre {}
+
+    .right {
+      right: 3.5%;
+      top: 28%;
+    }
+
+    .right2 {
+      right: 3.5%;
+      top: 46%;
+    }
+
+    .offset {}
+
+    .design {
+      width: 20%;
+      height: 40px;
+      left: 0%;
+    }
+
+    .design2 {
+      width: 30%;
+      top: 35%;
+    }
+
+    .design3 {
+      bottom: 41.7%;
+    }
+
+    .design4 {
+      left: 23.5%;
+
+    }
+
+    .design5 {
+      left: 47%;
+    }
+
+    .design6 {
+      left: 71%;
+    }
+
+    .design7 {
+      bottom: 34%;
+      width: 22.5%;
+
+      span {
+        font-size: 11px;
+      }
+    }
+
+    .design8 {
+      left: 0%;
+      width: 95%;
+      height: 40px;
+      bottom: 26%;
+      border-top: none;
+    }
+
+    .design9 {
+      left: 5%;
+      bottom: 18.5%;
+    }
+
+    .design10 {
+      left: 36%;
+      bottom: 18.5%;
+    }
+
+    .design11 {
+      left: 65%;
+      bottom: 18.5%;
+    }
   }
 }
 </style>
