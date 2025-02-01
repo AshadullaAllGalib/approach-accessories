@@ -14,7 +14,7 @@ const directors = [
     name: 'Babul Kumar', title: 'Director', description: 'As a Director at Approach Accessories Limited, I am focused on driving innovation and delivering exceptional products.Our commitment to quality and customer satisfaction continues to set us apart in the industry.'
   },
   {
-    name: 'Md. Rabiul Awal Sarker', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m dedicated to driving innovation and shaping the future.We create products that challenge conventions and inspire new possibilities for our customers.'
+    name: 'Md. Rabiul Awal Sarker', title: 'Director', description: 'Your dedication to innovation and a team with two decades of experience driving Approach Accessories Limited forward reflects a visionary mindset that is essential in todays competitive environment. InshaAllah To beautifully convey the sense of hope and faith in my endeavours is a powerful motivator for both buyer/ client and our team.'
   },
   {
     name: 'Milon Kumar Ghosh', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit of creative solutions.We’re redefining industry standards with products that push boundaries and inspire our customers.'
@@ -72,10 +72,11 @@ const directors = [
     &-details {
       flex-basis: calc((100% - 60px) / 2);
       background-color: #b5d3c9;
-      padding: 20px;
+      padding: 20px 10px;
       border-radius: 10px;
       text-align: center;
       box-shadow: rgba(0, 0, 0, 0.377) 0px 5px 10px 2px;
+      min-height: 265px;
 
       h2 {
         margin: 0;
