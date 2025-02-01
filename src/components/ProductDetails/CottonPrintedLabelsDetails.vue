@@ -1,5 +1,6 @@
 <script setup>
 import OurProducts from '../Products/OurProducts.vue';
+import OutSourcingProducts from '../Products/OutSourcingProducts.vue';
 </script>
 
 <template>
@@ -87,6 +88,7 @@ import OurProducts from '../Products/OurProducts.vue';
     </div>
   </section>
   <OurProducts :limit="3" showButton="true" />
+  <OutSourcingProducts :limit="3" showButton="true" />
 </template>
 
 <style lang="scss" scoped>
