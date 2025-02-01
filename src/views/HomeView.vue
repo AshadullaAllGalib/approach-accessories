@@ -7,6 +7,7 @@ import Achievement from '@/components/Home/Achievement.vue';
 import Sustainability from '@/components/Home/Sustainability.vue';
 // import SortVideo from '@/components/Includes/SortVideo.vue'
 import OurProducts from '@/components/Products/OurProducts.vue';
+import OutSourcingProducts from '@/components/Products/OutSourcingProducts.vue';
 </script>
 
 <template>
@@ -17,7 +18,8 @@ import OurProducts from '@/components/Products/OurProducts.vue';
   <Achievement />
   <Sustainability />
   <!-- <SortVideo /> -->
-  <OurProducts :limit="6" showButton="true" />
+  <OurProducts :limit="3" showButton="true" />
+  <OutSourcingProducts :limit="3" showButton="true" />
 </template>
 
 <style lang="scss" scoped></style>

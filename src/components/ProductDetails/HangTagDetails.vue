@@ -149,11 +149,6 @@ import OurProducts from '../Products/OurProducts.vue';
 
     .description {
       padding-top: 30px;
-
-      p {
-        font-size: 15px;
-        color: #343434;
-      }
     }
   }
 }

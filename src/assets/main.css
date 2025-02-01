@@ -61,6 +61,13 @@ p {
   color: var(--vt-c-black);
 }
 
+.description {
+  p {
+    font-size: 15px;
+    color: var(--vt-c-black);
+  }
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 24px;

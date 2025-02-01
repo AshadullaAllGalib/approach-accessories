@@ -1,21 +1,20 @@
 <script setup>
-// import OurProductsCard from './OurProductsCard.vue'
 import { RouterLink } from 'vue-router';
 import { onMounted, defineProps } from 'vue';
 import AOS from "aos";
 
 // Import images explicitly
-import wovenLabel from '@/assets/images/products/woven-label.png';
-import printedLabel from '@/assets/images/products/cotton-printed-label.png';
-import sticker from '@/assets/images/products/sticker.png';
-import satinLabel from '@/assets/images/products/satin-label.png';
-import screenLabel from '@/assets/images/products/screen-label.png';
-import hangTag from '@/assets/images/products/hang-tag.png';
-// import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
-// import sewingThread from '@/assets/images/products/sewing-threads.png';
-// import polyBag from '@/assets/images/products/poly-bag.png';
-// import gumTape from '@/assets/images/products/gum-tape.png';
-// import silicaGel from '@/assets/images/products/silica-gel.png';
+// import wovenLabel from '@/assets/images/products/woven-label.png';
+// import printedLabel from '@/assets/images/products/cotton-printed-label.png';
+// import sticker from '@/assets/images/products/sticker.png';
+// import satinLabel from '@/assets/images/products/satin-label.png';
+// import screenLabel from '@/assets/images/products/screen-label.png';
+// import hangTag from '@/assets/images/products/hang-tag.png';
+import hangTagStringImage from '@/assets/images/products/hang-tag-string.png';
+import sewingThread from '@/assets/images/products/sewing-threads.png';
+import polyBag from '@/assets/images/products/poly-bag.png';
+import gumTape from '@/assets/images/products/gum-tape.png';
+import silicaGel from '@/assets/images/products/silica-gel.png';
 
 // Prop to limit the number of cards
 defineProps({
@@ -29,36 +28,36 @@ defineProps({
   },
 });
 
-onMounted(() => {
-  AOS.init();
-})
+// onMounted(() => {
+//   AOS.init();
+// })
 
 // Cards data
 const cards = [
-  { path: '/product/woven-labels', title: 'Woven Labels', img: wovenLabel },
-  { path: '/product/cotton-printing-labels', title: 'Cotton Printing Labels', img: printedLabel },
-  { path: '/product/Stickers', title: 'Stickers', img: sticker },
-  { path: '/product/satin-printing-labels', title: 'Satin Printing Labels', img: satinLabel },
-  { path: '/product/screen-print-label', title: 'Screen Print Label', img: screenLabel },
-  { path: '/product/hang-tag', title: 'Hang Tag', img: hangTag },
-  // { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
-  // { path: '/product/sewing-thread', title: 'Sewing Thread', img: sewingThread },
-  // { path: '/product/poly-bag', title: 'Poly Bag', img: polyBag },
-  // { path: '/product/gum-tape', title: 'Gum Tape', img: gumTape },
-  // { path: '/product/silica-gel', title: 'Silica Gel', img: silicaGel },
+  // { path: '/product/woven-labels', title: 'Woven Labels', img: wovenLabel },
+  // { path: '/product/cotton-printing-labels', title: 'Cotton Printing Labels', img: printedLabel },
+  // { path: '/product/Stickers', title: 'Stickers', img: sticker },
+  // { path: '/product/satin-printing-labels', title: 'Satin Printing Labels', img: satinLabel },
+  // { path: '/product/screen-print-label', title: 'Screen Print Label', img: screenLabel },
+  // { path: '/product/hang-tag', title: 'Hang Tag', img: hangTag },
+  { path: '/product/hang-tag-string', title: 'Hang Tag Strings', img: hangTagStringImage },
+  { path: '/product/sewing-thread', title: 'Sewing Thread', img: sewingThread },
+  { path: '/product/poly-bag', title: 'Poly Bag', img: polyBag },
+  { path: '/product/gum-tape', title: 'Gum Tape', img: gumTape },
+  { path: '/product/silica-gel', title: 'Silica Gel', img: silicaGel },
 ];
 
 </script>
 <template>
-  <div class="products" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+  <div class="products">
+    <!-- data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800" -->
     <div class="products-category">
       <div class="title">
-        <h2>Our Products</h2>
+        <h2>Our Outsourcing Products</h2>
         <p>We Provide and Supplies a wide range of garments accessories.</p>
-        <!-- <OurProductsCard /> -->
       </div>
 
-      <div class="product" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+      <div class="product">
         <div class="product-category">
           <div class="products">
             <div v-for="(card, index) in cards.slice(0, limit || cards.length)" :key="index"
