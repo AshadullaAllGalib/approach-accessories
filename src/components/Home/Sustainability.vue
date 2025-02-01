@@ -1,7 +1,7 @@
 <template>
   <div class="sustainability">
     <div class="sustainable">
-      <h2>Human sustainability</h2>
+      <h2>Human Sustainability</h2>
 
       <div class="sustain-img">
         <img src="../../assets/images/sustainable.jpg" alt="">

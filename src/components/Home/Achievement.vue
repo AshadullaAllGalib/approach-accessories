@@ -1,150 +1,109 @@
 <script setup>
-// import TwentyOne from '@/assets/images/clients-logo/217.png';
+import TwentyOne from '@/assets/images/clients-logo/217.png';
+import Admiral from '@/assets/images/clients-logo/admiral.png';
+import Amisu from '@/assets/images/clients-logo/amisu.png';
+import Chaps from '@/assets/images/clients-logo/chaps3.png';
+import Cheek from '@/assets/images/clients-logo/cheek.png';
+import Clique from '@/assets/images/clients-logo/clique.png';
+import Cocorita from '@/assets/images/clients-logo/cocorita.png';
+import Cottover from '@/assets/images/clients-logo/cottover.png';
+import Dollyribbon from '@/assets/images/clients-logo/dollyribbon.png';
+import Fbsister from '@/assets/images/clients-logo/fbsister.png';
+import Givova from '@/assets/images/clients-logo/givova.png';
+import Husqvarna from '@/assets/images/clients-logo/husqvarna.png';
+import Initialattraction from '@/assets/images/clients-logo/initialattraction.png';
+import Jamesharvest from '@/assets/images/clients-logo/jamesharvest.png';
+import Joymary from '@/assets/images/clients-logo/joymary.png';
+import Kayoba from '@/assets/images/clients-logo/kayoba.png';
+import Landsend from '@/assets/images/clients-logo/landsend.png';
+import Lovepowers from '@/assets/images/clients-logo/lovepowers.png';
+import Mauisons from '@/assets/images/clients-logo/mauisons.png';
+import Max from '@/assets/images/clients-logo/max.png';
+import Michikolondon from '@/assets/images/clients-logo/michikolondon.png';
+import Mountaintrekking from '@/assets/images/clients-logo/mountaintrekking.png';
+import Mountzero from '@/assets/images/clients-logo/mountzero.png';
+import Mrvan from '@/assets/images/clients-logo/mrvan.png';
+import Oneills from '@/assets/images/clients-logo/oneills.png';
+import Oscarjones from '@/assets/images/clients-logo/oscarjones.png';
+import Paulmiller from '@/assets/images/clients-logo/paulmiller.png';
+import Printer from '@/assets/images/clients-logo/printer.png';
+import Projob from '@/assets/images/clients-logo/projob.png';
+import Reebok from '@/assets/images/clients-logo/reebok.png';
+import Resultor from '@/assets/images/clients-logo/resultor.png';
+import Richmix from '@/assets/images/clients-logo/richmix.png';
+import Roemgirls from '@/assets/images/clients-logo/roemgirls.png';
+import Socool from '@/assets/images/clients-logo/socool.png';
+import Starter from '@/assets/images/clients-logo/starter.png';
+import Strova from '@/assets/images/clients-logo/strova.png';
+import Tchibo from '@/assets/images/clients-logo/tchibo.png';
+import Thedaygirls from '@/assets/images/clients-logo/thedaygirls.png';
+import Topten from '@/assets/images/clients-logo/topten.png';
+import Truenorth from '@/assets/images/clients-logo/truenorth.png';
+import Umbdo from '@/assets/images/clients-logo/umbdo.png';
+import Usall from '@/assets/images/clients-logo/usall.png';
+import Vapiti from '@/assets/images/clients-logo/vapiti.png';
+import Vega from '@/assets/images/clients-logo/vega.png';
+import Yato from '@/assets/images/clients-logo/yato.png';
+import Zudio from '@/assets/images/clients-logo/zudio.png';
+
+const achieve = [
+  { img: TwentyOne },
+  { img: Admiral },
+  { img: Amisu },
+  { img: Chaps },
+  { img: Cheek },
+  { img: Clique },
+  { img: Cocorita },
+  { img: Cottover },
+  { img: Dollyribbon },
+  { img: Fbsister },
+  { img: Givova },
+  { img: Husqvarna },
+  { img: Initialattraction },
+  { img: Jamesharvest },
+  { img: Joymary },
+  { img: Kayoba },
+  { img: Landsend },
+  { img: Lovepowers },
+  { img: Mauisons },
+  { img: Max },
+  { img: Michikolondon },
+  { img: Mountaintrekking },
+  { img: Mountzero },
+  { img: Mrvan },
+  { img: Oneills },
+  { img: Oscarjones },
+  { img: Paulmiller },
+  { img: Printer },
+  { img: Projob },
+  { img: Reebok },
+  { img: Resultor },
+  { img: Richmix },
+  { img: Roemgirls },
+  { img: Socool },
+  { img: Starter },
+  { img: Strova },
+  { img: Tchibo },
+  { img: Thedaygirls },
+  { img: Topten },
+  { img: Truenorth },
+  { img: Umbdo },
+  { img: Usall },
+  { img: Vapiti },
+  { img: Vega },
+  { img: Yato },
+  { img: Zudio },
+];
 </script>
 
 <template>
   <div class="achievement">
     <h2>Our Happy Clients</h2>
-
     <div class="slider">
       <div class="slide-track">
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/217.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/admiral.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/amisu.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/chaps3.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/cheek.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/clique.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/cocorita.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/cottover.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/dollyribbon.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/fbsister.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/givova.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/husqvarna.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/initialattraction.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/jamesharvest.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/joymary.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/kayoba.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/landsend.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/lovepowers.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/mauisons.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/max.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/michikolondon.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/mountaintrekking.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/mountzero.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/mrvan.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/oneills.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/oscarjones.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/paulmiller.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/printer.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/projob.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/reebok.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/resultor.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/richmix.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/roemgirls.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/socool.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/starter.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/strova.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/tchibo.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/thedaygirls.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/topten.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/truenorth.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/umbdo.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/usall.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/vapiti.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/vega.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/yato.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="../../assets/images/clients-logo/zudio.png" alt="">
+        <div v-for="(achieve, index) in achieve.slice(0, limit || achieve.length)" :key="index"
+          class="slide">
+          <img :src="achieve.img" alt="">
         </div>
       </div>
     </div>
