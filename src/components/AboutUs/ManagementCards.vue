@@ -5,6 +5,46 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init();
 })
+
+const management = [
+  {
+    name: 'Md. Enamuddin', title: 'GM', description: 'At Approach Accessories Ltd., We are redefining garment accessories with innovation, quality, and sustainability. Our commitment to excellence ensures that every detail we create adds value to global fashion brands'
+  },
+  {
+    name: 'Md. Mizanur Rahman', title: 'DGM', description: 'At Approach Accessories Ltd., We focus on precision, efficiency, and innovation to meet the evolving demands of the fashion industry. Our dedication to quality and sustainability drives our success in garment accessories'
+  },
+  {
+    name: 'Md. Abdur Rouf', title: 'Sr. Manager', description: 'At Approach Accessories Ltd., We focus on precision, quality, and craftsmanship, ensuring every product meets the highest standards to drive innovation, reliability, and customer satisfaction.'
+  },
+  {
+    name: 'Md. Zahidul Islam', title: 'Sr. Manager', description: 'At Approach Accessories Ltd., We blend craftsmanship with innovation to deliver high-quality garment accessories. Our focus on efficiency and sustainability ensures we stay ahead in a dynamic fashion industry.'
+  },
+  {
+    name: 'Md. Rafiqul Islam', title: 'Manager', description: 'Quality and precision define our work at Approach Accessories Ltd. We are committed to delivering the best garment accessories that enhance brand identity and meet global standards.'
+  },
+  {
+    name: 'Md. Omar Faruk', title: 'Manager', description: 'At Approach Accessories Ltd., We prioritize innovation and reliability in every accessory we produce. Our commitment to excellence ensures that we consistently exceed industry expectations.'
+  },
+  {
+    name: 'Md. Golam Forhad', title: 'Manager', description: 'Delivering premium garment accessories requires a blend of skill, technology, and dedication. At Approach Accessories Ltd., we take pride in crafting products that add value to global fashion brands.'
+  },
+  {
+    name: 'Md. Abdul Khaleq', title: 'Manager', description: 'At Approach Accessories Ltd., We believe that even the smallest details make a big impact. Our focus on quality, efficiency, and customer satisfaction drives everything we do.'
+  },
+  {
+    name: 'Md. Amir Ali Molla', title: 'Manager', description: 'Every accessory we create at Approach Accessories Ltd. reflects our commitment to quality and innovation. We strive to provide solutions that enhance fashion brands worldwide.'
+  },
+  {
+    name: 'Mohammad Hafizur Rahaman', title: 'Asst.Manager', description: 'At Approach Accessories Ltd., We focus on precision and efficiency to deliver top-quality garment accessories. Our dedication to excellence helps brands stand out in a competitive market.'
+  },
+  {
+    name: 'Md. Rakibuzzaman', title: 'Asst.Manager', description: 'At Approach Accessories Ltd., We work relentlessly to ensure that every accessory meets the highest standards of quality and craftsmanship. Our commitment is to support brands with innovative solutions that make a difference.'
+  },
+  {
+    name: 'Md. Abdullah-Al-Masud Rana', title: 'Asst.Manager', description: 'At Approach Accessories Ltd., We are driven by the pursuit of excellence. By combining innovation with attention to detail, we provide accessory solutions that elevate fashion brands globally.'
+  },
+
+];
 </script>
 
 <template>
@@ -18,35 +58,11 @@ onMounted(() => {
       </p>
     </div>
     <div class="cards">
-      <div class="cards-details">
-        <h2>Employee Name</h2>
-        <h3>designation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
-      </div>
-      <div class="cards-details">
-        <h2>Employee Name</h2>
-        <h3>designation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
-      </div>
-      <div class="cards-details">
-        <h2>Employee Name</h2>
-        <h3>designation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
-      </div>
-      <div class="cards-details">
-        <h2>Employee Name</h2>
-        <h3>designation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
-      </div>
-      <div class="cards-details">
-        <h2>Employee Name</h2>
-        <h3>designation</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta quos, minima
-          tenetur id adipisci consequatur ullam. Nostrum, voluptates mollitia.</p>
+      <div v-for="(management, index) in management.slice(0, limit || management.length)"
+        :key="index" class="cards-details">
+        <h2>{{ management.name }}</h2>
+        <h3>{{ management.title }}</h3>
+        <p>{{ management.description }}</p>
       </div>
     </div>
   </div>
