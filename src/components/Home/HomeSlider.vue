@@ -31,6 +31,7 @@ import sewingThread from '@/assets/images/products/sewing-threads.png';
 import polyBag from '@/assets/images/products/poly-bag.png';
 import gumTape from '@/assets/images/products/gum-tape.png';
 import silicaGel from '@/assets/images/products/silica-gel.png';
+import carton from '@/assets/images/products/carton.png';
 
 // slider data
 const sliders = [
@@ -70,6 +71,10 @@ const sliders = [
   },
   {
     title: 'Approach Accessories is a leader in the manufacturing of premium silica gel. Our silica gel is produced to the highest standards, ensuring effective moisture control and protection for a wide range of products.', img: silicaGel
+
+  },
+  {
+    title: 'Approach Accessories Limited provides high- quality cartons designed for secure packaging and reliable shipping.Understanding the importance of protecting valuable goods', img: carton
 
   },
 ];

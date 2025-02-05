@@ -62,10 +62,10 @@ import OutSourcingProducts from '../Products/OutSourcingProducts.vue';
       <div class="description">
         <p>
           Approach Accessories Limited provides high-quality cartons designed for secure packaging
-          and reliable shipping. Understanding the importance of protecting valuable goods, they
+          and reliable shipping. Understanding the importance of protecting valuable goods, We
           utilize durable materials and expert construction techniques to create cartons that
-          withstand the rigors of transit and storage. Their cartons are engineered to provide
-          superior crush resistance and impact protection, ensuring that products arrive at their
+          withstand the rigors of transit and storage. Our cartons are engineered to provide
+          superior crush resistance and impact protection, ensuring that products arrive at our
           destination in pristine condition. Approach Accessories Limited offers a range of carton
           sizes and styles to meet diverse packaging needs, from individual product boxes to bulk
           shipping containers.

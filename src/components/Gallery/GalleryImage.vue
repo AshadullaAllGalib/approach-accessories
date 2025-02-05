@@ -17,6 +17,7 @@ import sewingThread from '@/assets/images/products/sewing-threads.png';
 import polyBag from '@/assets/images/products/poly-bag.png';
 import gumTape from '@/assets/images/products/gum-tape.png';
 import silicaGel from '@/assets/images/products/silica-gel.png';
+import carton from '@/assets/images/products/carton.png';
 
 const images = ref([
   { src: wovenLabel },
@@ -29,7 +30,8 @@ const images = ref([
   { src: sewingThread },
   { src: polyBag },
   { src: gumTape },
-  { src: silicaGel }
+  { src: silicaGel },
+  { src: carton }
 ]);
 
 const overlays = ref(Array(images.value.length).fill(false));
