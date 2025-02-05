@@ -8,19 +8,19 @@ onMounted(() => {
 
 const directors = [
   {
-    name: 'Md. Atinur Rahaman Marshal', title: 'Managing Director', description: 'At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving innovation in every product we offer.Our commitment to excellence sets us apart in the industry.'
+    name: 'Md. Atinur Rahaman Marshal', title: 'Managing Director', email: 'atinur@approach-bd.com', description: 'At Approach Accessories Limited, we prioritize quality and customer satisfaction, driving innovation in every product we offer.Our commitment to excellence sets us apart in the industry.'
   },
   {
-    name: 'Babul Kumar', title: 'Director', description: 'As a Director at Approach Accessories Limited, I am focused on driving innovation and delivering exceptional products.Our commitment to quality and customer satisfaction continues to set us apart in the industry.'
+    name: 'Babul Kumar', title: 'Director', email: 'babul@approach-bd.com', description: 'As a Director at Approach Accessories Limited, I am focused on driving innovation and delivering exceptional products.Our commitment to quality and customer satisfaction continues to set us apart in the industry.'
   },
   {
-    name: 'Md. Rabiul Awal Sarker', title: 'Director', description: 'Your dedication to innovation and a team with two decades of experience driving Approach Accessories Limited forward reflects a visionary mindset that is essential in todays competitive environment. InshaAllah To beautifully convey the sense of hope and faith in my endeavours is a powerful motivator for both buyer/ client and our team.'
+    name: 'Md. Rabiul Awal Sarker', title: 'Director', email: 'awal@approach-bd.com', description: 'Your dedication to innovation and a team with two decades of experience driving Approach Accessories Limited forward reflects a visionary mindset that is essential in todays competitive environment. InshaAllah To beautifully convey the sense of hope and faith in my endeavours is a powerful motivator for both buyer/ client and our team.'
   },
   {
-    name: 'Milon Kumar Ghosh', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit of creative solutions.We’re redefining industry standards with products that push boundaries and inspire our customers.'
+    name: 'Milon Kumar Ghosh', title: 'Director', email: 'milon@approach-bd.com', description: 'As a Director at Approach Accessories Limited, I’m driven by innovation and the pursuit of creative solutions.We’re redefining industry standards with products that push boundaries and inspire our customers.'
   },
   {
-    name: 'Md. Aminur Rahman Captain', title: 'Director', description: 'As a Director at Approach Accessories Limited, I’m focused on delivering innovative solutions that lead the industry.Our products challenge the ordinary and open up exciting new possibilities for our customers.'
+    name: 'Md. Aminur Rahman Captain', title: 'Director', email: 'aminur@approach-bd.com', description: 'As a Director at Approach Accessories Limited, I’m focused on delivering innovative solutions that lead the industry.Our products challenge the ordinary and open up exciting new possibilities for our customers.'
   },
 ];
 </script>
@@ -41,6 +41,7 @@ const directors = [
         class="cards-details">
         <h2>{{ directors.name }}</h2>
         <h3>{{ directors.title }}</h3>
+        <h4><i class="pi pi-envelope"></i> {{ directors.email }}</h4>
         <p>
           {{ directors.description }}
         </p>
