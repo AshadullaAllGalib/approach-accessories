@@ -19,6 +19,7 @@ defineProps({
 });
 
 // Import images explicitly
+import factoryImg from '@/assets/images/factory-img.jpg';
 import wovenLabel from '@/assets/images/products/woven-label.png';
 import printedLabel from '@/assets/images/products/cotton-printed-label.png';
 import sticker from '@/assets/images/products/sticker.png';
@@ -33,6 +34,9 @@ import silicaGel from '@/assets/images/products/silica-gel.png';
 
 // slider data
 const sliders = [
+  {
+    title: 'Approach Accessories Limited is equipped with world-class machines, ensuring precision and efficiency in production. With advanced technology and a skilled workforce, it maintains high quality and sustainability standards in manufacturing.', img: factoryImg
+  },
   {
     title: 'Approach Accessories Limited is leading in both printed and woven labels  manufacturing.Labels are printed or manufactured by world renowned printing machines.', img: wovenLabel
   },
@@ -81,6 +85,7 @@ const sliders = [
             <Span>Finishing Your Garments Professionally</Span> <br />With
             Approach Accessories Limited.
           </h3>
+          <!-- <img src="../../assets/images/factory-img.jpg" alt=""> -->
           <p>
             {{ slider.title }}
           </p>
