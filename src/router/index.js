@@ -19,6 +19,7 @@ import SewingThreadsView from '@/views/ProductDetailsView/SewingThreadsView.vue'
 import PolyBagView from '@/views/ProductDetailsView/PolyBagView.vue'
 import GumTapeView from '@/views/ProductDetailsView/GumTapeView.vue'
 import SilicaGelView from '@/views/ProductDetailsView/SilicaGelView.vue'
+import CartonView from '@/views/ProductDetailsView/CartonView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -94,6 +95,11 @@ const router = createRouter({
       path: '/product/silica-gel',
       name: 'silica-gel',
       component: SilicaGelView,
+    },
+    {
+      path: '/product/carton',
+      name: 'carton',
+      component: CartonView,
     },
     // Product details end
     {

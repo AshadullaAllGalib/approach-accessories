@@ -15,6 +15,7 @@ import sewingThread from '@/assets/images/products/sewing-threads.png';
 import polyBag from '@/assets/images/products/poly-bag.png';
 import gumTape from '@/assets/images/products/gum-tape.png';
 import silicaGel from '@/assets/images/products/silica-gel.png';
+import carton from '@/assets/images/products/carton.png';
 
 // Prop to limit the number of cards
 defineProps({
@@ -45,6 +46,7 @@ const cards = [
   { path: '/product/poly-bag', title: 'Poly Bag', img: polyBag },
   { path: '/product/gum-tape', title: 'Gum Tape', img: gumTape },
   { path: '/product/silica-gel', title: 'Silica Gel', img: silicaGel },
+  { path: '/product/carton', title: 'Carton', img: carton },
 ];
 
 </script>
@@ -129,6 +131,7 @@ const cards = [
                 font-size: 22px;
                 color: var(--vt-c-neviblue-dark);
                 position: absolute;
+                z-index: 10;
               }
 
               .products-img {
