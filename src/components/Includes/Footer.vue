@@ -16,9 +16,9 @@
             <h3>Phone:</h3>
             <div class="phone-email">
               <a href="tel:+880 1715 411616"><i class="pi pi-phone"></i>+880 1715 411616</a>
-              <a href="tel:+880 1714 338707"><i class="pi pi-phone"></i>+880 1714 338707</a>
-              <a href="tel:+880 1718 094002"><i class="pi pi-phone"></i>+880 1718 094002</a><br>
-              <a href="tel:+880 1716 009940"><i class="pi pi-phone"></i>+880 1716 009940</a>
+              <a href="tel:+880 1714 338707"><i class="pi pi-phone"></i>+880 1714 338707</a><br>
+              <a href="tel:+880 1718 094002"><i class="pi pi-phone"></i>+880 1718 094002</a>
+              <a href="tel:+880 1716 009940"><i class="pi pi-phone"></i>+880 1716 009940</a><br>
               <a href="tel:+880 1914 004335"><i class="pi pi-phone"></i>+880 1914 004335</a>
               <a href="tel:+880 1977 094002"><i class="pi pi-phone"></i>+880 1977 094002</a>
             </div>
@@ -26,13 +26,13 @@
             <div class="phone-email">
               <a href="mailto:info@approach-bd.com">
                 <i class="pi pi-envelope"></i>approach@dhaka.net
-              </a>
+              </a><br>
               <a href="mailto:approach@dhaka.net">
                 <i class="pi pi-envelope"></i>info@approach-bd.com
               </a>
             </div>
           </div>
-          <div class="right-item left-item">
+          <!-- <div class="right-item left-item">
             <h3>Information</h3>
             <div class="right-item_link">
               <ul>
@@ -63,6 +63,13 @@
                 </li>
               </ul>
             </div>
+          </div> -->
+          <div class="approach-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1230.1744275936899!2d90.25271364566922!3d23.7816128861017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755eb1c0fa2961b%3A0x63aa09ed4a14fceb!2sApproach%20Accessories%20Limited!5e0!3m2!1sen!2sbd!4v1738821440646!5m2!1sen!2sbd"
+              width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </div>
@@ -100,7 +107,7 @@ import { RouterLink } from 'vue-router'
     &_item {
       width: 80%;
       margin: 0 auto;
-      padding: 15px 0;
+      padding: 15px 0 10px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -191,6 +198,12 @@ import { RouterLink } from 'vue-router'
           }
         }
       }
+
+      .approach-map {
+        iframe {
+          border-radius: 10px;
+        }
+      }
     }
   }
 
@@ -255,7 +268,7 @@ import { RouterLink } from 'vue-router'
           }
 
           p {
-            font-size: 13px;
+            font-size: 11px;
           }
         }
 
@@ -263,7 +276,7 @@ import { RouterLink } from 'vue-router'
           .phone-email {
             a {
 
-              font-size: 13px;
+              font-size: 11px;
               padding-right: 7px;
 
               i {
@@ -283,6 +296,14 @@ import { RouterLink } from 'vue-router'
                 }
               }
             }
+          }
+        }
+
+        .approach-map {
+          padding: 20px 0;
+
+          iframe {
+            width: 100%;
           }
         }
       }
